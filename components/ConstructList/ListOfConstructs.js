@@ -4,7 +4,7 @@ export default [
     construct_Name: "Lucia ",
     construct_Model: "Lotus",
     construct_Rank: "B",
-    construct_Image: require("../../assets/Images/Construct_Lotus.png"),
+    construct_Image: require("../../assets/Images/Lotus/Construct_Lotus.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (80%) Fire (20%)",
     id: "1",
@@ -52,6 +52,8 @@ export default [
       sssRankIcon: require("../../assets/Images/Lotus/SSS.png"),
       sssPlusRank: "Passive: Extra DMG Bonus of Basic Attack increases by 15%.",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -67,7 +69,7 @@ export default [
     construct_Name: "Nanami ",
     construct_Model: "Storm",
     construct_Rank: "B",
-    construct_Image: require("../../assets/Images/Construct_Storm.png"),
+    construct_Image: require("../../assets/Images/Storm/Construct_Storm.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "2",
@@ -114,6 +116,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -129,7 +133,7 @@ export default [
     construct_Name: "Liv ",
     construct_Model: "Eclipse",
     construct_Rank: "B",
-    construct_Image: require("../../assets/Images/Construct_Eclipse.png"),
+    construct_Image: require("../../assets/Images/Eclipse/Construct_Eclipse.png"),
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
     id: "3",
@@ -176,6 +180,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -192,7 +198,7 @@ export default [
     construct_Name: "Lucia ",
     construct_Model: "Dawn",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Dawn.png"),
+    construct_Image: require("../../assets/Images/Dawn/Construct_Dawn.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (40%) Lightning (60%)",
     id: "4",
@@ -239,6 +245,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
 
     memories: {
@@ -255,7 +263,7 @@ export default [
     construct_Name: "Lee ",
     construct_Model: "Palefire",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Palefire.png"),
+    construct_Image: require("../../assets/Images/Palefire/Construct_Palefire.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (60%) Fire (40%)",
     id: "5",
@@ -302,6 +310,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -317,7 +327,7 @@ export default [
     construct_Name: "Watanabe ",
     construct_Model: "Nightblade",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Nightblade.png"),
+    construct_Image: require("../../assets/Images/Nightblade/Construct_Nightblade.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "6",
@@ -364,6 +374,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -379,7 +391,7 @@ export default [
     construct_Name: "Karenina ",
     construct_Model: "Blast",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Blast.png"),
+    construct_Image: require("../../assets/Images/Blast/Construct_Blast.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (80%) Physical (20%)",
     id: "7",
@@ -426,6 +438,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -441,7 +455,7 @@ export default [
     construct_Name: "Bianca ",
     construct_Model: "Zero",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Zero.png"),
+    construct_Image: require("../../assets/Images/Zero/Construct_Zero.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "8",
@@ -488,6 +502,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -503,7 +519,7 @@ export default [
     construct_Name: "Watanabe ",
     construct_Model: "Astral",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Astral.png"),
+    construct_Image: require("../../assets/Images/Astral/Construct_Astral.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (50%) Dark (50%)",
     id: "9",
@@ -550,6 +566,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -566,7 +584,7 @@ export default [
     construct_Name: "Kamui ",
     construct_Model: "Bastion",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Bastion.png"),
+    construct_Image: require("../../assets/Images/Bastion/Construct_Bastion.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "10",
@@ -613,6 +631,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -628,7 +648,7 @@ export default [
     construct_Name: "Ayla ",
     construct_Model: "Brilliance",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Brilliance.png"),
+    construct_Image: require("../../assets/Images/Brilliance/Construct_Brilliance.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "11",
@@ -675,6 +695,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -690,7 +712,7 @@ export default [
     construct_Name: "Chrome ",
     construct_Model: "Arclight",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Arclight.png"),
+    construct_Image: require("../../assets/Images/Arclight/Construct_Arclight.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (30%) Lightning (70%)",
     id: "12",
@@ -737,6 +759,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -752,7 +776,7 @@ export default [
     construct_Name: "Chang Yu ",
     construct_Model: "Kirin",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Kirin.png"),
+    construct_Image: require("../../assets/Images/Kirin/Construct_Kirin.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "13",
@@ -799,6 +823,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -814,7 +840,7 @@ export default [
     construct_Name: "21 ",
     construct_Model: "XXI",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_XXI.png"),
+    construct_Image: require("../../assets/Images/XXI/Construct_XXI.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Dark (80%)",
     id: "14",
@@ -861,6 +887,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -877,7 +905,7 @@ export default [
     construct_Name: "Liv ",
     construct_Model: "Lux",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Lux.png"),
+    construct_Image: require("../../assets/Images/Lux/Construct_Lux.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Physical (80%)",
     id: "15",
@@ -924,6 +952,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -939,7 +969,7 @@ export default [
     construct_Name: "Sophia ",
     construct_Model: "Silverfang",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Silverfang.png"),
+    construct_Image: require("../../assets/Images/Silverfang/Construct_Silverfang.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Fire (80%)",
     id: "16",
@@ -986,6 +1016,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1001,7 +1033,7 @@ export default [
     construct_Name: "Vera ",
     construct_Model: "Rozen",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Rozen.png"),
+    construct_Image: require("../../assets/Images/Rozen/Construct_Rozen.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Physical (80%)",
     id: "17",
@@ -1048,6 +1080,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1063,7 +1097,7 @@ export default [
     construct_Name: "Wanshi ",
     construct_Model: "Fate",
     construct_Rank: "A",
-    construct_Image: require("../../assets/Images/Construct_Fate.png"),
+    construct_Image: require("../../assets/Images/Fate/Construct_Fate.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "18",
@@ -1110,6 +1144,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1126,7 +1162,7 @@ export default [
     construct_Name: "Lee ",
     construct_Model: "Entropy",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Entropy.png"),
+    construct_Image: require("../../assets/Images/Entropy/Construct_Entropy.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "20",
@@ -1173,6 +1209,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1188,7 +1226,7 @@ export default [
     construct_Name: "Karenina ",
     construct_Model: "Ember",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Ember.png"),
+    construct_Image: require("../../assets/Images/Ember/Construct_Ember.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (30%) Fire (70%)",
     id: "21",
@@ -1235,6 +1273,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1250,7 +1290,7 @@ export default [
     construct_Name: "Lucia ",
     construct_Model: "Crimson Abyss",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_CrimsonAbyss.png"),
+    construct_Image: require("../../assets/Images/CrimsonAbyss/Construct_CrimsonAbyss.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "22",
@@ -1297,6 +1337,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1312,7 +1354,7 @@ export default [
     construct_Name: "Bianca ",
     construct_Model: "Veritas",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Veritas.png"),
+    construct_Image: require("../../assets/Images/Veritas/Construct_Veritas.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (20%) Lightning (80%)",
     id: "23",
@@ -1359,6 +1401,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1374,7 +1418,7 @@ export default [
     construct_Name: "Lucia ",
     construct_Model: "Plume",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Plume.png"),
+    construct_Image: require("../../assets/Images/Plume/Construct_Plume.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "24",
@@ -1421,6 +1465,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1436,7 +1482,7 @@ export default [
     construct_Name: "Luna ",
     construct_Model: "Laurel",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Laurel.png"),
+    construct_Image: require("../../assets/Images/Laurel/Construct_Laurel.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (10%) Dark (90%)",
     id: "25",
@@ -1483,6 +1529,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1493,12 +1541,12 @@ export default [
       weapon2: "weapon2",
     },
   },
-//@b
+//2b
   {
     construct_Name: "2B ",
     construct_Model: "Unknown",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_2B.png"),
+    construct_Image: require("../../assets/Images/2B/Construct_2B.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "26",
@@ -1545,6 +1593,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1561,7 +1611,7 @@ export default [
     construct_Name: "Nanami ",
     construct_Model: "Pulse",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Pulse.png"),
+    construct_Image: require("../../assets/Images/Pulse/Construct_Pulse.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (50%) Fire (50%)",
     id: "27",
@@ -1608,6 +1658,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1623,7 +1675,7 @@ export default [
     construct_Name: "Kamui ",
     construct_Model: "Tenebrion",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Tenebrion.png"),
+    construct_Image: require("../../assets/Images/Tenebrion/Construct_Tenebrion.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (50%) Dark (50%)",
     id: "28",
@@ -1670,6 +1722,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1685,7 +1739,7 @@ export default [
     construct_Name: "Rosetta ",
     construct_Model: "Arctic",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Arctic.png"),
+    construct_Image: require("../../assets/Images/Arctic/Construct_Arctic.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "29",
@@ -1732,6 +1786,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1747,7 +1803,7 @@ export default [
     construct_Name: "A2 ",
     construct_Model: "Unknown",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_A2.png"),
+    construct_Image: require("../../assets/Images/A2/Construct_A2.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "30",
@@ -1794,6 +1850,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1809,7 +1867,7 @@ export default [
     construct_Name: "Chrome ",
     construct_Model: "Glory",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Glory.png"),
+    construct_Image: require("../../assets/Images/Glory/Construct_Glory.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "31",
@@ -1856,6 +1914,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1871,7 +1931,7 @@ export default [
     construct_Name: "Vera ",
     construct_Model: "Flare",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Flare.png"),
+    construct_Image: require("../../assets/Images/Flare/Construct_Flare.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (15%) Lightning (85%)",
     id: "32",
@@ -1918,6 +1978,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1934,7 +1996,7 @@ export default [
     construct_Name: "Liv ",
     construct_Model: "Luminance",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Luminance.png"),
+    construct_Image: require("../../assets/Images/Luminance/Construct_Luminance.png"),
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
     id: "33",
@@ -1981,6 +2043,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -1996,7 +2060,7 @@ export default [
     construct_Name: "9S ",
     construct_Model: "Unknown",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_9S.png"),
+    construct_Image: require("../../assets/Images/9S/Construct_9S.png"),
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
     id: "34",
@@ -2043,6 +2107,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -2059,7 +2125,7 @@ export default [
     construct_Name: "Liv ",
     construct_Model: "Solaeter",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Solaeter.png"),
+    construct_Image: require("../../assets/Images/Solaeter/Construct_Solaeter.png"),
     construct_Type: "Amplifier",
     construct_Element: "Physical (10%) Fire (90%)",
     id: "35",
@@ -2106,6 +2172,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
@@ -2121,7 +2189,7 @@ export default [
     construct_Name: "Selena ",
     construct_Model: "Capriccio",
     construct_Rank: "S",
-    construct_Image: require("../../assets/Images/Construct_Capriccio.png"),
+    construct_Image: require("../../assets/Images/Capriccio/Construct_Capriccio.png"),
     construct_Type: "Amplifier",
     construct_Element: "Physical (10%) Dark (90%)",
     id: "36",
@@ -2168,6 +2236,8 @@ export default [
 
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
+      hiddenSkill: '',
+      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
     },
     memories: {
       set1: "Set 1",
