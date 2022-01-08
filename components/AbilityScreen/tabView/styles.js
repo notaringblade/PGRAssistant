@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     collapsedView:{
-        borderColor: '#F2F2F2',
+        // borderColor: '#F2F2F2',
         borderRadius: 20,
         borderWidth: 3
     },
@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
         fontSize: 20, 
         fontStyle: "italic",
         width: '100%',
+        paddingLeft: 5
         
     },
     tabView:{

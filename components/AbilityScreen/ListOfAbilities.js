@@ -1,17 +1,11 @@
 export default [
     {   //Lucia Plume
-        Name: 'l',
-        Model: 'Plume',
+        Name: 'Sakura',
+        Model: 'Crimson Birch',
         Rank: 'S',
         key: '1'
     },
 
-    {   //Lucia Alpha
-        Name: 'Lucia',
-        Model: 'Crimson Abyss',
-        Rank: 'S',
-        key: '2'
-    },
 
 
 ]

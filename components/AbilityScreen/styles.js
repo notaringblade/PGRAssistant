@@ -1,9 +1,10 @@
 import { StyleSheet } from "react-native";
+import { backgroundColor } from "react-native/Libraries/Components/View/ReactNativeStyleAttributes";
 
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: '#121212'
+        backgroundColor: '#121212',
 
     },
 
