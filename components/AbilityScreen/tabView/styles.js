@@ -2,12 +2,12 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     collapsedView:{
-        borderColor: 'white',
+        borderColor: '#F2F2F2',
         borderRadius: 20,
         borderWidth: 3
     },
     titleText:{
-        color: 'white',
+        color: '#F2F2F2',
         fontSize: 20, 
         fontStyle: "italic",
         width: '100%',
@@ -18,14 +18,14 @@ const styles = StyleSheet.create({
     },
 
     itemDescription:{
-        color: 'white',
-        marginLeft: 70,
-        marginTop: -50
+        color: '#F2F2F2',
+        marginLeft: 90,
+        marginTop: -30
     },
     abilityIcon:{
-        marginLeft: -15,
         height: 60,
-        width: 100,
+        // position: 'absolute',
+        width: 90,
         resizeMode: 'contain',
     }
 })

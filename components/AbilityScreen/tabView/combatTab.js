@@ -84,6 +84,11 @@ const CombatTab = ({route}) =>{
             <Image source={Ability.combat.sssPlusRankIcon} style={styles.abilityIcon}></Image>
                 <Text style={styles.itemDescription}>{Ability.combat.sssPlusRank}</Text>
             </CollapsibleView>
+            <CollapsibleView title={<Text style={styles.titleText}>Hidden Skill</Text>} style={styles.collapsedView} noArrow={false} arrowStyling={{color : '#3D3D3D'}}>
+
+            <Image source={Ability.combat.hiddenSkillIcon} style={styles.abilityIcon}></Image>
+                <Text style={styles.itemDescription}>{Ability.combat.hiddenSkill}</Text>
+            </CollapsibleView>
         </CollapsibleView>
         
         </ScrollView>

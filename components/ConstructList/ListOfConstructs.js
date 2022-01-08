@@ -32,13 +32,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "QTE: Lucia strikes at enemies with her Dual Blades, dealing 1110% Physical DMG in total.",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "Extra DMG Bonus increases by 20%.",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Attacker.png"),
 
       awakening: "Gains 3 Signal Orbs when entering battle.",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "Core Passive: Pinging a Red Orb within 4 seconds of any 3-Ping will make Lucia enter Burst mode. Basic Attacks will be replaced with Dual Blades. Lotus - Dual Blades: Launches consecutive attacks at enemies, dealing 1080% Physical DMG in total.",
@@ -52,8 +52,8 @@ export default [
       sssRankIcon: require("../../assets/Images/Lotus/SSS.png"),
       sssPlusRank: "Passive: Extra DMG Bonus of Basic Attack increases by 15%.",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
-      hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkill: 'Pinging a Red Orb within 4 seconds after any 3-Ping will make Lucia Burst. Lucia then replaces Basic Attacks with Dual Blades.',
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -75,49 +75,49 @@ export default [
     id: "2",
     combat: {
       // orbs
-      redPingIcon: require("../../assets/Images/Lotus/RedOrb.png"),
+      redPingIcon: require("../../assets/Images/Storm/RedOrb.png"),
       redPing:
         "Charges forward and deals 240% / 480% / 720% Physical DMG based on the number of orbs pinged to enemies in a rectangular area ahead.",
 
-      yellowPingIcon: require("../../assets/Images/Lotus/YellowOrb.png"),
-      yellowPing: "",
+      yellowPingIcon: require("../../assets/Images/Storm/YellowOrb.png"),
+      yellowPing: "Spins and cuts enemies rapidly, dealing 200% / 400% / 600% Physical DMG based on the number of orbs pinged to nearby enemies.",
 
-      bluePingIcon: require("../../assets/Images/Lotus/BlueOrb.png"),
-      bluePing: "",
+      bluePingIcon: require("../../assets/Images/Storm/BlueOrb.png"),
+      bluePing: "Bursts and pulls enemies. Based on the number of orbs pinged, deals 100% / 200% / 300% Physical DMG, reduces DEF of targets hit by 10% / 20% / 30%, and increases own Physical Resistance by 20% / 40% / 60% for 4/4.5/5 seconds.",
 
       // Skills
-      basicAttack: "",
-      basicAttackIcon: require("../../assets/Images/Lotus/BasicAttack.png"),
+      basicAttack: "Basic Attack: Launches consecutive attacks with a sawblade, dealing 800% Physical DMG in total.",
+      basicAttackIcon: require("../../assets/Images/Storm/BasicAttack.png"),
 
-      signature: "",
-      signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
+      signature: "Signature Move: Costs 100 Energy. Deploys an energy barrier to resist attacks from enemies and protect allies within the area. The barrier explodes after 5 seconds, dealing 1000% Physical DMG to enemies.",
+      signatureIcon: require("../../assets/Images/Storm/Signature.png"),
 
-      qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qte: "QTE: Nanami spins and slices the target, dealing 770% Physical DMG in total and knocks down the target.",
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Attacks lower the target's Extra DMG Reduction by 20% for 5 seconds.",
+      classIcon: require("../../assets/Images/Tank.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
-      core: "",
-      coreIcon: require("../../assets/Images/Lotus/Core.png"),
+      core: "Core Passive: Pinging a Yellow Orb after any 3-Ping will cause Nanami to use EX - Storm of Cuts and launch 8 consecutive attacks at nearby targets, dealing 100% Physical DMG per attack.",
+      coreIcon: require("../../assets/Images/Storm/Core.png"),
 
-      leader: "",
-      leaderIcon: require("../../assets/Images/Lotus/Leader.png"),
+      leader: "Passive: DEF of all party members increases by 15%.",
+      leaderIcon: require("../../assets/Images/Storm/Leader.png"),
 
-      ssRank: "",
-      ssRankIcon: require("../../assets/Images/Lotus/SS.png"),
+      ssRank: "Passive: Extra DMG Bonus of Basic Attack increases by 15%. Ability to draw Aggro increases by 20% when attacking.",
+      ssRankIcon: require("../../assets/Images/Storm/SS.png"),
 
-      sssRank: "",
-      sssRankIcon: require("../../assets/Images/Lotus/SSS.png"),
+      sssRank: "Passive: While your core passive is active, Physical Resistance increases by 30%.",
+      sssRankIcon: require("../../assets/Images/Storm/SSS.png"),
 
-      sssPlusRank: "",
-      sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
-      hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      sssPlusRank: "Passive: After using Signature - Crystal Barrier, Extra DMG Bonus increases by 20% for 5 seconds.",
+      sssPlusRankIcon: require("../../assets/Images/Storm/SSSPlus.png"),
+      hiddenSkill: 'Core Passive: When pinging a Yellow Orb after any 3-Ping, Nanami will use EX - Slash Storm and launch 8 consecutive attacks at surrounding targets, dealing * Physical DMG per attack.',
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -139,49 +139,49 @@ export default [
     id: "3",
     combat: {
       // orbs
-      redPingIcon: require("../../assets/Images/Lotus/RedOrb.png"),
+      redPingIcon: require("../../assets/Images/Eclipse/RedOrb.png"),
       redPing:
-        "Charges forward and deals 240% / 480% / 720% Physical DMG based on the number of orbs pinged to enemies in a rectangular area ahead.",
+        "Orders weapon to fire laser beam, dealing 200% / 400% / 600% Physical DMG based on the number of orbs pinged.",
 
-      yellowPingIcon: require("../../assets/Images/Lotus/YellowOrb.png"),
-      yellowPing: "",
+      yellowPingIcon: require("../../assets/Images/Eclipse/YellowOrb.png"),
+      yellowPing: "Deploys a black hole at the target area that pulls nearby enemies in. Based on the number of orbs pinged, the black hole lasts 1/2/3 seconds and enemies in contact with the black hole take 90% / 150% / 210% Physical DMG, it then explodes afterwards and deals 80% / 160% / 240% Physical DMG.",
 
-      bluePingIcon: require("../../assets/Images/Lotus/BlueOrb.png"),
-      bluePing: "",
+      bluePingIcon: require("../../assets/Images/Eclipse/BlueOrb.png"),
+      bluePing: "Unleashes energy that knocks back enemies. Based on the number of orbs pinged, deals 100% / 200% / 300% Physical DMG and heals nearby allies for 40% / 80% / 120% of your attack. Physical DMG increases by 16% / 32% / 48% for 5 seconds.",
 
       // Skills
-      basicAttack: "",
-      basicAttackIcon: require("../../assets/Images/Lotus/BasicAttack.png"),
+      basicAttack: "Basic Attack: Summons laser beams to strike at the target, dealing 640% Physical DMG in total.",
+      basicAttackIcon: require("../../assets/Images/Eclipse/BasicAttack.png"),
 
-      signature: "",
-      signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
+      signature: "Signature Move: Costs 100 Energy. Summons beams to consecutively strike at the target area for 2 seconds. Each beam deals 70% Physical DMG.",
+      signatureIcon: require("../../assets/Images/Eclipse/Signature.png"),
 
-      qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qte: "QTE: Unleashes energy wave to heal nearby allies for 20% of your maximum HP and deals 200% Physical DMG to nearby enemies.",
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Healing amount increases by 20%.",
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
-      core: "",
-      coreIcon: require("../../assets/Images/Lotus/Core.png"),
+      core: "Core Passive: After any 3-Ping, the next Red Orb skill will unleash laser beams that deal 800% Physical DMG.",
+      coreIcon: require("../../assets/Images/Eclipse/Core.png"),
 
-      leader: "",
-      leaderIcon: require("../../assets/Images/Lotus/Leader.png"),
+      leader: "Passive: HP of all party members increases by 10%.",
+      leaderIcon: require("../../assets/Images/Eclipse/Leader.png"),
 
-      ssRank: "",
-      ssRankIcon: require("../../assets/Images/Lotus/SS.png"),
+      ssRank: "Passive: Gains 3 Blue Orbs after using a Signature Move.",
+      ssRankIcon: require("../../assets/Images/Eclipse/SS.png"),
 
-      sssRank: "",
-      sssRankIcon: require("../../assets/Images/Lotus/SSS.png"),
+      sssRank: "Passive: When Liv is in reserve, Physical DMG of all allies on the field increases by 10%.",
+      sssRankIcon: require("../../assets/Images/Eclipse/SSS.png"),
 
-      sssPlusRank: "",
-      sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
-      hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      sssPlusRank: "Passive: After using Signature - Azure Starfall, Extra DMG Bonus increases by 20% for 8 seconds.",
+      sssPlusRankIcon: require("../../assets/Images/Eclipse/SSSPlus.png"),
+      hiddenSkill: 'Pinging a Red Orb after any 3-Ping will trigger core lasers to deal 10 times of Physical DMG to a wide area.',
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -204,49 +204,49 @@ export default [
     id: "4",
     combat: {
       // orbs
-      redPingIcon: require("../../assets/Images/Lotus/RedOrb.png"),
+      redPingIcon: require("../../assets/Images/Dawn/RedOrb.png"),
       redPing:
-        "Charges forward and deals 240% / 480% / 720% Physical DMG based on the number of orbs pinged to enemies in a rectangular area ahead.",
+        "Launches a flurry of attacks that deals 40% / 80% / 144% Physical DMG 5/5/5 times in a row based on the number of orbs pinged. Converts Physical DMG to Lightning DMG if this is a 3-Ping. Gains Super Armor while using the skill.",
 
-      yellowPingIcon: require("../../assets/Images/Lotus/YellowOrb.png"),
-      yellowPing: "",
+      yellowPingIcon: require("../../assets/Images/Dawn/YellowOrb.png"),
+      yellowPing: "Deploys a lightning field. Deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged and marks the target. Mark duration refreshes when Marks stack (Max 3 Marks per target). The field lasts 3/4/5 seconds and attacks enemies in the area once per second, dealing 20% / 30% / 40% Lightning DMG.",
 
-      bluePingIcon: require("../../assets/Images/Lotus/BlueOrb.png"),
-      bluePing: "",
+      bluePingIcon: require("../../assets/Images/Dawn/BlueOrb.png"),
+      bluePing: "Quickly strikes the target, dealing 80% / 160% / 240% Lightning DMG based on the number of orbs pinged. Then pulls the target towards you, dealing 80% / 160% / 240% Physical DMG and marking the target. Mark duration refreshes when Marks stack (Max 3 Marks per target).",
 
       // Skills
-      basicAttack: "",
-      basicAttackIcon: require("../../assets/Images/Lotus/BasicAttack.png"),
+      basicAttack: "Basic Attack: Launches consecutive attacks with Lotus - Quick Blade, dealing 650% Physical DMG total.",
+      basicAttackIcon: require("../../assets/Images/Dawn/BasicAttack.png"),
 
-      signature: "",
-      signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
+      signature: "Signature Move: Costs 50 Energy. Using basic attacks and skills will carry out an additional attack with Lotus Blade that deals 25% Lightning DMG. Lotus Blade lasts 15 seconds. Reusing this skill while it is still active will refresh the duration.",
+      signatureIcon: require("../../assets/Images/Dawn/Signature.png"),
 
-      qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qte: "QTE: Lucia uses Scattering Petals, dealing 210% Physical DMG and 570% Lightning DMG to the target.",
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
-      core: "",
-      coreIcon: require("../../assets/Images/Lotus/Core.png"),
+      core: "Core Passive: Lightning Lure: When attacking a marked enemy, based on the number of Marks on the enemy, there is 25% / 50% / 75% chance for the target to be struck with a 60% Lightning DMG bolt.",
+      coreIcon: require("../../assets/Images/Dawn/Core.png"),
 
-      leader: "",
-      leaderIcon: require("../../assets/Images/Lotus/Leader.png"),
+      leader: "Passive: Attack of all Attacker Constructs increases by 10%.",
+      leaderIcon: require("../../assets/Images/Dawn/Leader.png"),
 
-      ssRank: "",
-      ssRankIcon: require("../../assets/Images/Lotus/SS.png"),
+      ssRank: "Passive: Within the Lightning Field, Lightning DMG increases by 20%.",
+      ssRankIcon: require("../../assets/Images/Dawn/SS.png"),
 
-      sssRank: "",
-      sssRankIcon: require("../../assets/Images/Lotus/SSS.png"),
+      sssRank: "Passive: Extra DMG of Lightning Lure increases by 20%.",
+      sssRankIcon: require("../../assets/Images/Dawn/SSS.png"),
 
-      sssPlusRank: "",
-      sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
-      hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      sssPlusRank: "Passive: Extra DMG Bonus increases by 15% for 10 seconds after performing a Signature Move.",
+      sssPlusRankIcon: require("../../assets/Images/Dawn/SSSPlus.png"),
+      hiddenSkill: 'Marks the enemy with Blue Orb or Yellow Orb skills. Attacking an enemy marked by Lucia has a chance to launch lightning attacks that deal Lightning DMG.',
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
 
     memories: {
@@ -269,49 +269,49 @@ export default [
     id: "5",
     combat: {
       // orbs
-      redPingIcon: require("../../assets/Images/Lotus/RedOrb.png"),
+      redPingIcon: require("../../assets/Images/Palefire/RedOrb.png"),
       redPing:
-        "Charges forward and deals 240% / 480% / 720% Physical DMG based on the number of orbs pinged to enemies in a rectangular area ahead.",
+        "Fires 15 quick shots at the target that deals 16% / 32% / 48% Physical DMG per shot based on the number of orbs pinged. Gains Super Armor while using this skill.",
 
-      yellowPingIcon: require("../../assets/Images/Lotus/YellowOrb.png"),
-      yellowPing: "",
+      yellowPingIcon: require("../../assets/Images/Palefire/YellowOrb.png"),
+      yellowPing: "Fires a blasting round at the target that explodes on hit and deals 100% / 150% / 200% Fire DMG based on the number of orbs pinged. Creates a burning area for 3/4/5 seconds that deals 12% / 24% / 36% Fire DMG per 0.5 seconds to the enemies inside. Attacking enemies in the burning area deals extra 12% Fire DMG for up to once per 0.1 seconds.",
 
-      bluePingIcon: require("../../assets/Images/Lotus/BlueOrb.png"),
-      bluePing: "",
+      bluePingIcon: require("../../assets/Images/Palefire/BlueOrb.png"),
+      bluePing: "Fires an explosive round at the target, dealing 200% / 400% / 600% Physical DMG based on the number of orbs pinged.",
 
       // Skills
-      basicAttack: "",
-      basicAttackIcon: require("../../assets/Images/Lotus/BasicAttack.png"),
+      basicAttack: "Basic Attack: Fires consecutive shots, dealing 880% Physical DMG in total.",
+      basicAttackIcon: require("../../assets/Images/Palefire/BasicAttack.png"),
 
-      signature: "",
-      signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
+      signature: "Signature Move: Costs 100 Energy. Fires consecutive shots at nearby enemies, dealing 800% Physical DMG in total, then deals 1200% Fire DMG with the last shot.",
+      signatureIcon: require("../../assets/Images/Palefire/Signature.png"),
 
-      qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qte: "QTE: Lee shoots at the target with dual guns, dealing 330% Physical DMG and inflicts Electrocute. Electrocute: Target takes extra 20% Physical DMG for 5 seconds when being attacked. Can be triggered for up to 15 times within the duration.",
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
-      core: "",
-      coreIcon: require("../../assets/Images/Lotus/Core.png"),
+      core: "Core Passive: After pinging a Yellow Orb, the next Red Orb skill will inflict Blast. Blast: Bullets explode after hitting the target, dealing 40% Fire DMG to enemies in the area.",
+      coreIcon: require("../../assets/Images/Palefire/Core.png"),
 
-      leader: "",
-      leaderIcon: require("../../assets/Images/Lotus/Leader.png"),
+      leader: "Increases all party member’s Physical DMG by 5% and Elemental DMG by 5%.",
+      leaderIcon: require("../../assets/Images/Palefire/Leader.png"),
 
-      ssRank: "",
-      ssRankIcon: require("../../assets/Images/Lotus/SS.png"),
+      ssRank: "Passive: When hitting enemies in the burning area of Infernal Shot, Extra DMG Bonus increases by 15%.",
+      ssRankIcon: require("../../assets/Images/Palefire/SS.png"),
 
-      sssRank: "",
-      sssRankIcon: require("../../assets/Images/Lotus/SSS.png"),
+      sssRank: "Passive: Extra DMG Bonus increases by 15% before taking any damage. Has a cooldown of 10 seconds.",
+      sssRankIcon: require("../../assets/Images/Palefire/SSS.png"),
 
-      sssPlusRank: "",
-      sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
-      hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      sssPlusRank: "Passive: Extra DMG Bonus of Core Passive - Controlling Bullet increases by 20%.",
+      sssPlusRankIcon: require("../../assets/Images/Palefire/SSSPlus.png"),
+      hiddenSkill: 'After pinging a Yellow Orb, next Red Orb will inflict Blast and deal Fire DMG to a small area.',
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -351,13 +351,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -375,7 +375,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -415,13 +415,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -439,7 +439,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -479,13 +479,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -503,7 +503,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -543,13 +543,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -567,7 +567,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -608,13 +608,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -632,7 +632,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -672,13 +672,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -696,7 +696,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -736,13 +736,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -760,7 +760,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -800,13 +800,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -824,7 +824,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -864,13 +864,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -888,7 +888,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -929,13 +929,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -953,7 +953,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -993,13 +993,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1017,7 +1017,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1057,13 +1057,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1081,7 +1081,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1121,13 +1121,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1145,7 +1145,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1186,13 +1186,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1210,7 +1210,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1250,13 +1250,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1274,7 +1274,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1314,13 +1314,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1338,7 +1338,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1378,13 +1378,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1402,7 +1402,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1442,13 +1442,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1466,7 +1466,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1506,13 +1506,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1530,7 +1530,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1570,13 +1570,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1594,7 +1594,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1635,13 +1635,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1659,7 +1659,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1699,13 +1699,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1723,7 +1723,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1763,13 +1763,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1787,7 +1787,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1827,13 +1827,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      classIcon: require("../../assets/Images/Support.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1851,7 +1851,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1891,13 +1891,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
       classIcon: require("../../assets/Images/Lotus/Class.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1915,7 +1915,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -1955,13 +1955,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
       classIcon: require("../../assets/Images/Lotus/Class.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -1979,7 +1979,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -2020,13 +2020,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
       classIcon: require("../../assets/Images/Lotus/Class.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -2044,7 +2044,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -2084,13 +2084,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
       classIcon: require("../../assets/Images/Lotus/Class.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -2108,7 +2108,7 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
@@ -2149,13 +2149,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
-      class: "",
-      classIcon: require("../../assets/Images/Lotus/Class.png"),
+      class: "Extra DMG Bonus increases by 20%.",
+      classIcon: require("../../assets/Images/Attacker.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
@@ -2173,14 +2173,14 @@ export default [
       sssPlusRank: "",
       sssPlusRankIcon: require("../../assets/Images/Lotus/SSSPlus.png"),
       hiddenSkill: '',
-      hiddenSkillIcon:require('../../assets/Images/Lotus/SSSPlus.png')
+      hiddenSkillIcon:require('../../assets/Images/Orb.png')
     },
     memories: {
       set1: "Set 1",
       set2: "Set 2",
     },
     weapons: {
-      weapon1: "weapon1",
+ Attackerapon1: "weapon1",
       weapon2: "weapon2",
     },
   },
@@ -2213,13 +2213,13 @@ export default [
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
       qte: "",
-      qteIcon: require("../../assets/Images/Lotus/QTE.png"),
+      qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "",
       classIcon: require("../../assets/Images/Lotus/Class.png"),
 
-      awakening: "",
-      awakeningIcon: require("../../assets/Images/Lotus/Awakening.png"),
+      awakening: "Gains 3 Signal Orbs when entering battle.",
+      awakeningIcon: require("../../assets/Images/Awakening.png"),
 
       //Passives
       core: "",
