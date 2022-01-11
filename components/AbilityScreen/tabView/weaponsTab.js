@@ -16,10 +16,10 @@ const MemoryTab = () =>{
 
         <ScrollView style={styles.tabView}>
 
-                <CollapsibleView title={<Text style={styles.titleText}>Weapon 1</Text>} style={styles.collapsedView} noArrow={false} arrowStyling={{color : '#3D3D3D'}}>
+                <CollapsibleView title={<Text style={styles.titleText}>Weapon 1</Text>} style={styles.collapsedView} noArrow={false} arrowStyling={{color : '#F2F2F2'}}>
                     <Text style={styles.itemDescription}>{Ability.weapons.weapon1}</Text>
                 </CollapsibleView>
-                <CollapsibleView title={<Text style={styles.titleText}>Weapon 2</Text>} style={styles.collapsedView} noArrow={false} arrowStyling={{color : '#3D3D3D'}}>
+                <CollapsibleView title={<Text style={styles.titleText}>Weapon 2</Text>} style={styles.collapsedView} noArrow={false} arrowStyling={{color : '#F2F2F2'}}>
                     <Text style={styles.itemDescription}>{Ability.weapons.weapon2}</Text>
                 </CollapsibleView>
 

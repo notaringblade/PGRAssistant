@@ -19,7 +19,7 @@ const AbilityPage = ({route, navigation}) => {
                     <View style={styles.constructInfo}>
                     <Text style={styles.constructName}> {construct_Name} </Text>
                     <Text style={styles.constructModel}> {construct_Model} </Text>
-                    <Text style={[styles.constructRank, {color: colorOfBorder}]}> {construct_Rank} </Text>
+                    <Text style={styles.constructRank}> {construct_Rank} </Text>
                     <Text style={styles.constructElement}> {construct_Element} </Text>
                     <Text style={styles.constructType}> {construct_Type} </Text>
                     </View>

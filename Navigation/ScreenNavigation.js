@@ -1,11 +1,12 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
-import ConstructList from "../components/ConstructList";
 import AbilityPage from "../components/AbilityScreen/index";
-import zFilterViews from '../components/ConstructList/zFilterView'
 import Drawer from './zDrawerNavigation';
 import { View } from "react-native";
+import Weapons from '../components/Weapons/index'
+import Memories from '../components/Memories/index';
+
 
 
 const Stack = createNativeStackNavigator();
@@ -26,11 +27,26 @@ export default function Navigator (){
                              backgroundColor: '#121212',
                          },
                          headerTintColor: 'white',
-                         
                         }
-                        
                     }
-/>
+                />
+
+                <Stack.Screen name="Weapons" component={Weapons} 
+                    options={{title: 'Weapons', 
+                        headerStyle: { backgroundColor: '#121212', height: 80},
+                        headerTintColor: 'white',
+
+                    }}
+                
+                />
+
+                <Stack.Screen name="Memories" component={Memories} 
+                    options={{title: 'Memories', 
+                        headerStyle: { backgroundColor: '#121212', height: 80},
+                        headerTintColor: 'white',
+
+                    }}
+                    />
             </Stack.Navigator>
         </NavigationContainer>
         </View>

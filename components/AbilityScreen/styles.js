@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     
     constructRank:{
         fontSize: 18,
+        color : '#D9D9D9'
 
     },
 

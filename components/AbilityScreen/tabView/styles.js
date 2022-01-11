@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
     collapsedView:{
@@ -24,11 +25,12 @@ const styles = StyleSheet.create({
         marginTop: -30
     },
     abilityIcon:{
-        height: 60,
+        height: 90,
         // position: 'absolute',
-        width: 90,
+        width: 80,
         resizeMode: 'contain',
-    }
+    },
+    
 })
 
 export default styles;
