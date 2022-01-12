@@ -4,8 +4,6 @@ import ListOfConstructs from './ListOfConstructs'
 import HomeScreen from '../HomeScreen'
 import styles from './styles';
 import CompleteFlatList from 'react-native-complete-flatlist';
-import { Appearance, useColorScheme } from 'react-native';
-import CollapsibleView from '@eliav2/react-native-collapsible-view';
 
 
 const ConstructList  = ({navigation}) => {

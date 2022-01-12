@@ -3,7 +3,7 @@ import { backgroundColor } from "react-native/Libraries/Components/View/ReactNat
 
 const styles = StyleSheet.create({
     construct:{  
-        margin: 2,
+        margin: 3.5,
         height: 150,
         backgroundColor: '#121212'
       },
