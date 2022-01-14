@@ -1,18 +1,13 @@
 import React from "react";
-import {Image, Text, View, TouchableOpacity} from 'react-native';
+import {Image, Text, View, TouchableOpacity, FlatList, SectionList} from 'react-native';
 import styles from "./styles";
+import weaponList from '../weaponList';
 
 const Weapons = () =>{
+    
     return(
-        <View style={styles.screenView}>
+        <View>
             
-            <Text style={styles.Text}>Weapons Screen</Text>
-
-            <View>
-                <Text>
-                    Katana
-                </Text>
-            </View>
         </View>
     )
 }

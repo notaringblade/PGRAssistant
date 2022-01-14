@@ -13,14 +13,14 @@ function MyTabs() {
     
 
   return (
-    <View style={{flex: 1,backgroundColor: '#121212'}}>
-    <Tab.Navigator 
+    <Tab.Navigator mode="modal"
       screenOptions={{
           lazy : true,
         tabBarActiveTintColor: '#D9D9D9',
         tabBarLabelStyle: { fontSize: 12 },
         tabBarStyle: { backgroundColor: '#121212', minHeight: 30, },
         tabBarIndicatorStyle: {backgroundColor: '#D9D9D9'},
+        
       }}
     >
       <Tab.Screen
@@ -41,7 +41,6 @@ function MyTabs() {
       
       
     </Tab.Navigator>
-    </View>
   );
 }
 

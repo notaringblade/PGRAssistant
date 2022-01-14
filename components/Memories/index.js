@@ -4,10 +4,10 @@ import styles from "./styles";
 import { useNavigation } from "@react-navigation/native";
 
 const memories = (props) =>{
-    const {icon, memoryName, stars, star} = props.memory;
+    const {icon, memoryName, rarity, star} = props.memory;
     const navigation = useNavigation();
 
-    const borderColor = stars === '6'?  '#971948': '#E5BF8C'
+    const borderColor = rarity === '6'?  '#971948': '#E5BF8C'
     const onClick = () =>{
         navigation.navigate('MemoryScreen', props.memory)
    }
@@ -19,7 +19,7 @@ const memories = (props) =>{
                 <Image style={[styles.star, {tintColor: borderColor}]} source={star}/>
                 <ImageBackground style={styles.icon} source={icon}/>
                 <Text style={styles.memoryName}>{memoryName}</Text>
-                <Text style={styles.rarity}>{stars}</Text>
+                <Text style={styles.rarity}>{rarity}</Text>
             </View>
         </View>
         </TouchableWithoutFeedback>

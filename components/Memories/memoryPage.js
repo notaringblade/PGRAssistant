@@ -22,7 +22,7 @@ const memoryListView = () => {
             searchKey={['memoryName']}
             data={memoryList}
             renderItem={({item}) => <MemoryStyle memory={item}/>}
-            keyExtractor={(item) => item.key}
+            keyExtractor={(item) => item.id}
             backgroundStyles={styles.backgroundStyles}
             searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
             renderSeparator={ItemSeparator}     

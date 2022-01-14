@@ -9,11 +9,11 @@ const styles = StyleSheet.create({
         color: 'white'
     },
     itemView:{
-        margin: 2,
         height: 120,
         backgroundColor: '#121212',
         borderWidth: 3.5,
         borderRadius: 20,
+        width: '100%'
     },
     icon:{
         width:130,
@@ -46,11 +46,12 @@ const styles = StyleSheet.create({
     },
     view:{
         flex: 1,
-        backgroundColor: '#121212'
+        backgroundColor: '#121212',
+
     },
     list:{
         // marginTop: 30,
-        width: Dimensions.get('window').width,
+        width: '100%',
         height: '100%',
         
     },

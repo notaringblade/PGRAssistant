@@ -8,8 +8,8 @@ import MyTabs from "./topTabBarNavigation";
 import { AbilityContext } from "./context"; 
 
 const AbilityPage = ({route, navigation}) => {
-    const {combat, construct_Image, construct_Name, construct_Model, construct_Rank, construct_Element, construct_Type, memories, weaponName } = route.params;
-    const colorOfBorder = construct_Rank === 'S' ? '#CF3B00': construct_Rank === 'A' ? '#821890': '#0147A4' ; 
+    const {combat, construct_Image, construct_Name, construct_Model, construct_Rank, construct_Element, construct_Type, memories, weaponName, stats } = route.params;
+    const colorOfBorder = construct_Rank === 'S' ? '#C04F15': construct_Rank === 'A' ? '#AC54B9': '#0794BE' ; 
 
     return(
         <View style={styles.container}>
@@ -24,6 +24,20 @@ const AbilityPage = ({route, navigation}) => {
                     <Text style={styles.constructType}> {construct_Type} </Text>
                     </View>
                 </View >
+                <View style={[styles.stats, {borderColor: colorOfBorder}]}>
+                <View style={{flexDirection: 'row', justifyContent: 'space-around', backgroundColor: colorOfBorder, borderRadius: 3, marginTop: -1}}>
+                    <Text style={styles.statText}>HP</Text>
+                    <Text style={styles.statText}>Crit</Text>
+                    <Text style={styles.statText}>ATK</Text>
+                    <Text style={styles.statText}>DEF</Text>
+                </View>
+                <View style={{flexDirection: 'row', justifyContent: 'space-around', paddingTop: 6}}>
+                    <Text style={styles.statText}>{stats.HP}</Text>
+                    <Text style={[styles.statText, {marginLeft: -10}]}>{stats.Crit}</Text>
+                    <Text style={styles.statText}>{stats.ATK}</Text>
+                    <Text style={styles.statText}>{stats.DEF}</Text>
+                </View>
+            </View>
             
             
                <View style={[styles.tabsView, {borderColor: colorOfBorder, backgroundColor: '#121212'}]}>

@@ -8,6 +8,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (80%) Fire (20%)",
     id: "1",
+    stats: {
+      HP: "1113",
+      Crit: "159",
+      ATK: "223",
+      DEF: "101"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Lotus/RedOrb.png"),
@@ -103,6 +109,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "2",
+    stats: {
+      HP: "1247",
+      Crit: "185",
+      ATK: "200",
+      DEF: "101"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Storm/RedOrb.png"),
@@ -205,6 +217,12 @@ export default [
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
     id: "3",
+    stats: {
+      HP: "1058",
+      Crit: "142",
+      ATK: "223",
+      DEF: "112"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Eclipse/RedOrb.png"),
@@ -305,6 +323,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (40%) Lightning (60%)",
     id: "4",
+    stats: {
+      HP: "1590",
+      Crit: "227",
+      ATK: "303",
+      DEF: "144"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Dawn/RedOrb.png"),
@@ -405,6 +429,12 @@ export default [
     construct_Type: "Support",
     construct_Element: "Physical (20%) Physical (80%)",
     id: "15",
+    stats: {
+      HP: "1439",
+      Crit: "204",
+      ATK: "303",
+      DEF: "151"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Lux/RedOrb.png"),
@@ -505,6 +535,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (60%) Fire (40%)",
     id: "5",
+    stats: {
+      HP: "1439",
+      Crit: "193",
+      ATK: "318",
+      DEF: "151"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Palefire/RedOrb.png"),
@@ -607,6 +643,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "6",
+    stats: {
+      HP: "1515",
+      Crit: "204",
+      ATK: "318",
+      DEF: "159"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Nightblade/RedOrb.png"),
@@ -709,6 +751,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "8",
+    stats: {
+      HP: "1212",
+      Crit: "182",
+      ATK: "334",
+      DEF: "166"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Zero/RedOrb.png"),
@@ -807,6 +855,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (80%) Physical (20%)",
     id: "7",
+    stats: {
+      HP: "1515",
+      Crit: "216",
+      ATK: "318",
+      DEF: "151"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Blast/RedOrb.png"),
@@ -907,6 +961,12 @@ export default [
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
     id: "33",
+    stats: {
+      HP: "1915",
+      Crit: "287",
+      ATK: "383",
+      DEF: "191"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Luminance/RedOrb.png"),
@@ -1007,6 +1067,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "20",
+    stats: {
+      HP: "1915",
+      Crit: "244",
+      ATK: "422",
+      DEF: "201"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Lotus/RedOrb.png"),
@@ -1109,6 +1175,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (30%) Fire (70%)",
     id: "21",
+    stats: {
+      HP: "1820",
+      Crit: "287",
+      ATK: "403",
+      DEF: "191"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Ember/RedOrb.png"),
@@ -1210,6 +1282,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (50%) Fire (50%)",
     id: "27",
+    stats: {
+      HP: "2203",
+      Crit: "301",
+      ATK: "364",
+      DEF: "172"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Pulse/RedOrb.png"),
@@ -1313,6 +1391,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (50%) Dark (50%)",
     id: "28",
+    stats: {
+      HP: "2299",
+      Crit: "316",
+      ATK: "344",
+      DEF: "172"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Tenebrion/RedOrb.png"),
@@ -1414,6 +1498,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "22",
+    stats: {
+      HP: "1820",
+      Crit: "273",
+      ATK: "421",
+      DEF: "201"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/CrimsonAbyss/RedOrb.png"),
@@ -1514,6 +1604,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "10",
+    stats: {
+      HP: "1666",
+      Crit: "245",
+      ATK: "272",
+      DEF: "139"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Bastion/RedOrb.png"),
@@ -1617,6 +1713,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (50%) Dark (50%)",
     id: "9",
+    stats: {
+      HP: "1544",
+      Crit: "215",
+      ATK: "345",
+      DEF: "145"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Astral/RedOrb.png"),
@@ -1719,6 +1821,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "11",
+    stats: {
+      HP: "1636",
+      Crit: "250",
+      ATK: "272",
+      DEF: "139"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Brilliance/RedOrb.png"),
@@ -1822,6 +1930,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (20%) Lightning (80%)",
     id: "23",
+    stats: {
+      HP: "1212",
+      Crit: "182",
+      ATK: "334",
+      DEF: "166"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Veritas/RedOrb.png"),
@@ -1924,6 +2038,12 @@ export default [
     construct_Type: "Support",
     construct_Element: "Physical (20%) Fire (80%)",
     id: "16",
+    stats: {
+      HP: "1515",
+      Crit: "227",
+      ATK: "288",
+      DEF: "144"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Lotus/RedOrb.png"),
@@ -2017,7 +2137,7 @@ export default [
   },
 
   //Arclight
-  {
+  { 
     construct_Name: "Chrome ",
     construct_Model: "Arclight",
     construct_Rank: "A",
@@ -2025,6 +2145,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (30%) Lightning (70%)",
     id: "12",
+    stats: {
+      HP: "1590",
+      Crit: "238",
+      ATK: "288",
+      DEF: "144"
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Arclight/RedOrb.png"),
@@ -2127,6 +2253,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "24",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Plume/RedOrb.png"),
@@ -2229,6 +2361,12 @@ export default [
     construct_Type: "Support",
     construct_Element: "Physical (20%) Physical (80%)",
     id: "17",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Rozen/RedOrb.png"),
@@ -2328,6 +2466,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "29",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Arctic/RedOrb.png"),
@@ -2428,6 +2572,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "13",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Kirin/RedOrb.png"),
@@ -2529,6 +2679,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (10%) Dark (90%)",
     id: "25",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Laurel/RedOrb.png"),
@@ -2629,6 +2785,12 @@ export default [
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
     id: "26",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/2B/RedOrb.png"),
@@ -2730,6 +2892,12 @@ export default [
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
     id: "34",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/9S/RedOrb.png"),
@@ -2831,6 +2999,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
     id: "30",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/A2/RedOrb.png"),
@@ -2933,6 +3107,12 @@ export default [
     construct_Type: "Support",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "18",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Fate/RedOrb.png"),
@@ -3032,6 +3212,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Ice (80%)",
     id: "31",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Glory/RedOrb.png"),
@@ -3134,6 +3320,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Dark (80%)",
     id: "14",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/XXI/RedOrb.png"),
@@ -3236,6 +3428,12 @@ export default [
     construct_Type: "Tank",
     construct_Element: "Physical (15%) Lightning (85%)",
     id: "32",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Flare/RedOrb.png"),
@@ -3338,6 +3536,12 @@ export default [
     construct_Type: "Amplifier",
     construct_Element: "Physical (10%) Fire (90%)",
     id: "35",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Solaeter/RedOrb.png"),
@@ -3440,6 +3644,12 @@ export default [
     construct_Type: "Amplifier",
     construct_Element: "Physical (10%) Dark (90%)",
     id: "36",
+    stats: {
+      HP: "",
+      Crit: "",
+      ATK: "",
+      DEF: ""
+    },
     combat: {
       // orbs
       redPingIcon: require("../../assets/Images/Capriccio/RedOrb.png"),

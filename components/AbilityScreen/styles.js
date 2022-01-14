@@ -12,8 +12,8 @@ const styles = StyleSheet.create({
     },
 
     constructMiniDesc:{
-        height: 175,
-        borderWidth: 2,
+        height: '20%',
+        borderWidth: 3,
         width: '100%',
         borderRadius: 20,
         justifyContent: 'center'
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         width: '90%',
         position: 'absolute',
         resizeMode: 'contain',
-        marginLeft: 140,
+        marginLeft: '50%',
         marginTop: 10,
     },
     
@@ -61,9 +61,19 @@ const styles = StyleSheet.create({
         color: '#D9D9D9'
 
     },
+    stats:{
+        marginTop: 5,
+        borderWidth: 3,
+        borderColor: 'white',
+        height: 55,
+        borderRadius: 10
+    },
+    statText:{
+        color: 'white'
+    },
     
     tabsView:{
-        borderWidth: 2,
+        borderWidth: 3,
         borderRadius: 20,
         flex: 1,
         marginTop: 2,

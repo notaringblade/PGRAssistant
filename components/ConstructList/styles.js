@@ -3,7 +3,7 @@ import { StyleSheet, Dimensions } from "react-native";
 const Styles = StyleSheet.create({
     list:{
         // marginTop: 30,
-        width: Dimensions.get('window').width,
+        width: '100%',
         height: '100%',
         
     },
@@ -25,7 +25,8 @@ const Styles = StyleSheet.create({
     },
     view:{
         flex: 1,
-        backgroundColor: '#121212'
+        backgroundColor: '#121212',
+        justifyContent: 'center'
     }
     
 

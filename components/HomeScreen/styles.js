@@ -3,9 +3,10 @@ import { backgroundColor } from "react-native/Libraries/Components/View/ReactNat
 
 const styles = StyleSheet.create({
     construct:{  
-        margin: 3.5,
         height: 150,
-        backgroundColor: '#121212'
+        backgroundColor: '#121212',
+        borderWidth: 3,
+        borderRadius: 20
       },
       
       mainImage:{
@@ -30,12 +31,7 @@ const styles = StyleSheet.create({
         fontSize: 15,
         color: 'white'
       },
-      border:{
-        borderRadius: 5,
-        width: '90%',
-        marginLeft: 20,  
-        
-      }
+      
 });
 
 export default styles;
