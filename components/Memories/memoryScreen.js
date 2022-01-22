@@ -5,7 +5,7 @@ import CollapsibleView from '@eliav2/react-native-collapsible-view';
 const memoryScreen = ({route}) => {
 
     const {icon, memoryName, rarity, star, Artwork, SetBonus, recommended, Story, Stats} = route.params;
-    const borderColor = rarity === '6'?  '#971948': '#E5BF8C'
+    const borderColor = rarity === '6'?  '#C9481E': '#CC7218'
 
     return(
         <View style={styles.container}>

@@ -8,7 +8,7 @@ import MyTabs from "./topTabBarNavigation";
 import { AbilityContext } from "./context"; 
 
 const AbilityPage = ({route, navigation}) => {
-    const {combat, construct_Image, construct_Name, construct_Model, construct_Rank, construct_Element, construct_Type, memories, weaponName, stats } = route.params;
+    const {combat, construct_Image, construct_Name, construct_Model, construct_Rank, construct_Element, construct_Type, memories, weapons, stats } = route.params;
     const colorOfBorder = construct_Rank === 'S' ? '#C04F15': construct_Rank === 'A' ? '#AC54B9': '#0794BE' ; 
 
     return(

@@ -10,9 +10,9 @@ export default [
     id: "1",
     stats: {
       HP: "1113",
-      Crit: "159",
+      Crit: "101",
       ATK: "223",
-      DEF: "101"
+      DEF: "159"
     },
     combat: {
       // orbs
@@ -95,8 +95,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Katana/LotusBerserker.png'),
+      WeaponType: 'Katana',
+      WeaponName: 'Lotus Berserker',
+      rarity: '6'
     },
   },
 
@@ -111,9 +113,9 @@ export default [
     id: "2",
     stats: {
       HP: "1247",
-      Crit: "185",
+      Crit: "101",
       ATK: "200",
-      DEF: "101"
+      DEF: "185"
     },
     combat: {
       // orbs
@@ -203,8 +205,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Saw/InverseChimera.png'),
+      WeaponType: 'Saw',
+      WeaponName: 'Inverse-Chimera',
+      rarity: '6'
     },
   },
 
@@ -219,9 +223,9 @@ export default [
     id: "3",
     stats: {
       HP: "1058",
-      Crit: "142",
+      Crit: "112",
       ATK: "223",
-      DEF: "112"
+      DEF: "142"
     },
     combat: {
       // orbs
@@ -309,8 +313,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/LeviGuns/TypeZero.png'),
+      WeaponType: 'LeviGuns',
+      WeaponName: 'TypeZero',
+      rarity: '6'
     },
   },
 
@@ -325,9 +331,9 @@ export default [
     id: "4",
     stats: {
       HP: "1590",
-      Crit: "227",
+      Crit: "144",
       ATK: "303",
-      DEF: "144"
+      DEF: "227"
     },
     combat: {
       // orbs
@@ -416,8 +422,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Katana/Inverse-Shadow.png'),
+      WeaponType: 'Katana',
+      WeaponName: 'Inverse Shadow',
+      rarity: '6'
     },
   },
   //Lux
@@ -431,9 +439,9 @@ export default [
     id: "15",
     stats: {
       HP: "1439",
-      Crit: "204",
+      Crit: "151",
       ATK: "303",
-      DEF: "151"
+      DEF: "204"
     },
     combat: {
       // orbs
@@ -521,8 +529,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/LeviGuns/Benediction.png'),
+      WeaponType: 'Levi Gun',
+      WeaponName: 'Benediction',
+      rarity: '6'
     },
   },
 
@@ -537,9 +547,9 @@ export default [
     id: "5",
     stats: {
       HP: "1439",
-      Crit: "193",
+      Crit: "151",
       ATK: "318",
-      DEF: "151"
+      DEF: "193"
     },
     combat: {
       // orbs
@@ -629,8 +639,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/DualGuns/WolfFang.png'),
+      WeaponType: 'DualGuns',
+      WeaponName: 'WolfFang',
+      rarity: '6'
     },
   },
 
@@ -645,9 +657,9 @@ export default [
     id: "6",
     stats: {
       HP: "1515",
-      Crit: "204",
+      Crit: "159",
       ATK: "318",
-      DEF: "159"
+      DEF: "204"
     },
     combat: {
       // orbs
@@ -737,8 +749,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Dagger/SoulRipper.png'),
+      WeaponType: 'Dagger',
+      WeaponName: 'SoulRipper',
+      rarity: '6'
     },
   },
 
@@ -753,9 +767,9 @@ export default [
     id: "8",
     stats: {
       HP: "1212",
-      Crit: "182",
+      Crit: "166",
       ATK: "334",
-      DEF: "166"
+      DEF: "182"
     },
     combat: {
       // orbs
@@ -841,8 +855,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Bow/Ramiel.png'),
+      WeaponType: 'Bow',
+      WeaponName: 'Ramiel',
+      rarity: '6'
     },
   },
 
@@ -857,9 +873,9 @@ export default [
     id: "7",
     stats: {
       HP: "1515",
-      Crit: "216",
+      Crit: "151",
       ATK: "318",
-      DEF: "151"
+      DEF: "216"
     },
     combat: {
       // orbs
@@ -947,8 +963,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Cannon/BerserkFusion.png'),
+      WeaponType: 'Cannon',
+      WeaponName: 'BerserkFusion',
+      rarity: '6'
     },
   },
 
@@ -963,9 +981,9 @@ export default [
     id: "33",
     stats: {
       HP: "1915",
-      Crit: "287",
+      Crit: "191",
       ATK: "383",
-      DEF: "191"
+      DEF: "287"
     },
     combat: {
       // orbs
@@ -1053,8 +1071,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/LeviGuns/DragonWind.png'),
+      WeaponType: 'LeviGuns',
+      WeaponName: 'DragonWind',
+      rarity: '6'
     },
   },
 
@@ -1069,9 +1089,9 @@ export default [
     id: "20",
     stats: {
       HP: "1915",
-      Crit: "244",
+      Crit: "201",
       ATK: "422",
-      DEF: "201"
+      DEF: "244"
     },
     combat: {
       // orbs
@@ -1161,8 +1181,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/DualGuns/ZeroScale.png'),
+      WeaponType: 'DualGuns',
+      WeaponName: 'ZeroScale',
+      rarity: '6'
     },
   },
 
@@ -1177,9 +1199,9 @@ export default [
     id: "21",
     stats: {
       HP: "1820",
-      Crit: "287",
+      Crit: "191",
       ATK: "403",
-      DEF: "191"
+      DEF: "287"
     },
     combat: {
       // orbs
@@ -1268,8 +1290,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Cannon/FusionDragon.png'),
+      WeaponType: 'Cannon',
+      WeaponName: 'FusionDragon',
+      rarity: '6'
     },
   },
 
@@ -1284,9 +1308,9 @@ export default [
     id: "27",
     stats: {
       HP: "2203",
-      Crit: "301",
+      Crit: "172",
       ATK: "364",
-      DEF: "172"
+      DEF: "301"
     },
     combat: {
       // orbs
@@ -1377,8 +1401,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Saw/HydroHeat.png'),
+      WeaponType: 'Saw',
+      WeaponName: 'HydroHeat',
+      rarity: '6'
     },
   },
 
@@ -1393,9 +1419,9 @@ export default [
     id: "28",
     stats: {
       HP: "2299",
-      Crit: "316",
+      Crit: "172",
       ATK: "344",
-      DEF: "172"
+      DEF: "316"
     },
     combat: {
       // orbs
@@ -1484,8 +1510,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Greatsword/Darkness.png'),
+      WeaponType: 'Greatsword',
+      WeaponName: 'Darkness',
+      rarity: '6'
     },
   },
 
@@ -1500,9 +1528,9 @@ export default [
     id: "22",
     stats: {
       HP: "1820",
-      Crit: "273",
+      Crit: "201",
       ATK: "421",
-      DEF: "201"
+      DEF: "273"
     },
     combat: {
       // orbs
@@ -1591,8 +1619,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Katana/Sakura.png'),
+      WeaponType: 'Katana',
+      WeaponName: 'Sakura',
+      rarity: '6'
     },
   },
   //   Bastion
@@ -1606,9 +1636,9 @@ export default [
     id: "10",
     stats: {
       HP: "1666",
-      Crit: "245",
+      Crit: "139",
       ATK: "272",
-      DEF: "139"
+      DEF: "245"
     },
     combat: {
       // orbs
@@ -1699,8 +1729,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Greatsword/BigKamui.png'),
+      WeaponType: 'Greatsword',
+      WeaponName: 'BigKamui',
+      rarity: '6'
     },
   },
 
@@ -1715,9 +1747,9 @@ export default [
     id: "9",
     stats: {
       HP: "1544",
-      Crit: "215",
+      Crit: "145",
       ATK: "345",
-      DEF: "145"
+      DEF: "215"
     },
     combat: {
       // orbs
@@ -1807,8 +1839,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Dagger/Peacemaker.png'),
+      WeaponType: 'Dagger',
+      WeaponName: 'Peacemaker',
+      rarity: '6'
     },
   },
 
@@ -1823,9 +1857,9 @@ export default [
     id: "11",
     stats: {
       HP: "1636",
-      Crit: "250",
+      Crit: "139",
       ATK: "272",
-      DEF: "139"
+      DEF: "250"
     },
     combat: {
       // orbs
@@ -1916,8 +1950,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Scythe/PurplePeony.png'),
+      WeaponType: 'Scythe',
+      WeaponName: 'PurplePeony',
+      rarity: '6'
     },
   },
 
@@ -1932,9 +1968,9 @@ export default [
     id: "23",
     stats: {
       HP: "1212",
-      Crit: "182",
+      Crit: "166",
       ATK: "334",
-      DEF: "166"
+      DEF: "182"
     },
     combat: {
       // orbs
@@ -2024,8 +2060,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Bow/Tonitrus.png'),
+      WeaponType: 'Bow',
+      WeaponName: 'Tonitrus',
+      rarity: '6'
     },
   },
 
@@ -2040,9 +2078,9 @@ export default [
     id: "16",
     stats: {
       HP: "1515",
-      Crit: "227",
+      Crit: "144",
       ATK: "288",
-      DEF: "144"
+      DEF: "227"
     },
     combat: {
       // orbs
@@ -2131,8 +2169,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/DualGuns/Scion.png'),
+      WeaponType: 'DualGuns',
+      WeaponName: 'Scion',
+      rarity: '6'
     },
   },
 
@@ -2147,9 +2187,9 @@ export default [
     id: "12",
     stats: {
       HP: "1590",
-      Crit: "238",
+      Crit: "144",
       ATK: "288",
-      DEF: "144"
+      DEF: "238"
     },
     combat: {
       // orbs
@@ -2239,8 +2279,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Scythe/StElmo.png'),
+      WeaponType: 'Scythe',
+      WeaponName: 'StElmo',
+      rarity: '6'
     },
   },
 
@@ -2254,10 +2296,10 @@ export default [
     construct_Element: "Physical (20%) Ice (80%)",
     id: "24",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1954",
+      Crit: "183",
+      ATK: "421",
+      DEF: "292"
     },
     combat: {
       // orbs
@@ -2347,8 +2389,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Katana/CrimsonBirch.png'),
+      WeaponType: 'Katana',
+      WeaponName: 'CrimsonBirch',
+      rarity: '6'
     },
   },
 
@@ -2362,10 +2406,10 @@ export default [
     construct_Element: "Physical (20%) Physical (80%)",
     id: "17",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1515",
+      Crit: "144",
+      ATK: "294",
+      DEF: "222"
     },
     combat: {
       // orbs
@@ -2452,8 +2496,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Katana/Sariel.png'),
+      WeaponType: 'Katana',
+      WeaponName: 'Sariel',
+      rarity: '6'
     },
   },
 
@@ -2467,10 +2513,10 @@ export default [
     construct_Element: "Physical (100%)",
     id: "29",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "2107",
+      Crit: "172",
+      ATK: "402",
+      DEF: "302"
     },
     combat: {
       // orbs
@@ -2558,8 +2604,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/SpearShield/Gungnir.png'),
+      WeaponType: 'SpearShield',
+      WeaponName: 'Gungnir',
+      rarity: '6'
     },
   },
 
@@ -2573,10 +2621,10 @@ export default [
     construct_Element: "Physical (20%) Ice (80%)",
     id: "13",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1545",
+      Crit: "141",
+      ATK: "288",
+      DEF: "227"
     },
     combat: {
       // orbs
@@ -2665,8 +2713,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Gauntlet/Baji.png'),
+      WeaponType: 'Gauntlet',
+      WeaponName: 'Baji',
+      rarity: '6'
     },
   },
 
@@ -2680,10 +2730,10 @@ export default [
     construct_Element: "Physical (10%) Dark (90%)",
     id: "25",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1992",
+      Crit: "198",
+      ATK: "386",
+      DEF: "288"
     },
     combat: {
       // orbs
@@ -2771,8 +2821,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Amplifier/Ozma.png'),
+      WeaponType: 'Amplifier',
+      WeaponName: 'Ozma',
+      rarity: '6'
     },
   },
 
@@ -2786,10 +2838,10 @@ export default [
     construct_Element: "Physical (100%)",
     id: "26",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1915",
+      Crit: "201",
+      ATK: "402",
+      DEF: "287"
     },
     combat: {
       // orbs
@@ -2878,8 +2930,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/NierAutomata/VirtuousContractKai.png'),
+      WeaponType: 'NierAutomata',
+      WeaponName: 'VirtuousContractKai',
+      rarity: '6'
     },
   },
 
@@ -2893,10 +2947,10 @@ export default [
     construct_Element: "Physical (100%)",
     id: "34",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1973",
+      Crit: "176",
+      ATK: "364",
+      DEF: "287"
     },
     combat: {
       // orbs
@@ -2985,8 +3039,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/NierAutomata/CruelOathKai.png'),
+      WeaponType: 'NierAutomata',
+      WeaponName: 'CruelOathKai',
+      rarity: '6'
     },
   },
 
@@ -3000,10 +3056,10 @@ export default [
     construct_Element: "Physical (100%)",
     id: "30",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1973",
+      Crit: "193",
+      ATK: "364",
+      DEF: "295"
     },
     combat: {
       // orbs
@@ -3093,8 +3149,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/NierAutomata/Type4OLanceKai.png'),
+      WeaponType: 'NierAutomata',
+      WeaponName: 'Type40LanceKai',
+      rarity: '6'
     },
   },
 
@@ -3108,10 +3166,10 @@ export default [
     construct_Element: "Physical (20%) Ice (80%)",
     id: "18",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1514",
+      Crit: "151",
+      ATK: "291",
+      DEF: "213"
     },
     combat: {
       // orbs
@@ -3198,8 +3256,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Rifle/Auncel.png'),
+      WeaponType: 'Rifle',
+      WeaponName: 'Auncel',
+      rarity: '6'
     },
   },
 
@@ -3213,10 +3273,10 @@ export default [
     construct_Element: "Physical (20%) Ice (80%)",
     id: "31",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "2164",
+      Crit: "182",
+      ATK: "395",
+      DEF: "298"
     },
     combat: {
       // orbs
@@ -3306,8 +3366,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/Gunblade/Apollo.png'),
+      WeaponType: 'Gunblade',
+      WeaponName: 'Apollo',
+      rarity: '6'
     },
   },
 
@@ -3321,10 +3383,10 @@ export default [
     construct_Element: "Physical (20%) Dark (80%)",
     id: "14",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1560",
+      Crit: "232",
+      ATK: "294",
+      DEF: "138"
     },
     combat: {
       // orbs
@@ -3414,8 +3476,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/CollabBot/Growl.png'),
+      WeaponType: 'CollabBot',
+      WeaponName: 'Growl',
+      rarity: '6'
     },
   },
 
@@ -3429,10 +3493,10 @@ export default [
     construct_Element: "Physical (15%) Lightning (85%)",
     id: "32",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "2126",
+      Crit: "172",
+      ATK: "398",
+      DEF: "301"
     },
     combat: {
       // orbs
@@ -3522,8 +3586,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/BannerSpear/Phoenix.png'),
+      WeaponType: 'BannerSpear',
+      WeaponName: 'Phoenix',
+      rarity: '6'
     },
   },
 
@@ -3537,10 +3603,10 @@ export default [
     construct_Element: "Physical (10%) Fire (90%)",
     id: "35",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "2011",
+      Crit: "191",
+      ATK: "403",
+      DEF: "287"
     },
     combat: {
       // orbs
@@ -3630,8 +3696,10 @@ export default [
       },
     },
     weapons: {
-      Attackerapon1: "weapon1",
-      weapon2: "weapon2",
+      AttackWeaponIcon: require('../../assets/Images/Weapons/Scepter/Hestia.png'),
+      WeaponType: 'Scepter',
+      WeaponName: 'Hestia',
+      rarity: '6'
     },
   },
 
@@ -3645,10 +3713,10 @@ export default [
     construct_Element: "Physical (10%) Dark (90%)",
     id: "36",
     stats: {
-      HP: "",
-      Crit: "",
-      ATK: "",
-      DEF: ""
+      HP: "1973",
+      Crit: "195",
+      ATK: "409",
+      DEF: "281"
     },
     combat: {
       // orbs
@@ -3737,8 +3805,10 @@ export default [
       },
     },
     weapons: {
-      weapon1: "weapon1",
-      weapon2: "weapon2",
+      WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
+      WeaponType: 'FluteSword',
+      WeaponName: 'Sarastro',
+      rarity: '6'
     },
   },
 ];

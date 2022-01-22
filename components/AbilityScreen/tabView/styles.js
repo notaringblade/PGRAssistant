@@ -5,7 +5,8 @@ const styles = StyleSheet.create({
     collapsedView:{
         // borderColor: '#F2F2F2',
         borderRadius: 20,
-        borderWidth: 3
+        borderWidth: 3,
+        
     },
     titleText:{
         color: '#F2F2F2',
@@ -20,9 +21,7 @@ const styles = StyleSheet.create({
     },
 
     itemDescription:{
-        color: '#F2F2F2',
-        marginLeft: 90,
-        marginTop: -30
+        color: 'white',
     },
     abilityIcon:{
         height: 90,
@@ -30,6 +29,11 @@ const styles = StyleSheet.create({
         width: 80,
         resizeMode: 'contain',
     },
+    itemView:{
+        paddingLeft: 125,
+        paddingTop: 30,
+        position: 'absolute',
+    }
     
 })
 

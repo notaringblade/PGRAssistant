@@ -15,7 +15,6 @@ function MyTabs() {
   return (
     <Tab.Navigator mode="modal"
       screenOptions={{
-          lazy : true,
         tabBarActiveTintColor: '#D9D9D9',
         tabBarLabelStyle: { fontSize: 12 },
         tabBarStyle: { backgroundColor: '#121212', minHeight: 30, },

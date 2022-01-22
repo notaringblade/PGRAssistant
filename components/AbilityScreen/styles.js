@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
 
     constructMiniDesc:{
-        height: '20%',
+        height: 150,
         borderWidth: 3,
         width: '100%',
         borderRadius: 20,

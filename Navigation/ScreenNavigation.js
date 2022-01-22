@@ -7,6 +7,8 @@ import { View } from "react-native";
 import Weapons from "../components/Weapons/index";
 import memoryPage from "../components/Memories/memoryPage";
 import memoryScreen from "../components/Memories/memoryScreen";
+import WeaponListDisplay from "../components/Weapons/weaponListDisplay";
+
 
 const Stack = createNativeStackNavigator();
 
@@ -27,14 +29,15 @@ export default function Navigator() {
               title: "",
               headerStyle: {
                 backgroundColor: "#121212",
+                height: 80
               },
               headerTintColor: "white",
             }}
           />
 
           <Stack.Screen
-            name="Weapons"
-            component={Weapons}
+            name="WeaponScreen"
+            component={WeaponListDisplay}
             options={{
               title: "Weapons",
               headerStyle: { backgroundColor: "#121212", height: 80 },

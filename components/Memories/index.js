@@ -7,7 +7,7 @@ const memories = (props) =>{
     const {icon, memoryName, rarity, star} = props.memory;
     const navigation = useNavigation();
 
-    const borderColor = rarity === '6'?  '#971948': '#E5BF8C'
+    const borderColor = rarity === '6'?  '#C9481E': '#CC7218'
     const onClick = () =>{
         navigation.navigate('MemoryScreen', props.memory)
    }
