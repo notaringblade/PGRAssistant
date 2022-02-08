@@ -2,7 +2,6 @@ import React from "react";
 import {View, TouchableWithoutFeedback, Text, FlatList, Image} from 'react-native';
 import styles from './styles';
 import { useNavigation } from "@react-navigation/native";
-import { LinearGradient } from "expo-linear-gradient";
 
 const HomeScreen = (props) => {
     const {construct_Name, construct_Model, construct_Rank, construct_Image, memories} = props.construct;

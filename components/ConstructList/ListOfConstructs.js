@@ -3696,7 +3696,7 @@ export default [
       },
     },
     weapons: {
-      AttackWeaponIcon: require('../../assets/Images/Weapons/Scepter/Hestia.png'),
+      WeaponIcon: require('../../assets/Images/Weapons/Scepter/Hestia.png'),
       WeaponType: 'Scepter',
       WeaponName: 'Hestia',
       rarity: '6'
