@@ -6,13 +6,14 @@ import Memories from '../components/Memories/index';
 import memoryPage from '../components/Memories/memoryPage';
 import WeaponListDisplay from "../components/Weapons/weaponListDisplay";
 import EventsIndex from "../components/Events/index";
+import CustomDrawer from "./CustomDrawer";
 
 
 const Drawer = createDrawerNavigator();
 
 function myDraw(){
     return(
-        <Drawer.Navigator screenOptions={{drawerType: 'slide'}, {drawerStyle: {backgroundColor: '#121212'}, drawerLabelStyle: {color: 'white'}}} >
+        <Drawer.Navigator drawerContent={props => <CustomDrawer {...props} />} screenOptions={{drawerType: 'slide'}, {drawerStyle: {backgroundColor: '#121212'}, drawerLabelStyle: {color: 'white'}}} >
             <Drawer.Screen name="ConstructsDrawer" component={zFilterViews} 
             options={{title: 'Constructs', 
                       headerStyle: { backgroundColor: '#121212', height: 80},

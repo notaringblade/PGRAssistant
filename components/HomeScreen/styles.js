@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
       info:{
         width:'100%',
         marginLeft: 110,
-        marginTop: 40,
+        marginTop: 30,
       },
       characterName:{
         fontSize: 20,

@@ -46,6 +46,12 @@ const memoryScreen = ({route}) => {
                     </Text>
             </CollapsibleView>
 
+            <CollapsibleView title={<Text style={styles.titleText}>6-Piece Set Effect</Text>} style={styles.collapsedView} initExpanded={true} noArrow={true} >
+                    <Text style={[styles.titleText, {fontSize: 14, paddingLeft: 5, paddingTop: 5}]}>
+                        {SetBonus.sixPiece}
+                    </Text>
+            </CollapsibleView>
+
             <CollapsibleView title={<Text style={styles.titleText}>Artwork</Text>} style={styles.collapsedView} initExpanded={false} noArrow={true} >
                    <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
                         <Text style={{color: 'white', fontSize: 15, paddingTop: 10}}>1 / 4</Text>
@@ -97,7 +103,7 @@ const styles = StyleSheet.create ({
         width: '100%',
         position: 'absolute',
         resizeMode: 'contain',
-        marginLeft: '55%',
+        marginLeft: '50%',
     },
     memoryName:{
         fontSize: 18,

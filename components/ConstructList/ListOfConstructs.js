@@ -1,6 +1,7 @@
 export default [
   //Lotus
   {
+    construct_Battle: 'Construct',
     construct_Name: "Lucia ",
     construct_Model: "Lotus",
     construct_Rank: "B",
@@ -104,6 +105,7 @@ export default [
 
   //Storm
   {
+    construct_Battle: 'Construct',
     construct_Name: "Nanami ",
     construct_Model: "Storm",
     construct_Rank: "B",
@@ -214,6 +216,7 @@ export default [
 
   //Eclipse
   {
+    construct_Battle: 'Construct',
     construct_Name: "Liv ",
     construct_Model: "Eclipse",
     construct_Rank: "B",
@@ -322,6 +325,7 @@ export default [
 
   // Dawn
   {
+    construct_Battle: 'Construct',
     construct_Name: "Lucia ",
     construct_Model: "Dawn",
     construct_Rank: "A",
@@ -430,6 +434,7 @@ export default [
   },
   //Lux
   {
+    construct_Battle: 'Construct',
     construct_Name: "Liv ",
     construct_Model: "Lux",
     construct_Rank: "A",
@@ -538,6 +543,7 @@ export default [
 
   //Palefire
   {
+    construct_Battle: 'Construct',
     construct_Name: "Lee ",
     construct_Model: "Palefire",
     construct_Rank: "A",
@@ -648,6 +654,7 @@ export default [
 
   //Nightblade
   {
+    construct_Battle: 'Construct',
     construct_Name: "Watanabe ",
     construct_Model: "Nightblade",
     construct_Rank: "A",
@@ -758,6 +765,7 @@ export default [
 
   //Zero
   {
+    construct_Battle: 'Construct',
     construct_Name: "Bianca ",
     construct_Model: "Zero",
     construct_Rank: "A",
@@ -864,6 +872,7 @@ export default [
 
   //Blast
   {
+    construct_Battle: 'Construct',
     construct_Name: "Karenina ",
     construct_Model: "Blast",
     construct_Rank: "A",
@@ -972,6 +981,7 @@ export default [
 
   //Luminance
   {
+    construct_Battle: 'Construct',
     construct_Name: "Liv ",
     construct_Model: "Luminance",
     construct_Rank: "S",
@@ -1080,6 +1090,7 @@ export default [
 
   //Entropy
   {
+    construct_Battle: 'Construct',
     construct_Name: "Lee ",
     construct_Model: "Entropy",
     construct_Rank: "S",
@@ -1190,6 +1201,7 @@ export default [
 
   //Ember
   {
+    construct_Battle: 'Construct',
     construct_Name: "Karenina ",
     construct_Model: "Ember",
     construct_Rank: "S",
@@ -1299,6 +1311,7 @@ export default [
 
   //Pulse
   {
+    construct_Battle: 'Construct',
     construct_Name: "Nanami ",
     construct_Model: "Pulse",
     construct_Rank: "S",
@@ -1410,6 +1423,7 @@ export default [
 
   //Tenebrion
   {
+    construct_Battle: 'Construct',
     construct_Name: "Kamui ",
     construct_Model: "Tenebrion",
     construct_Rank: "S",
@@ -1519,6 +1533,7 @@ export default [
 
   //Crimson Abyss
   {
+    construct_Battle: 'Construct',
     construct_Name: "Lucia ",
     construct_Model: "Crimson Abyss",
     construct_Rank: "S",
@@ -1627,6 +1642,7 @@ export default [
   },
   //   Bastion
   {
+    construct_Battle: 'Construct',
     construct_Name: "Kamui ",
     construct_Model: "Bastion",
     construct_Rank: "A",
@@ -1738,6 +1754,7 @@ export default [
 
   //Astral
   {
+    construct_Battle: 'Construct',
     construct_Name: "Watanabe ",
     construct_Model: "Astral",
     construct_Rank: "A",
@@ -1848,6 +1865,7 @@ export default [
 
   //Brilliance
   {
+    construct_Battle: 'Construct',
     construct_Name: "Ayla ",
     construct_Model: "Brilliance",
     construct_Rank: "A",
@@ -1959,6 +1977,7 @@ export default [
 
   //Veritas
   {
+    construct_Battle: 'Construct',
     construct_Name: "Bianca ",
     construct_Model: "Veritas",
     construct_Rank: "S",
@@ -2069,6 +2088,7 @@ export default [
 
   //Silverfang
   {
+    construct_Battle: 'Construct',
     construct_Name: "Sophia ",
     construct_Model: "Silverfang",
     construct_Rank: "A",
@@ -2178,6 +2198,7 @@ export default [
 
   //Arclight
   { 
+    construct_Battle: 'Construct',
     construct_Name: "Chrome ",
     construct_Model: "Arclight",
     construct_Rank: "A",
@@ -2288,6 +2309,7 @@ export default [
 
   //Plume
   {
+    construct_Battle: 'Construct',
     construct_Name: "Lucia ",
     construct_Model: "Plume",
     construct_Rank: "S",
@@ -2398,6 +2420,7 @@ export default [
 
   //Rozen
   {
+    construct_Battle: 'Construct',
     construct_Name: "Vera ",
     construct_Model: "Rozen",
     construct_Rank: "A",
@@ -2503,8 +2526,118 @@ export default [
     },
   },
 
+  //Crocotta
+  {
+    construct_Battle: 'Transcendant',
+      construct_Name: "Camu ",
+      construct_Model: "Crocotta",
+      construct_Rank: "S",
+      construct_Image: require("../../assets/Images/Crocotta/Construct_Crocotta.png"),
+      construct_Type: "Vanguard",
+      construct_Element: "Physical (20%) Dark (80%)",
+      id: "37",
+      stats: {
+        HP: "1954",
+        Crit: "192",
+        ATK: "433",
+        DEF: "274"
+      },
+      combat: {
+        // orbs
+        redPingIcon: require("../../assets/Images/Crocotta/RedOrb.png"),
+        redPing:
+          "Spins and slashes nearby enemies, then knocks them into the air, dealing 2 hits for 300% / 600% / 900% Physical DMG in total based on the number of orbs pinged (Dark DMG instead on a 3-Ping).\n\n Berserk Mode: Launches 2 swift attacks that deal 520% Dark DMG in total and a heavy attack that deals 520% Dark DMG.",
+  
+        yellowPingIcon: require("../../assets/Images/Crocotta/YellowOrb.png"),
+        yellowPing:
+          "Dashes forward and slashes the enemies twice, dealing 280% / 560% / 840% Physical DMG in total based on the number of orbs pinged (Dark DMG instead on a 3-Ping).\n\n Berserk Mode: Teleports to an enemy and deals 360% Dark DMG, then conjures spikes from the ground to deal 600% Dark DMG.",
+  
+        bluePingIcon: require("../../assets/Images/Crocotta/BlueOrb.png"),
+        bluePing:
+          "Interrupts enemy attacks instantly, dealing 270% / 540% / 810% area Physical DMG based on the number of orbs pinged (Dark DMG instead on a 3-Ping) and gaining a shield equal to 5% / 10% / 15% of maximum HP for 5s.\n\n Berserk Mode: Pulls the enemy to the front, dealing 2 hits for 920% Dark DMG in total.",
+  
+        // Skills
+        basicAttack:
+          "Launches consecutive attacks that deal 800% Physical DMG in total.\n Berserk mode: Launches swift attacks that deal 1240% Dark DMG in total.",
+        basicAttackIcon: require("../../assets/Images/Crocotta/BasicAttack.png"),
+  
+        signature:
+          "Signature move: Costs 80 energy to enter Berserk Mode (immune to DMG during this moment).\n When in Berserk mode, a Dark Impulse gauge will appear. Camu gains Super Armor and Dark DMG increases by 20%.\n Red, Yellow, and Blue Signal Orbs are replaced by special ones.\n Only 1 orb of each color exists at a time. Each ping is treated as a 3-Ping. Pinged orbs (3 orbs at most) will regenerate in 2s.\nExcept in Matrix, Dark Impulse will be consumed over time and whenever it nullifies DMG taken by Camu. When it is emptied, Camu exits Berserk mode.",
+        signatureIcon: require("../../assets/Images/Crocotta/Signature.png"),
+  
+        qte: "QTE: Charges at the enemy and claws them for 640% Dark DMG in total.",
+        qteIcon: require("../../assets/Images/QTE.png"),
+  
+        class:
+          "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        classIcon: require("../../assets/Images/Amplifier.png"),
+  
+        awakening: "Gains 3 Signal Orbs when entering battle.",
+        awakeningIcon: require("../../assets/Images/Awakening.png"),
+  
+        //Passives
+        core: "Core Passive: Any 3-ping in the normal mode will accumulate Madness (up to 3 stacks.) Once Camu reaches full Madness, he will gain 8 Energy from any 3-Ping.\n When he enters the Berserk mode, he will consume all Madness stacks and gain 6% / 12% / 20% DMG bonus based on the number of Madness stacks consumed.",
+        coreIcon: require("../../assets/Images/Crocotta/Core.png"),
+  
+        leader: "All members' Dark DMG increases by 10%. ATK of Vanguard Transcendants increases by 5%.",
+        leaderIcon: require("../../assets/Images/Crocotta/Leader.png"),
+  
+        ssRank:
+          "Passive: When pinging Yellow Orbs, Extra DMG Bonus increases by 10% for 8s.",
+        ssRankIcon: require("../../assets/Images/Crocotta/SS.png"),
+  
+        sssRank:
+          "Passive: When in Berserk mode, Extra DMG Bonus increases by 15%. At the start of the battle, gains 80 Energy and 3 stacks of Madness.",
+        sssRankIcon: require("../../assets/Images/Crocotta/SSS.png"),
+  
+        sssPlusRank:
+          "Passive: DMG of 3-Ping skills increases by 20%.",
+        sssPlusRankIcon: require("../../assets/Images/Crocotta/SSSPlus.png"),
+        hiddenSkill: "Any 3-ping in the normal mode will accumulate Madness (up to 3 stacks). Once Camu reaches full Madness, he will gain bonus energy from any 3-ping. When he enters the Berserk mode, he will consume all Madness stacks and gain damage bonus based on the number of Madness stacks consumed.",
+        hiddenSkillIcon: require("../../assets/Images/Crocotta/SSSPlus.png"),
+      },
+      memories: {
+        set1:{
+          set1Name: "General",
+          image1: require('../../assets/Images/Memories/Koya/image1.png'),
+          memory1: 'Koya',
+          image2: require('../../assets/Images/Memories/Koya/image2.png'),
+          memory2: 'Koya',
+          image3: require('../../assets/Images/Memories/Koya/image3.png'),
+          memory3: 'Koya',
+          image4: require('../../assets/Images/Memories/Koya/image1.png'),
+          memory4: 'Koya',
+          image5: require('../../assets/Images/Memories/Koya/image2.png'),
+          memory5: 'Koya',
+          image6: require('../../assets/Images/Memories/Koya/image3.png'),
+          memory6: 'Koya',
+        },
+        set2: {
+          set2Name: "5 Star",
+          image1: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory1: 'Boudica',
+          image2: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory2: 'Boudica',
+          image3: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory3: 'Boudica',
+          image4: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory4: 'Boudica',
+          image5: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory5: 'Boudica',
+          image6: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory6: 'Boudica',
+        },
+      },
+      weapons: {
+        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
+        WeaponType: 'FluteSword',
+        WeaponName: 'Sarastro',
+        rarity: '6'
+      },
+  },
   //Arctic
   {
+    construct_Battle: 'Construct',
     construct_Name: "Rosetta ",
     construct_Model: "Arctic",
     construct_Rank: "S",
@@ -2613,6 +2746,7 @@ export default [
 
   //Kirin
   {
+    construct_Battle: 'Construct',
     construct_Name: "Chang Yu ",
     construct_Model: "Kirin",
     construct_Rank: "A",
@@ -2720,8 +2854,119 @@ export default [
     },
   },
 
+  //Peafowl
+  {
+    construct_Battle: 'Transcendant',
+      construct_Name: "Qu ",
+      construct_Model: "Peafowl's Plume",
+      construct_Rank: "S",
+      construct_Image: require("../../assets/Images/Peafowl/Construct_Peafowl.png"),
+      construct_Type: "Vanguard",
+      construct_Element: "Physical (100%)",
+      id: "38",
+      stats: {
+        HP: "1915",
+        Crit: "197",
+        ATK: "409",
+        DEF: "288"
+      },
+      combat: {
+        // orbs
+        redPingIcon: require("../../assets/Images/Peafowl/RedOrb.png"),
+        redPing:
+          "Leaps forward and slashes for 80% / 160% / 240% Physical DMG, causing a fissure and dealing 200% / 400% / 600% Physical DMG. Gains Super Armor during the move.",
+  
+        yellowPingIcon: require("../../assets/Images/Peafowl/YellowOrb.png"),
+        yellowPing:
+          "Unleashes a 3-hit combo when target is within range, dealing a total of 270% / 540% / 810% Physical DMG. Goes into a sprint when target is far away or when there are no targets present. Performs 3-hit combo when the sprint ends or when Basic Attack button is pressed. The colour of the display circle on the ground changes according to the distance from the target. Gains Super Armor during the move.",
+  
+        bluePingIcon: require("../../assets/Images/Peafowl/BlueOrb.png"),
+        bluePing:
+          "Performs 2 sweeping attacks, dealing 260% / 520% / 780% Physical DMG and gains Super Armor for 3 seconds. Can break out of incoming attacks.",
+  
+        // Skills
+        basicAttack:
+          "Basic Attack: Continuously attacks with the polearm, dealing a total of 750% Physical DMG.",
+        basicAttackIcon: require("../../assets/Images/Peafowl/BasicAttack.png"),
+  
+        signature:
+          "Signature Move: Costs 100 Energy. Summons Huiyu and performs a combination attack, dealing a total of 1400% Physical DMG and gains 60 Homology points, entering Condensed form. Huiyu will continue attacking for 7 seconds, dealing a total of 2240% Physical DMG with the locked-on target as priority. Signature Move cannot be activated again while Huiyu is present.",
+        signatureIcon: require("../../assets/Images/Peafowl/Signature.png"),
+  
+        qte: "QTE: Flashes into the air and unleashes 2 shockwaves towards the target's direction, dealing a total of 640% Physical DMG.",
+        qteIcon: require("../../assets/Images/QTE.png"),
+  
+        class:
+          "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        classIcon: require("../../assets/Images/Amplifier.png"),
+  
+        awakening: "Gains 3 Signal Orbs when entering battle.",
+        awakeningIcon: require("../../assets/Images/Awakening.png"),
+  
+        //Passives
+        core: "Core Passive: Attack increases by 80% in Catastrophe Zones. Gains 10 Homology points for each orb expended, up to 60 points. Orbs are enhanced when the gauge is full. Character will enter Condensed form when expending any orb after that.\n Enhanced Orbs: Can only be expended 1 at a time. Expending orbs count as a 3-Ping and triggers Condensed Effect, consuming 20 Homology points and Energy will not be generated. During Condensed form, the gauge drains at 5 points per second. Exits the form when the gauge is empty; Enhanced Orb effect is cancelled.\n\n Condensed Red: Strikes the ground, dealing a total of 450% Physical DMG.\n Condensed Yellow: Unleashes a shockwave ahead, dealing 480% Physical DMG.\n Condensed Blue: Unleashes an accompanying whirlwind, dealing 480% Physical DMG to nearby targets.",
+        coreIcon: require("../../assets/Images/Peafowl/Core.png"),
+  
+        leader: "All team members' Physical DMG increases by 10%, Attack of Vanguards increases by 5%.",
+        leaderIcon: require("../../assets/Images/Peafowl/Leader.png"),
+  
+        ssRank:
+          "Passive: Basic Attack DMG increases by 10%, Condensed Effect DMG increases by 5%",
+        ssRankIcon: require("../../assets/Images/Peafowl/SS.png"),
+  
+        sssRank:
+          "Passive: Gain 100 Energy at the start of battle. Physical DMG increases by 10% for 8 seconds after triggering Signature Move.",
+        sssRankIcon: require("../../assets/Images/Peafowl/SSS.png"),
+  
+        sssPlusRank:
+          "Passive: Huiyu's DMG increases by 25%.",
+        sssPlusRankIcon: require("../../assets/Images/Peafowl/SSSPlus.png"),
+        hiddenSkill: "See: Core",
+        hiddenSkillIcon: require("../../assets/Images/Peafowl/SSSPlus.png"),
+      },
+      memories: {
+        set1:{
+          set1Name: "General",
+          image1: require('../../assets/Images/Memories/WuAnjun/image1.png'),
+          memory1: 'Wu Anjun',
+          image2: require('../../assets/Images/Memories/WuAnjun/image2.png'),
+          memory2: 'Wu Anjun',
+          image3: require('../../assets/Images/Memories/WuAnjun/image3.png'),
+          memory3: 'Wu Anjun',
+          image4: require('../../assets/Images/Memories/WuAnjun/image1.png'),
+          memory4: 'Wu Anjun',
+          image5: require('../../assets/Images/Memories/WuAnjun/image2.png'),
+          memory5: 'Wu Anjun',
+          image6: require('../../assets/Images/Memories/WuAnjun/image3.png'),
+          memory6: 'Wu Anjun',
+        },
+        set2: {
+          set2Name: "5 Star",
+          image1: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory1: 'Boudica',
+          image2: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory2: 'Boudica',
+          image3: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory3: 'Boudica',
+          image4: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory4: 'Boudica',
+          image5: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory5: 'Boudica',
+          image6: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory6: 'Boudica',
+        },
+      },
+      weapons: {
+        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
+        WeaponType: 'FluteSword',
+        WeaponName: 'Sarastro',
+        rarity: '6'
+      },
+  },
+
   //Laurel
   {
+    construct_Battle: 'Construct',
     construct_Name: "Luna ",
     construct_Model: "Laurel",
     construct_Rank: "S",
@@ -2830,6 +3075,7 @@ export default [
 
   //2b
   {
+    construct_Battle: 'Construct',
     construct_Name: "2B ",
     construct_Model: "Unknown",
     construct_Rank: "S",
@@ -2939,6 +3185,7 @@ export default [
 
   //9S
   {
+    construct_Battle: 'Construct',
     construct_Name: "9S ",
     construct_Model: "Unknown",
     construct_Rank: "S",
@@ -3048,6 +3295,7 @@ export default [
 
   //A2
   {
+    construct_Battle: 'Construct',
     construct_Name: "A2 ",
     construct_Model: "Unknown",
     construct_Rank: "S",
@@ -3158,6 +3406,7 @@ export default [
 
   //Fate
   {
+    construct_Battle: 'Construct',
     construct_Name: "Wanshi ",
     construct_Model: "Fate",
     construct_Rank: "A",
@@ -3263,8 +3512,119 @@ export default [
     },
   },
 
+  //Tempest
+  {
+    construct_Battle: 'Transcendant',
+      construct_Name: "Selena ",
+      construct_Model: "Tempest",
+      construct_Rank: "S",
+      construct_Image: require("../../assets/Images/Tempest/Construct_Tempest.png"),
+      construct_Type: "Vanguard",
+      construct_Element: "Physical (20%) Dark (80%)",
+      id: "39",
+      stats: {
+        HP: "1915",
+        Crit: "195",
+        ATK: "421",
+        DEF: "281"
+      },
+      combat: {
+        // orbs
+        redPingIcon: require("../../assets/Images/Tempest/RedOrb.png"),
+        redPing:
+          "Leaps and plunges the cello blade into the ground, summoning a lightning strike on the target, dealing 240% / 480% / 720% Lightning DMG.",
+  
+        yellowPingIcon: require("../../assets/Images/Tempest/YellowOrb.png"),
+        yellowPing:
+          "Attacks forward with the bow, dealing 240% / 480% / 720% Lightning DMG. Gains Super Armor during the move.",
+  
+        bluePingIcon: require("../../assets/Images/Tempest/BlueOrb.png"),
+        bluePing:
+          "Twirls backwards while leaving behind an electrical vortex, drawing enemies in and dealing 240% / 480% / 720% Lightning DMG.",
+  
+        // Skills
+        basicAttack:
+          "Basic Attack: Continuously attacks with the cello blade, dealing a total of 852% Physical DMG.",
+        basicAttackIcon: require("../../assets/Images/Tempest/BasicAttack.png"),
+  
+        signature:
+          "Signature Move: While Temperament is active, expend 60 Energy to enter Chaotic Sea of Memory state. Solo buff duration is renewed. Gains Staccato Orbs corresponding to the Temperament charge for 6 seconds, increasing Movement Speed by 30% and 50% DMG reduction. Basic Attacks or directly consuming Staccato Orbs will unleash sound waves, striking twice and dealing a total of 650% Lightning DMG. Exit Signature Move when all Staccato Orbs have been expended or when the duration has expired.",
+        signatureIcon: require("../../assets/Images/Tempest/Signature.png"),
+  
+        qte: "QTE: Swiftly attacks the target, dealing a total of 640% Lightning DMG.",
+        qteIcon: require("../../assets/Images/QTE.png"),
+  
+        class:
+          "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        classIcon: require("../../assets/Images/Amplifier.png"),
+  
+        awakening: "Gains 3 Signal Orbs when entering battle.",
+        awakeningIcon: require("../../assets/Images/Awakening.png"),
+  
+        //Passives
+        core: "Core Passive: Attack increases by 80% while in Catastrophe Zones. 3-Pings grant a Triad of the corresponding color. Expending orbs after that will trigger a Chord.\n Same Triad and Chord colors: Apply Concerto to the target: Deals 200% Lightning DMG and target's DMG is decreased by 30% for 8 seconds.\n Different Triad and Chord colors: Applies Solo to self: DMG increases by 20% for 8 seconds. Gains Temperament charges corresponding to the number of orbs expended to trigger Chord.",
+        coreIcon: require("../../assets/Images/Tempest/Core.png"),
+  
+        leader: "All team members' Lightning DMG increases by 10%, Attack of Vanguards increases by 5%.",
+        leaderIcon: require("../../assets/Images/Tempest/Leader.png"),
+  
+        ssRank:
+          "Passive: Lightning DMG increases by 10%. Concerto is converted into a 12 meter radius AOE around self.",
+        ssRankIcon: require("../../assets/Images/Tempest/SS.png"),
+  
+        sssRank:
+          "Passive: Solo and Concerto are triggered together when triggering a Chord. Solo DMG buff increases by 10%. Concerto DMG increases by 50%.",
+        sssRankIcon: require("../../assets/Images/Tempest/SSS.png"),
+  
+        sssPlusRank:
+          "Passive: Lightning DMG increases by 10%. Signature Move DMG increases by 20%.",
+        sssPlusRankIcon: require("../../assets/Images/Tempest/SSSPlus.png"),
+        hiddenSkill: "See: Core",
+        hiddenSkillIcon: require("../../assets/Images/Tempest/SSSPlus.png"),
+      },
+      memories: {
+        set1:{
+          set1Name: "General",
+          image1: require('../../assets/Images/Memories/Lurcezia/image1.png'),
+          memory1: 'Lurcezia',
+          image2: require('../../assets/Images/Memories/Lurcezia/image2.png'),
+          memory2: 'Lurcezia',
+          image3: require('../../assets/Images/Memories/Lurcezia/image3.png'),
+          memory3: 'Lurcezia',
+          image4: require('../../assets/Images/Memories/Lurcezia/image1.png'),
+          memory4: 'Lurcezia',
+          image5: require('../../assets/Images/Memories/Lurcezia/image2.png'),
+          memory5: 'Lurcezia',
+          image6: require('../../assets/Images/Memories/Lurcezia/image3.png'),
+          memory6: 'Lurcezia',
+        },
+        set2: {
+          set2Name: "5 Star",
+          image1: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory1: 'Boudica',
+          image2: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory2: 'Boudica',
+          image3: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory3: 'Boudica',
+          image4: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory4: 'Boudica',
+          image5: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory5: 'Boudica',
+          image6: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory6: 'Boudica',
+        },
+      },
+      weapons: {
+        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
+        WeaponType: 'FluteSword',
+        WeaponName: 'Sarastro',
+        rarity: '6'
+      },
+  },
+
   //Glory
   {
+    construct_Battle: 'Construct',
     construct_Name: "Chrome ",
     construct_Model: "Glory",
     construct_Rank: "S",
@@ -3375,6 +3735,7 @@ export default [
 
   //XXI
   {
+    construct_Battle: 'Construct',
     construct_Name: "21 ",
     construct_Model: "XXI",
     construct_Rank: "A",
@@ -3485,6 +3846,7 @@ export default [
 
   //Flare
   {
+    construct_Battle: 'Construct',
     construct_Name: "Vera ",
     construct_Model: "Flare",
     construct_Rank: "S",
@@ -3593,8 +3955,119 @@ export default [
     },
   },
 
+  //Theatrical
+  {
+    construct_Battle: 'Transcendant',
+      construct_Name: "Roland ",
+      construct_Model: "Theatrical Flame",
+      construct_Rank: "S",
+      construct_Image: require("../../assets/Images/Theatrical/Construct_Theatrical.png"),
+      construct_Type: "Vanguard",
+      construct_Element: "Physical (20%) Dark (80%)",
+      id: "40",
+      stats: {
+        HP: "1896",
+        Crit: "191",
+        ATK: "429",
+        DEF: "284"
+      },
+      combat: {
+        // orbs
+        redPingIcon: require("../../assets/Images/Theatrical/RedOrb.png"),
+        redPing:
+          "Stage-1: Quickly performs a downward slash and sweeping attack, dealing a total of 300% Fire DMG.\n Stage-2: With at least 30 points of Bluff gauge and before Stage-1 ends, tap on the Red Orb to trigger. Spins and slashes twice, dealing a total of 600% Fire DMG.\n Trick Climax mode: Unleashes a chaotic cyclone using the chain sword, dealing a total of 1260% Fire DMG and consumes 40 Trickery gauge. Gains Super Armor during the attack.",
+  
+        yellowPingIcon: require("../../assets/Images/Theatrical/YellowOrb.png"),
+        yellowPing:
+          "Stage-1: Lunges forward and strikes the target with the knee, dealing a total of 400% Fire DMG. Gains Super Armor during the attack.\n Stage-2: With at least 30 points of Bluff gauge and before Stage-1 ends, tap on the Yellow Orb to trigger. Performs a charged kick, generating a shockwave and dealing 410% Fire DMG and stuns for 2 seconds.\n\n Trick Climax mode: Performs two mid-air kicks, launching 2 fireballs at the target, dealing a total of 1170% Fire DMG and also stuns. Consumes 40 Trickery gauge. Gains Super Armor during the attack.",
+  
+        bluePingIcon: require("../../assets/Images/Theatrical/BlueOrb.png"),
+        bluePing:
+          "Stage-1: Fires an explosive round. The round detonates on impact, dealing 360% Fire DMG.\n Stage-2: With at least 30 points of Bluff gauge and before Stage-1 ends, tap on the Blue Orb to trigger. Fires an enhanced explosive round. The round detonates on impact and pulls targets together and detonates for the second time, dealing a total of 370% Fire DMG.\n\n Trick Climax mode: Shuffles forward and swings the chain sword multiple times, dealing a total of 1120% Fire AOE DMG and consumes 40 Trickery gauge. Gains Super Armor during the attack.",
+  
+        // Skills
+        basicAttack:
+          "Basic Attack: Performs multiple combos with the weapon, dealing a total of 570% Physical DMG. Tap on the white Signal Orb before combo 2/3/4 ends to perform Follow-Up 1/2/3.\n\n Follow-Up 1: Delusion: Turns around and slashes the target, followed by an upwards kick, dealing a total of 110% Physical DMG and generating 10 Bluff points.\nFollow-Up 2: Dazzling Blade: Lunges forward and performs a roundhouse attack multiple times, dealing a total of 135% Physical DMG and generating 20 Bluff points and gains Super Armor during the attack.\nFollow-Up 3: Tempered Chain: Spins around and leaps, attacking with both firearm and chain sword, dealing a total of 170% Physical DMG and generating 30 Bluff points. Trick Climax mode: Performs multiple combos with the flaming blade, dealing a total of 900% Fire DMG and consumes 25 Trickery.",
+        basicAttackIcon: require("../../assets/Images/Theatrical/BasicAttack.png"),
+  
+        signature:
+          "Signature Move: Costs 100 Energy. Performs multiple strikes by swinging the chain sword, dealing a total of 1600% Fire DMG. Enters Trick Climax mode and gains 150 Trickery gauge, while also granting 1 Blaze Orb. 5 Trickery is drained every second during Trick Climax. Basic Attack and Signal Orbs are enhanced. Trickery is drained further as they are performed. Exits Trick Climax mode when Trickery is drained. The Blaze Orb will also be removed.\nBlaze Orb: Fires multiple blazing projectiles ahead, dealing a total of 1100% Fire DMG and expends 1 Blaze Orb. Gains Super Armor during the attack.",
+        signatureIcon: require("../../assets/Images/Theatrical/Signature.png"),
+  
+        qte: "QTE: Emerges from mid-air and swings across the battlefield with the chain sword, firing 4 explosive rounds at the ground and dealing a total of 640% Fire DMG.",
+        qteIcon: require("../../assets/Images/QTE.png"),
+  
+        class:
+          "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        classIcon: require("../../assets/Images/Amplifier.png"),
+  
+        awakening: "Gains 3 Signal Orbs when entering battle.",
+        awakeningIcon: require("../../assets/Images/Awakening.png"),
+  
+        //Passives
+        core: "Core Passive: Attack increases by 80% in Catastrophe Zones. Basic Attack combo DMG rate is adjusted to 200%. Gain 10/20/30 Bluff points when performing Follow-Ups, up to a limit of 90 points. With at least 30 Bluff points, the Red, Yellow and Blue Orbs will be active. There are 2 stages when triggering them, each consuming 30 Bluff points and converted to 10 Signature Move Energy.\nFollow-Up Combo: Trigger the Follow-Up button within 1 second after performing a Basic Attack. When Matrix is triggered, the next Signal Orb will not consume Bluff or Trickery for 10 seconds. Basic Attacks will not generate Signal Orbs. Gains 60 Bluff points when switching out of battle. Signal Orbs obtained via other methods will be converted to 10 Bluff points of 5 Signature Move Energy, with Bluff points as priority.",
+        coreIcon: require("../../assets/Images/Theatrical/Core.png"),
+  
+        leader: "All team members' Fire DMG increases by 10%, Attack of Vanguards increases by 5%.",
+        leaderIcon: require("../../assets/Images/Theatrical/Leader.png"),
+  
+        ssRank:
+          "Passive: Signal Orb DMG during Normal mode increases by 15%. When triggering Matrix during Normal mode, gain an enhanced Signal Orb effect twice.",
+        ssRankIcon: require("../../assets/Images/Theatrical/SS.png"),
+  
+        sssRank:
+          "Passive: Bluff gauge limit increases by 60. Gains 30 Bluff points when entering the battlefield. Gains additional 5 Signature Move Energy when expending Signal Orbs in Normal mode. Signature Move additional DMG increases by 100%.",
+        sssRankIcon: require("../../assets/Images/Theatrical/SSS.png"),
+  
+        sssPlusRank:
+          "Passive: Fire DMG increases by 15% during Trick Climax. Signal Orb DMG increases by 30%. Matrix cooldown resets when triggering Signature Move.",
+        sssPlusRankIcon: require("../../assets/Images/Theatrical/SSSPlus.png"),
+        hiddenSkill: "See: Core",
+        hiddenSkillIcon: require("../../assets/Images/Theatrical/SSSPlus.png"),
+      },
+      memories: {
+        set1:{
+          set1Name: "General",
+          image1: require('../../assets/Images/Memories/Jack/image1.png'),
+          memory1: 'Jack',
+          image2: require('../../assets/Images/Memories/Jack/image2.png'),
+          memory2: 'Jack',
+          image3: require('../../assets/Images/Memories/Jack/image3.png'),
+          memory3: 'Jack',
+          image4: require('../../assets/Images/Memories/Jack/image1.png'),
+          memory4: 'Jack',
+          image5: require('../../assets/Images/Memories/Jack/image2.png'),
+          memory5: 'Jack',
+          image6: require('../../assets/Images/Memories/Jack/image3.png'),
+          memory6: 'Jack',
+        },
+        set2: {
+          set2Name: "5 Star",
+          image1: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory1: 'Boudica',
+          image2: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory2: 'Boudica',
+          image3: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory3: 'Boudica',
+          image4: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory4: 'Boudica',
+          image5: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory5: 'Boudica',
+          image6: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory6: 'Boudica',
+        },
+      },
+      weapons: {
+        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
+        WeaponType: 'FluteSword',
+        WeaponName: 'Sarastro',
+        rarity: '6'
+      },
+  },
+
   //Solaeter
   {
+    construct_Battle: 'Construct',
     construct_Name: "Liv ",
     construct_Model: "Solaeter",
     construct_Rank: "S",
@@ -3705,6 +4178,7 @@ export default [
 
   //Capriccio
   {
+    construct_Battle: 'Construct',
     construct_Name: "Selena ",
     construct_Model: "Capriccio",
     construct_Rank: "S",
@@ -3811,4 +4285,115 @@ export default [
       rarity: '6'
     },
   },
+
+   //Ornate
+   {
+    construct_Battle: 'Transcendant',
+      construct_Name: "Pulao ",
+      construct_Model: "Ornate Bell",
+      construct_Rank: "S",
+      construct_Image: require("../../assets/Images/Ornate/Construct_Ornate.png"),
+      construct_Type: "Vanguard",
+      construct_Element: "Physical (20%) Dark (80%)",
+      id: "41",
+      stats: {
+        HP: "1896",
+        Crit: "191",
+        ATK: "429",
+        DEF: "284"
+      },
+      combat: {
+        // orbs
+        redPingIcon: require("../../assets/Images/Ornate/RedOrb.png"),
+        redPing:
+          "Perform a roundhouse kick, dealing 230%/460%/690% Physical damage.\nStriking the Dragon Maelstrom will consume 25 Dragon Force and triggers Dragon Force Combo.\nGain Super Armor on 3-ping.",
+  
+        yellowPingIcon: require("../../assets/Images/Ornate/YellowOrb.png"),
+        yellowPing:
+          "Gather enemies in a large area and strike with Chi force, dealing 220%/440%/660% Physical Damage and inflicts Stillness for 0.5s.\nStriking the Dragon Maelstrom will consume 25 Dragon Force and triggers Dragon Force Combo.\nGain Super Armor on 3-ping.",
+  
+        bluePingIcon: require("../../assets/Images/Ornate/BlueOrb.png"),
+        bluePing:
+          "Perform legwork strikes, dealing 220%/440%/660% Physical damage.\nStriking the Dragon Maelstrom will consume 25 Dragon Force and triggers Dragon Force Combo.\nGain Super Armor on 3-ping.",
+  
+        // Skills
+        basicAttack:
+          "Basic Attack: Perform Chi attacks using legwork and palm techniques, dealing a total of 860% Physical damage.",
+        basicAttackIcon: require("../../assets/Images/Ornate/BasicAttack.png"),
+  
+        signature:
+          "Signature Move: Expend 20 energy to trigger Spirit Blade - Dragon Hurl, throwing the Dragon Maelstrom and dealing 400% Physical damage to enemies in its path.\nPulao can beckon the Dragon Maelstrom to her position at any time by tapping the Signature Move button.\nAt 100 energy, Pulao can trigger Spirit Blade - Starfall Break by tapping and holding the Signature Move button, dealing 3600% Physical damage in a large area.",
+        signatureIcon: require("../../assets/Images/Ornate/Signature.png"),
+  
+        qte: "QTE When Dragon Maelstrom is present: Pulao orders it to attack for 640% Physical damage.\nQTE When Dragon Maelstrom is not present: Pulao will summon it to attack for 640% Physical damage.",
+        qteIcon: require("../../assets/Images/QTE.png"),
+  
+        class:
+          "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        classIcon: require("../../assets/Images/Amplifier.png"),
+  
+        awakening: "Gains 3 Signal Orbs when entering battle.",
+        awakeningIcon: require("../../assets/Images/Awakening.png"),
+  
+        //Passives
+        core: "Core Passive: When Pulao touches the Dragon Maelstrom, it will be caught and thrown again, dealing the same effect as Spirit Blade - Dragon Hurl.\nBasic Attacks and 1/2/3 orb pings generate 3/3/6/12 Dragon Force, up to 50 points.\nWhen Pulao's Red/Blue/Yellow orb strikes the Dragon Maelstrom, 25 Dragon Force energy will be consumed to trigger Dragon Force Combo. Tap Basic Attack repeatedly to perform a follow-up combo, dealing a total of 1200%/1200%/1200% Physical damage. Gain 80% Damage Reduction while performing Dragon Force Combo and follow-up combo.",
+        coreIcon: require("../../assets/Images/Ornate/Core.png"),
+  
+        leader: "All team members' Physical damage +5%, Vanguards Attack +10%.",
+        leaderIcon: require("../../assets/Images/Ornate/Leader.png"),
+  
+        ssRank:
+          "Passive: Critical Rate +20%<.\nEach group of Dragon Force Combo generates up to 24 energy.\nPulao gains 30 energy and 25 Dragon Force when Qu activates her signature move.",
+        ssRankIcon: require("../../assets/Images/Ornate/SS.png"),
+  
+        sssRank:
+          "Passive: Physical damage +10%.\nEach group of Dragon Force Combo generates up to an extra 12 energy (up to 36 per group).Gain 25 Dragon Force upon entering the battle (Including start).",
+        sssRankIcon: require("../../assets/Images/Ornate/SSS.png"),
+  
+        sssPlusRank:
+          "Passive: When Spirit Blade - Starfall Break is triggered, a Dragon Cloudstream AOE will be generated for 10s, All Kowloong units within the area will gain +20% Critical Damage and +10% Physical damage.\nRecover 1 signal orb when triggering core passive.",
+        sssPlusRankIcon: require("../../assets/Images/Ornate/SSSPlus.png"),
+        hiddenSkill: "See: Core",
+        hiddenSkillIcon: require("../../assets/Images/Ornate/SSSPlus.png"),
+      },
+      memories: {
+        set1:{
+          set1Name: "General",
+          image1: require('../../assets/Images/Memories/Jack/image1.png'),
+          memory1: 'Jack',
+          image2: require('../../assets/Images/Memories/Jack/image2.png'),
+          memory2: 'Jack',
+          image3: require('../../assets/Images/Memories/Jack/image3.png'),
+          memory3: 'Jack',
+          image4: require('../../assets/Images/Memories/Jack/image1.png'),
+          memory4: 'Jack',
+          image5: require('../../assets/Images/Memories/Jack/image2.png'),
+          memory5: 'Jack',
+          image6: require('../../assets/Images/Memories/Jack/image3.png'),
+          memory6: 'Jack',
+        },
+        set2: {
+          set2Name: "5 Star",
+          image1: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory1: 'Boudica',
+          image2: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory2: 'Boudica',
+          image3: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory3: 'Boudica',
+          image4: require('../../assets/Images/Memories/Boudica/image1.png'),
+          memory4: 'Boudica',
+          image5: require('../../assets/Images/Memories/Boudica/image2.png'),
+          memory5: 'Boudica',
+          image6: require('../../assets/Images/Memories/Boudica/image3.png'),
+          memory6: 'Boudica',
+        },
+      },
+      weapons: {
+        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
+        WeaponType: 'FluteSword',
+        WeaponName: 'Sarastro',
+        rarity: '6'
+      },
+  },
+
 ];

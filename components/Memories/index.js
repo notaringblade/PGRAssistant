@@ -4,7 +4,7 @@ import styles from "./styles";
 import { useNavigation } from "@react-navigation/native";
 
 const memories = (props) =>{
-    const {icon, memoryName, rarity, star} = props.memory;
+    const {icon, memoryName, rarity, star, Type} = props.memory;
     const navigation = useNavigation();
 
     const borderColor = rarity === '6'?  '#C9481E': '#CC7218'
@@ -19,6 +19,7 @@ const memories = (props) =>{
                 <Image style={[styles.star, {tintColor: borderColor}]} source={star}/>
                 <ImageBackground style={styles.icon} source={icon}/>
                 <Text style={styles.memoryName}>{memoryName}</Text>
+                <Text style={styles.memoryType}>{Type}</Text>
                 <Text style={styles.rarity}>{rarity}</Text>
             </View>
         </View>

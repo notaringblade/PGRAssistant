@@ -30,19 +30,27 @@ const styles = StyleSheet.create({
         height: 20,
         marginLeft: 135,
         tintColor: '#971948',
-        marginTop: 70
+        marginTop: 77
     },
     rarity:{
         marginLeft: 120,
         color: 'white',
-        marginTop: 19,
-        fontSize: 20
+        marginTop: 5,
+        fontSize: 15
     },
     memoryName:{
         paddingLeft: 120,
         color: 'white',
         marginTop: -95,
         fontSize: 20
+    },
+    memoryType:{
+        color: 'white',
+        fontStyle: "italic",
+        // position: "absolute",
+        fontSize: 15,
+        marginLeft: '32%',
+        paddingTop: '1%'
     },
     view:{
         flex: 1,

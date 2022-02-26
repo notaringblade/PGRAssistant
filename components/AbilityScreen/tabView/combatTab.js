@@ -31,7 +31,7 @@ const CombatTab = ({route}) =>{
 
             {/* Skills */}
         <CollapsibleView title={<Text style={styles.titleText}>Skills</Text>} style={styles.collapsedView} initExpanded={false} noArrow={true}  >
-            <CollapsibleView title={<Text style={styles.titleText}>Basic Atack</Text>} style={[styles.collapsedView]} noArrow={false} arrowStyling={{color : '#F2F2F2'}}>
+            <CollapsibleView title={<Text style={styles.titleText}>Basic Attack</Text>} style={[styles.collapsedView]} noArrow={false} arrowStyling={{color : '#F2F2F2'}}>
                 <Image source={Ability.combat.basicAttackIcon} style={styles.abilityIcon}></Image>
                 
                 <Text style={styles.itemDescription}>{Ability.combat.basicAttack}</Text>

@@ -4,6 +4,8 @@ import ListOfConstructs from './ListOfConstructs'
 import HomeScreen from '../HomeScreen'
 import styles from './styles';
 import CompleteFlatList from 'react-native-complete-flatlist';
+import { AdMobBanner} from 'expo-ads-admob';
+
 
 
 const ConstructList  = ({navigation}) => {
@@ -20,7 +22,6 @@ const ConstructList  = ({navigation}) => {
     return (
 
 
-        <View style={styles.view}>
         <View style={styles.list} >
             <CompleteFlatList 
                 searchKey={['construct_Name', 'construct_Model']}
@@ -30,7 +31,11 @@ const ConstructList  = ({navigation}) => {
                 searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
                 renderSeparator={ItemSeparator}     
             />
-        </View>
+            <AdMobBanner
+                bannerSize='banner'
+                adUnitID='ca-app-pub-9019468619354770/7761722750'
+                servePersonalizedAds = {false}
+            />
         </View>
     )
 }

@@ -1,6 +1,7 @@
 export default [
   //Condelina
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Condelina/image1.png"),
     memoryName: "Condelina",
     rarity: "6",
@@ -19,7 +20,9 @@ export default [
     },
     SetBonus:{
       twoPiece: 'Basic Attack DMG increases by 15%.',
-      fourPiece: 'Basic Attacks have a 25% chance to go berserk, increasing the Extra Damage of Basic Attack by 15% and CRIT Rate by 5% for 5s. 8s cooldown.'
+      fourPiece: 'Basic Attacks have a 25% chance to go berserk, increasing the Extra Damage of Basic Attack by 15% and CRIT Rate by 5% for 5s. 8s cooldown.',
+      sixPiece: "None"
+      
     },
     Story:{
       I: "An introverted assassin when she still had her body. Condelina's targets were all met with a swift and painless death. Her extensive experience as an assassin helps the Constructs in various battles.",
@@ -29,6 +32,7 @@ export default [
   },
   //Shakespeare
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Shakespeare/image1.png"),
     memoryName: "Shakespeare",
     rarity: "6",
@@ -47,7 +51,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "All ATK increases by 3% and Fire DMG increases by 7%.",
-      fourPiece: "Attacks have a 50% chance to inflict Burn for 5s. When attacking a burning enemy, there is a 20% chance to cause an explosion, dealing 100% Fire DMG. 5s cooldown. Burn: Reduces the target’s Fire Resistance by 8% and deals 12% Fire DMG per second. Can be stacked up to 3 times. Duration resets every time it is triggered."
+      fourPiece: "Attacks have a 50% chance to inflict Burn for 5s. When attacking a burning enemy, there is a 20% chance to cause an explosion, dealing 100% Fire DMG. 5s cooldown. Burn: Reduces the target’s Fire Resistance by 8% and deals 12% Fire DMG per second. Can be stacked up to 3 times. Duration resets every time it is triggered.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "A prolific writer with words endow'd; He seeded great minds of the Golden Age; Some WGAA thinkers see him as the trend-; -maker of mechanoid restoration; His talents unmatched, and it little fades; In heat of battle, or the fiery page.",
@@ -56,6 +62,7 @@ export default [
   },
   //Heisen
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Heisen/image1.png"),
     memoryName: "Heisen",
     rarity: "6",
@@ -74,7 +81,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "All ATK increases by 3% and Lightning DMG increases by 7%.",
-      fourPiece: "Attacks have a 25% chance to trigger Thunderstorm within 3.5m. Thunderstorm electrocutes the target for 5s. 5s cooldown. Attacking an electrocuted enemy has a 20% chance to trigger lightning chain damage. 8s cooldown. Lightning Chain: All electrocuted targets take 250% Lightning DMG. Thunderstorm: 100% Lightning DMG. Electrocute: Lightning Resistance is reduced by 8%."
+      fourPiece: "Attacks have a 25% chance to trigger Thunderstorm within 3.5m. Thunderstorm electrocutes the target for 5s. 5s cooldown. Attacking an electrocuted enemy has a 20% chance to trigger lightning chain damage. 8s cooldown. Lightning Chain: All electrocuted targets take 250% Lightning DMG. Thunderstorm: 100% Lightning DMG. Electrocute: Lightning Resistance is reduced by 8%.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Heisen was still human, she was a madly driven biologist who would even experiment on her own body for science. The human body no longer holds any secrets for her, and she has kept this treasure trove of knowledge to herself alone. Word has it that someone once tried to steal Heisen's research. That someone quickly went missing. It was only after a massive rainstorm that his burnt and thunderstruck corpse drifted out of the sewers.",
@@ -83,6 +92,7 @@ export default [
   },
   //Darwin
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Darwin/image1.png"),
     memoryName: "Darwin",
     rarity: "6",
@@ -101,7 +111,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "For every orb pinged, Extra DMG Bonus increases by 3% for 4s. Can be stacked up to 5 times. Duration resets every time it is triggered.",
-      fourPiece: "Records the color of Signal Orbs pinged. When all 3 colors is recorded, unleashes a 12m shockwave that deals 600% Physical DMG and resets the record."
+      fourPiece: "Records the color of Signal Orbs pinged. When all 3 colors is recorded, unleashes a 12m shockwave that deals 600% Physical DMG and resets the record.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "The once human Darwin revolutionized the biological sciences, bringing about theories that were highly esteemed by the biologists in the Golden Age. Yet that did not satiate Darwin. It was the ultimate evolution of human beings that the scientist sought. To achieve this, innumerable experiments were carried, even on the self. In this current state, is Darwin a he, or a she? To the transhumanist, it hardly seems to matter.",
@@ -110,6 +122,7 @@ export default [
   },
   //Hanna
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Hanna/image1.png"),
     memoryName: "Hanna",
     rarity: "6",
@@ -128,7 +141,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Extra DMG Bonus of 3-Ping DMG is increased by 25%.",
-      fourPiece: "For every 30s, enters Matrix upon a 3-Ping and gains a random Signal Orb."
+      fourPiece: "For every 30s, enters Matrix upon a 3-Ping and gains a random Signal Orb.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Hanna was still human, she was a well-known corporate spy rumored to be the daughter of the great musician Hanson. With her mastery of disguise and stealth, she infiltrated various big companies. Every theft of hers came with a signature of 'Hanna'. No one, including her employers, knows anything concrete about her—the spy is always the initiator. Her expertise in espionage is of great help to Constructs in special operations.",
@@ -137,6 +152,7 @@ export default [
   },
   //Cottie
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Cottie/image1.png"),
     memoryName: "Cottie",
     rarity: "6",
@@ -155,7 +171,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Gains 20% more Energy when pinging an orb. Signature Move requires 20% less Energy.",
-      fourPiece: "Extra DMG increases by 15% for 10s when performing a Signature Move. Gains Super Armor that increases Extra DMG Reduction by 20% for 5s after the Signature Move. Both duration will reset every time it is triggered."
+      fourPiece: "Extra DMG increases by 15% for 10s when performing a Signature Move. Gains Super Armor that increases Extra DMG Reduction by 20% for 5s after the Signature Move. Both duration will reset every time it is triggered.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Cottie died at the age of 86 from diabetic complications caused by donut overdose. It is said that she passed away peacefully right after she ordered a donut delivery. Cottie's religious obsession with donuts was deemed military-grade, and so she was made into a memory chip.",
@@ -164,6 +182,7 @@ export default [
   },
   //DaVinci 
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/DaVinci/image1.png"),
     memoryName: "Da Vinci",
     rarity: "6",
@@ -182,7 +201,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "When QTE is triggered, the controlling character gains 10% ATK and 20% DEF for 8s. Duration resets every time it is triggered.",
-      fourPiece: "When QTE is triggered, triggers another character's QTE. 8s cooldown. If there are 3 characters on the field, ATK is increased by 20%."
+      fourPiece: "When QTE is triggered, triggers another character's QTE. 8s cooldown. If there are 3 characters on the field, ATK is increased by 20%.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Da Vinci is deemed one of the most important advocates of the mechanoid restoration trends. To call her works masterpieces would be a disgrace for their perfection. Her heavenly crafts are now deservedly stored in the most exquisite showcases of the WGAA. A polymath, it is rumored that most of Cosmos Industries' early products are based on Da Vinci's manuscripts. Her cultural weight makes her presence alone an inspiring beacon to Constructs on the battlefield.",
@@ -191,6 +212,7 @@ export default [
   },
   //Catherine
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Catherine/image1.png"),
     memoryName: "Catherine",
     rarity: "6",
@@ -209,7 +231,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "QTE and 3-Ping skills reduce the target’s Physical DEF by 20% for 8s. 10s cooldown.",
-      fourPiece: "When taking damage, gains a shield equal to 20% of own DEF, nullifies the Physical DMG taken this time, and increases the Physical DMG dealt by 15% for 5s. 8s cooldown."
+      fourPiece: "When taking damage, gains a shield equal to 20% of own DEF, nullifies the Physical DMG taken this time, and increases the Physical DMG dealt by 15% for 5s. 8s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Catherine was still human, she was the owner of Rose Garden. The details of Rose Garden did not survive the trials of time, but according to Catherine, it was located in a valley, and the windows were covered by deep red drapes, so that people inside would not notice the flow of time. Catherine spent her whole life in the garden alone, during which only one mysterious person visited.",
@@ -218,6 +242,7 @@ export default [
   },
   //Einsteina
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Einsteina/image1.png"),
     memoryName: "Einsteina",
     rarity: "6",
@@ -236,7 +261,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "QTE and 3-Ping skills reduce the target's corresponding Elemental Resistance by 15% for 8s. 10s cooldown.",
-      fourPiece: "When taking damage, releases an elemental aura, gaining Elemental Resistance equal to 5% + 1% of own DEF for 5s. Elemental DMG dealt increases by 15% when the aura is present. 8s cooldown."
+      fourPiece: "When taking damage, releases an elemental aura, gaining Elemental Resistance equal to 5% + 1% of own DEF for 5s. Elemental DMG dealt increases by 15% when the aura is present. 8s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When she was still human, she completed the fundamental theoretical framework for space colonization, taking scientific development to a whole new level. Her knowledge of material properties is also immensely helpful in battle.",
@@ -245,6 +272,7 @@ export default [
   },
   //PhilipII
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/PhilipII/image1.png"),
     memoryName: "Philip II",
     rarity: "6",
@@ -263,7 +291,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Healing effect increases by 10%. Next healing effect increases the target’s Physical DMG by 10% and DEF by 10% for 5s. 8s cooldown.",
-      fourPiece: "A healing drone will be charged when healing is performed. When fully charged, the next time you performing healing will consume all charged energy to summon the healing drone. It will follow an ally with the lowest HP, healing allies in a 5m fan-shaped area for 2% maximum HP per second and increasing their Physical DMG by 15% for 5s. 12s cooldown."
+      fourPiece: "A healing drone will be charged when healing is performed. When fully charged, the next time you performing healing will consume all charged energy to summon the healing drone. It will follow an ally with the lowest HP, healing allies in a 5m fan-shaped area for 2% maximum HP per second and increasing their Physical DMG by 15% for 5s. 12s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Philip II was born into a military family and received strict a military education since her childhood. But why make war, when you can make art? The military and industrial sectors may have been thriving during the Golden Age, but to pursue the sublime heights, and to soothe the spirits of the people, Philip II left her family at a young age to join the newly established WGAA. Her flute performance is said to be quite a feast for the ears.",
@@ -272,6 +302,7 @@ export default [
   },
   //Guinevere
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Guinevere/image1.png"),
     memoryName: "Guinevere",
     rarity: "6",
@@ -290,7 +321,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Heals for 10% more. Increases the Elemental DMG and Resistances of the healing target by 10% for 5s. Has a cooldown of 8 seconds.",
-      fourPiece: "A healing drone will be charged when healing is performed. When fully charged, the next time you performing healing will consume all charged energy to summon the healing drone. It will follow an ally with the lowest HP, healing allies in a 5m fan-shaped area for 2% maximum HP per second and increasing their Elemental ATK by 15% for 5s. 12s cooldown."
+      fourPiece: "A healing drone will be charged when healing is performed. When fully charged, the next time you performing healing will consume all charged energy to summon the healing drone. It will follow an ally with the lowest HP, healing allies in a 5m fan-shaped area for 2% maximum HP per second and increasing their Elemental ATK by 15% for 5s. 12s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Guinevere was still human, she was fond of analyzing interpersonal relationships and searching for this thing called love in them. Despite being able to get along with everyone, no one has ever truly understood her. She eventually embarked on a journey to find true love and disappeared from the face of the earth. Guinevere's movements are graceful sights that heal the mind and provide emotional support for soldiers on the battlefield.",
@@ -299,6 +332,7 @@ export default [
   },
   //Frederick
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Frederick/image1.png"),
     memoryName: "Frederick",
     rarity: "6",
@@ -317,7 +351,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Each dodge increases Movement Speed by 15% and Extra DMG Bonus by 5% for 5s. Can be stacked up to 3 times. Duration resets every time it is triggered.",
-      fourPiece: "The next dodge reduces the attacker’s speed by 20% and extra DMG Reduction by 15% for 4s. 8s cooldown."
+      fourPiece: "The next dodge reduces the attacker’s speed by 20% and extra DMG Reduction by 15% for 4s. 8s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Frederick was a famous virtual idol during the mechanoid restoration craze. Like a ghost in the shell, she would hide in the currents of the internet and do guerilla gigs on random terminals. The origins of Frederick are a mystery, though some researchers believe that her design might have been inspired by the early Golden Age WGAA member, Philip II. Concerning this matter, President Allen has refused to provide any answers. Frederick's experience in stealth and dodging has taught many Constructs how to avoid damage in battles.",
@@ -326,6 +362,7 @@ export default [
   },
   //Patton
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Patton/image1.png"),
     memoryName: "Patton",
     rarity: "6",
@@ -344,7 +381,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "CRIT Rate and Physical DMG increases by 5%.",
-      fourPiece: "Each time you deal Physical DMG, if it is not a CRIT Hit, the CRIT Rate of the next Physical DMG increases by 2%, stacking up to a maximum of 20%. This effect is reset when you deal a CRIT Hit. CRIT Hit increases Physical DMG by 5% for 3s. Can be stacked up to 3 times. Duration resets every time it is triggered."
+      fourPiece: "Each time you deal Physical DMG, if it is not a CRIT Hit, the CRIT Rate of the next Physical DMG increases by 2%, stacking up to a maximum of 20%. This effect is reset when you deal a CRIT Hit. CRIT Hit increases Physical DMG by 5% for 3s. Can be stacked up to 3 times. Duration resets every time it is triggered.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Patton was still human, she was more a slaughterer than a soldier. She never wore an army uniform. Military discipline meant nothing to her. She did only one thing, and she was good at it—destroying all enemies on the battlefield. Patton's valiance has been an inspiring example to all Constructs.",
@@ -353,6 +392,7 @@ export default [
   },
   //Bathlon
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Bathlon/image1.png"),
     memoryName: "Bathlon",
     rarity: "6",
@@ -371,7 +411,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "All ATK increases by 3% and Dark DMG increases by 7%.",
-      fourPiece: "Dealing DMG has a 20% chance to summon a Dark Zone that lasts 5s. 5s cooldown. The Dark Zone will inflict Corruption on the targets within it for 3s. Attacking a Corrupted target has a 20% chance to gain 1 random Signal Orb. 12s cooldown. Corruption: Deals 80% Dark DMG for every 2s and reduces Dark Resistance by 8%."
+      fourPiece: "Dealing DMG has a 20% chance to summon a Dark Zone that lasts 5s. 5s cooldown. The Dark Zone will inflict Corruption on the targets within it for 3s. Attacking a Corrupted target has a 20% chance to gain 1 random Signal Orb. 12s cooldown. Corruption: Deals 80% Dark DMG for every 2s and reduces Dark Resistance by 8%.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Bathlon was still human, she was known as a one-man army, specializing in one-against-many warfare. Despite her outstanding contributions, Bathlon shunned fame and wealth. She stayed a mere soldier until her death. She knew deep down inside that peace was not for her, and that the battlefield will be her final resting place. Bathlon's battle experience provides great strategic insight to Constructs in battle.",
@@ -380,6 +422,7 @@ export default [
   },
   //Zuwenyuan
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Zuwenyuan/image1.png"),
     memoryName: "Zu Wenyuan",
     rarity: "6",
@@ -398,7 +441,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "ATK increases by 3% and Ice DMG increases by 7%.",
-      fourPiece: "30% chance to cause Frost for 5s while attacking. When attacking targets with Frost, there is a 20% chance to trigger Ice Explosion to deal 420% Ice DMG within 3m from the target and apply Frost. This effect has an 8s cooldown. Frost: Reduces target's Movement Speed by 20% and Ice Resistance by 8%."
+      fourPiece: "30% chance to cause Frost for 5s while attacking. When attacking targets with Frost, there is a 20% chance to trigger Ice Explosion to deal 420% Ice DMG within 3m from the target and apply Frost. This effect has an 8s cooldown. Frost: Reduces target's Movement Speed by 20% and Ice Resistance by 8%.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Zu Wenyuan was alive, he served as the supreme leader of Fuxi crew, a branch of Kowloong Chamber of Commerce. His main areas of expertise include astronomy and mathematics, and he was the first to ever observe superluminal travel beyond the Milky Way. His mechanical knowledge also led to the creation of the prototypes of Musashi and Prime, and subsequently the East Asian style of mechanoids. He also left many mechanical upgrade plans that were way ahead of his time, but before he was able to implement them, he died in a liquid nitrogen leak caused by an 'accident'. It was said that the Observatory located within Kowloong Corp was also built using one of his early designs.",
@@ -408,6 +453,7 @@ export default [
   },
   //Leeuwenhoek
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Hoek/image1.png"),
     memoryName: "Leeuwenhoek",
     rarity: "6",
@@ -426,7 +472,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Attack +3%, Physical damage +7%",
-      fourPiece: "Spear of Insight (20% Defense reduction) effect +20%. Damage +5% towards targets affected by Spear of Insight."
+      fourPiece: "Spear of Insight (20% Defense reduction) effect +20%. Damage +5% towards targets affected by Spear of Insight.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Coming Soon",
@@ -435,6 +483,7 @@ export default [
   },
   //Flamel
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Flamel/image1.png"),
     memoryName: "Flamel",
     rarity: "6",
@@ -453,7 +502,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Dark damage +5%, Attack +5%.",
-      fourPiece: "Dark damage +30% during Annihilation Mode. Ultimate damage +30%. Expending an Annihilation orb grants 10 energy."
+      fourPiece: "Dark damage +30% during Annihilation Mode. Ultimate damage +30%. Expending an Annihilation orb grants 10 energy.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Coming Soon",
@@ -462,6 +513,7 @@ export default [
   },
   //Tifa
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Tifa/image1.png"),
     memoryName: "Tifa",
     rarity: "6",
@@ -480,7 +532,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Lightning damage +5%, Attack +5%.",
-      fourPiece: "Follow-up damage +50%. Battle standards (QTE and SS switch) will inflict 2s of Interference (Lightning Res down). Triggering the effect again refreshes the duration. Thunderfall damage +100%."
+      fourPiece: "Follow-up damage +50%. Battle standards (QTE and SS switch) will inflict 2s of Interference (Lightning Res down). Triggering the effect again refreshes the duration. Thunderfall damage +100%.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Coming Soon",
@@ -489,6 +543,7 @@ export default [
   },
   //Elizabeth
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Elizabeth/image1.png"),
     memoryName: "Elizabeth",
     rarity: "6",
@@ -507,7 +562,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Atk +5%, Fire damage +5%",
-      fourPiece: "Oath damage +50%. When equipped by Liv - Solaeter, all allies can trigger Holy Words upon 3-pings, dealing 3% of Liv's Attack every second for 20s, up to 5 stacks. At the same time, heal allies around for 15% Atk every second for 4s."
+      fourPiece: "Oath damage +50%. When equipped by Liv - Solaeter, all allies can trigger Holy Words upon 3-pings, dealing 3% of Liv's Attack every second for 20s, up to 5 stacks. At the same time, heal allies around for 15% Atk every second for 4s.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "Coming Soon",
@@ -516,6 +573,7 @@ export default [
   },
   //Seraphine
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Seraphine/image1.png"),
     memoryName: "Seraphine",
     rarity: "6",
@@ -534,7 +592,159 @@ export default [
     },
     SetBonus:{
       twoPiece: "Atk +5%, Dark damage +5%",
-      fourPiece: "All Ensemble ATK's base damage is increased by 100%. Constructs that have been healed by Selena: Capriccio gain a 10% Dark DMG Elemental boost for 8s. Duration resets every time it is triggered."
+      fourPiece: "All Ensemble ATK's base damage is increased by 100%. Constructs that have been healed by Selena: Capriccio gain a 10% Dark DMG Elemental boost for 8s. Duration resets every time it is triggered.",
+      sixPiece: "None"
+      
+    },
+    Story:{
+      I: "Coming Soon",
+      II: "Coming Soon"
+    }
+  },
+  //Koya
+  {
+    Type: 'Transcendant',
+    icon: require("../../assets/Images/Memories/Koya/image1.png"),
+    memoryName: "Koya",
+    rarity: "6",
+    id: "34",
+    recommended: "Camu-Crocotta",
+    star: require("../../assets/Images/Memories/Star.png"),
+    Stats:{
+      HP: "1491",
+      Crit: "66",
+      ATK: "134",
+      DEF: "223"
+    },
+    Artwork: {
+      Grid2: require("../../assets/Images/Memories/Koya/image2.png"),
+      Grid3: require("../../assets/Images/Memories/Koya/image3.png"),
+    },
+    SetBonus:{
+      twoPiece: "Extra DMG increases by 10%.",
+      fourPiece: "Gains 20% energy when switched in. Signal Orb Skill DMG increases by 10% while a shield exists.",
+      sixPiece: "When Camu: Crocotta is Berserk, increases Damage Dealt by 10% and Speed by 20%. Ping Skills that deal damage also inflict Fear for the duration of Berserk.\n Fear: Reduces ATK DMG by 10% and deals additional 10% ATK DMG to the target."
+      
+    },
+    Story:{
+      I: "An early military Construct, Support type. Carries mobile terraforming equipment, and is responsible for battlefield surveying and basic construction work. Not built for combat, Koya is more suited to providing support to his comrades before and after a battle. He is also a close friend of Kamui. During his time with Kamui Koya has noticed some secrets of Kamui, but has decided to stay silent on the matter, and he himself does not mind them at all. In his last mission, Koya received special orders from Nikola. The mission failed and Koya lost his life.",
+      II: "Using the simulated data in Babylonia's database, a Koya memory chip was created. The memory chip Koya is, however, extremely unstable. Only a few select members can receive his help."
+    }
+  },
+  //WuAnjun
+  {
+    Type: 'Transcendant',
+    icon: require("../../assets/Images/Memories/WuAnjun/image1.png"),
+    memoryName: "WuAnjun",
+    rarity: "6",
+    id: "35",
+    recommended: "Qu-Peafowl's Plume",
+    star: require("../../assets/Images/Memories/Star.png"),
+    Stats:{
+      HP: "1476",
+      Crit: "66",
+      ATK: "134",
+      DEF: "219"
+    },
+    Artwork: {
+      Grid2: require("../../assets/Images/Memories/WuAnjun/image2.png"),
+      Grid3: require("../../assets/Images/Memories/WuAnjun/image3.png"),
+    },
+    SetBonus:{
+      twoPiece: "Basic attack damage +5%, Physical damage +7%",
+      fourPiece: "Super Armor effect of Blue orb increased by 2s and Physical damage +15% during it.",
+      sixPiece: "Gain 24 energy when in Condensed form. Gain 1 of each orb type when triggering ultimate."
+      
+    },
+    Story:{
+      I: "Coming Soon",
+      II: "Coming Soon"
+    }
+  },
+  //Lurcezia
+  {
+    Type: 'Transcendant',
+    icon: require("../../assets/Images/Memories/Lurcezia/image1.png"),
+    memoryName: "Lurcezia",
+    rarity: "6",
+    id: "35",
+    recommended: "Selena-Concerto",
+    star: require("../../assets/Images/Memories/Star.png"),
+    Stats:{
+      HP: "1506",
+      Crit: "66",
+      ATK: "134",
+      DEF: "217"
+    },
+    Artwork: {
+      Grid2: require("../../assets/Images/Memories/Lurcezia/image2.png"),
+      Grid3: require("../../assets/Images/Memories/Lurcezia/image3.png"),
+    },
+    SetBonus:{
+      twoPiece: "Basic attack damage +5%, Physical damage +7%",
+      fourPiece: "Super Armor effect of Blue orb increased by 2s and Physical damage +15% during it.",
+      sixPiece: "Gain 24 energy when in Condensed form. Gain 1 of each orb type when triggering ultimate."
+      
+    },
+    Story:{
+      I: "Coming Soon",
+      II: "Coming Soon"
+    }
+  },
+  //Jack
+  {
+    Type: 'Transcendant',
+    icon: require("../../assets/Images/Memories/Jack/image1.png"),
+    memoryName: "Jack",
+    rarity: "6",
+    id: "35",
+    recommended: "Roland-Theatrical Flame",
+    star: require("../../assets/Images/Memories/Star.png"),
+    Stats:{
+      HP: "1491",
+      Crit: "66",
+      ATK: "132",
+      DEF: "223"
+    },
+    Artwork: {
+      Grid2: require("../../assets/Images/Memories/Jack/image2.png"),
+      Grid3: require("../../assets/Images/Memories/Jack/image3.png"),
+    },
+    SetBonus:{
+      twoPiece: "Attack +5%, Fire damage +7%",
+      fourPiece: "Follow-Up attack damage +10%, Bluff points gain increased by 10.",
+      sixPiece: "Gain 30 ultimate energy when entering the battlefield. Recover 50/75/100 dodge when triggering Follow-Up attacks. Blaze orb damage +100%. Attack +5% for 8s after activating Ultimate."
+      
+    },
+    Story:{
+      I: "Coming Soon",
+      II: "Coming Soon"
+    }
+  },
+  //Marcco
+  {
+    Type: 'Transcendant',
+    icon: require("../../assets/Images/Memories/Marcco/image1.png"),
+    memoryName: "Marcco",
+    rarity: "6",
+    id: "35",
+    recommended: "Pulao-Ornate Bell",
+    star: require("../../assets/Images/Memories/Star.png"),
+    Stats:{
+      HP: "1491",
+      Crit: "66",
+      ATK: "132",
+      DEF: "223"
+    },
+    Artwork: {
+      Grid2: require("../../assets/Images/Memories/Marcco/image2.png"),
+      Grid3: require("../../assets/Images/Memories/Marcco/image3.png"),
+    },
+    SetBonus:{
+      twoPiece: "Physical damage +7%, Basic Attack damage +5%.",
+      fourPiece: "Staggered state can be removed when touching the Dragon Maelstrom, throwing it back out again and removing any Dodge Penalty and recovering 250 dodge.",
+      sixPiece: "Dragon Force Combo damage +50%.\n The first strike of Dragon Force Combo will command the Dragon Maelstrom to pull enemies towards Pulao and grant 15% HP shield for 6s."
+      
     },
     Story:{
       I: "Coming Soon",
@@ -543,6 +753,7 @@ export default [
   },
   //Erwin
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Erwin/image1.png"),
     memoryName: "Erwin",
     rarity: "5",
@@ -561,7 +772,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Basic Attack DMG increases by 10%.",
-      fourPiece: "Basic Attack DMG increases by 15% without being attacked. 12s cooldown starts when taking a hit."
+      fourPiece: "Basic Attack DMG increases by 15% without being attacked. 12s cooldown starts when taking a hit.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Erwin was small, she longed to be an engineer. She was, however, forced to serve in the army due to family reasons. Her talents were unrestricted by her poor health, though her luck was notoriously bad. On the battlefield, her sophisticated tactics have helped turned the tide of innumerable battles.",
@@ -570,6 +783,7 @@ export default [
   },
   //Aife
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Aife/image1.png"),
     memoryName: "Eife",
     rarity: "5",
@@ -588,7 +802,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "For each orb pinged, Extra DMG Bonus increases by 2% for 3s. Can be stacked up to 5 times. Duration resets every time it is triggered.",
-      fourPiece: "Enters Matrix upon a 3-Ping. 60s cooldown."
+      fourPiece: "Enters Matrix upon a 3-Ping. 60s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Aife was still human, she was Cottie's sniper. Always alert and trigger happy, she greets strangers with bullets instead of hellos. Her outstanding sniping techniques are of great help to Constructs on battlefields.",
@@ -597,6 +813,7 @@ export default [
   },
   //Ike
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Ike/image1.png"),
     memoryName: "Ike",
     rarity: "5",
@@ -615,7 +832,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Extra DMG Bonus increases by 2% and Elemental DMG increases by 4%.",
-      fourPiece: "When dealing Elemental DMG, you have a 15% chance to inflict Burn, Electrocute, Frost, and Corruption depending on the element. Lasts 5s and has 8s cooldown on the same unit."
+      fourPiece: "When dealing Elemental DMG, you have a 15% chance to inflict Burn, Electrocute, Frost, and Corruption depending on the element. Lasts 5s and has 8s cooldown on the same unit.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "In the middle of the Post-Pandemic Age when Ike still had his body, he belonged to a clandestine organization full of body modders. Despising full-body modification like Construct technology, they only enhanced certain parts of their bodies. Ike was one of their elites, though he might have had plans different from the others. His fighting skills though, were undoubtedly top-notch.",
@@ -624,6 +843,7 @@ export default [
   },
   //Voltaire
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Voltaire/image1.png"),
     memoryName: "Voltaire",
     rarity: "5",
@@ -642,7 +862,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Attacks reduce the target’s DEF by 10% for 5s. 12s cooldown.",
-      fourPiece: "When taking damage, reduces the attacker's Physical DEF by 15% for 7s. Can be stacked up to 2 times. Duration resets every time it is triggered."
+      fourPiece: "When taking damage, reduces the attacker's Physical DEF by 15% for 7s. Can be stacked up to 2 times. Duration resets every time it is triggered.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Voltaire was still human, she was a literary giant whose philosophy has enlightened many literateurs in the Golden Age. Her works depicted the embryonic form of the World Government and provided the grounds for its formation. She could pinpoint the enemy's theoretical weaknesses in battles and guide Constructs to land effective attacks.",
@@ -651,6 +873,7 @@ export default [
   },
   //Gloria
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Gloria/image1.png"),
     memoryName: "Gloria",
     rarity: "5",
@@ -669,7 +892,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Attacks reduce the target’s Elemental Resistance by 6% for 5s. 12s cooldown.",
-      fourPiece: "When taking damage, reduces the Elemental Resistance of enemies within 5m by 6% for 7s. Duration resets every time it is triggered."
+      fourPiece: "When taking damage, reduces the Elemental Resistance of enemies within 5m by 6% for 7s. Duration resets every time it is triggered.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Gloria was still human, she was an artillery officer as well as a devoted antisaccharinist. She is good at breaking the guard of enemies, which is of great help to Constructs.",
@@ -678,6 +903,7 @@ export default [
   },
   //Richelieu
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Richelieu/image1.png"),
     memoryName: "Richelieu",
     rarity: "5",
@@ -696,7 +922,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Healing effect increases by 5%. Next healing effect increases the target’s Physical DMG by 8% for 4s. 5s cooldown.",
-      fourPiece: "Gains a random Signal Orb for every 8 orbs pinged. 5s cooldown."
+      fourPiece: "Gains a random Signal Orb for every 8 orbs pinged. 5s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Richelieu was still human, she was one of the cardinals in the early Golden Age. Foreseeing that religion would lose its appeal, she proposed creating bionic robots for religious services, yet it was met with the opposition of the church. Only when her predictions proved true did the churches hastily activate the batch of mechanical members created by Richelieu. It is worth noting that Richelieu's medical techniques were unmatched among all the churches.",
@@ -705,6 +933,7 @@ export default [
   },
   //Samantha
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Samantha/image1.png"),
     memoryName: "Samantha",
     rarity: "5",
@@ -723,7 +952,9 @@ export default [
     },
     SetBonus:{
       twoPiece: "Healing effect increases by 5%. Next healing effect increases the target’s Elemental DMG by 8% for 4s. 5s cooldown.",
-      fourPiece: "The next healing effect adds an elemental aura that increases the Elemental DMG and Elemental Resistance of the allies in the area by 8% and 5% respectively. 10s cooldown."
+      fourPiece: "The next healing effect adds an elemental aura that increases the Elemental DMG and Elemental Resistance of the allies in the area by 8% and 5% respectively. 10s cooldown.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Samantha was still human, she gravitated towards various animals since her childhood. This fact, along with her aristocratic upbringing, it was no wonder that she became the manager of the urban ecology research center.",
@@ -732,6 +963,7 @@ export default [
   },
   //Mozart
   {
+    Type: 'Construct',
     icon: require("../../assets/Images/Memories/Mozart/image1.png"),
     memoryName: "Mozart",
     rarity: "5",
@@ -750,11 +982,43 @@ export default [
     },
     SetBonus:{
       twoPiece: "Extra DMG Bonus increases by 15% when in Matrix.",
-      fourPiece: "Deals 200% damage to all enemies on screen when you enter Matrix."
+      fourPiece: "Deals 200% damage to all enemies on screen when you enter Matrix.",
+      sixPiece: "None"
+      
     },
     Story:{
       I: "When Mozart was still human, she loved collecting musical works created before the Golden Age. By combining and remixing them, she pioneered a whole new genre that changed Golden Age music. Now, Mozart's tunes, from relaxing to soul-stirring, are all classics and staples on Square Wave Radio.",
       II: "In addition to her musical contribution, Mozart is also somewhat of a gourmet. Yet, without a physical body, the sweet succulent taste of fried pork chops will never graze her taste buds again."
+    }
+  },
+  //Boudica
+  {
+    Type: 'Transcendant',
+    icon: require("../../assets/Images/Memories/Boudica/image1.png"),
+    memoryName: "Boudica",
+    rarity: "5",
+    id: "29",
+    recommended: "Transcendant bonus DMG",
+    star: require("../../assets/Images/Memories/Star.png"),
+    Stats:{
+      HP: "1208",
+      Crit: "53",
+      ATK: "109",
+      DEF: "177"
+    },
+    Artwork: {
+      Grid2: require("../../assets/Images/Memories/Boudica/image2.png"),
+      Grid3: require("../../assets/Images/Memories/Boudica/image3.png"),
+    },
+    SetBonus:{
+      twoPiece: "Basic Attack DMG increases by 7%",
+      fourPiece: "All DMG dealt and Movement Speed are increased by 5% and 10% when in Matrix.",
+      sixPiece: "Extra DMG Bonus increases by 3% upon dealing DMG. It can only be triggered once per 2s. Stacks up to 5 times until taking DMG."
+      
+    },
+    Story:{
+      I: "Coming Soon",
+      II: "Coming Soon"
     }
   },
 ];

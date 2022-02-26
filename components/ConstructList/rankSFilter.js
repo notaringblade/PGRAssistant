@@ -4,8 +4,8 @@ import ListOfConstructs from './ListOfConstructs'
 import HomeScreen from '../HomeScreen'
 import styles from './styles';
 import CompleteFlatList from 'react-native-complete-flatlist';
-import { backgroundColor } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
-import Styles from './styles';
+import { AdMobBanner} from 'expo-ads-admob';
+
 
 
 
@@ -35,6 +35,12 @@ const ConstructList  = ({navigation}) => {
                 searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
                 renderSeparator={ItemSeparator}
                 
+            />
+
+            <AdMobBanner
+                bannerSize='banner'
+                adUnitID='ca-app-pub-9019468619354770/3957692192'
+                servePersonalizedAds = {false}
             />
         </View>
     )
