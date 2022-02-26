@@ -1,6 +1,7 @@
 import React from "react";
-import {View, Text, Image, ImageBackground} from 'react-native';
+import {View, Text, Image, ImageBackground, TouchableOpacity} from 'react-native';
 import { DrawerContentScrollView, DrawerItemList } from "@react-navigation/drawer";
+import { Linking } from 'react-native';
 
 const CustomDrawer = (props) =>{
     return (
@@ -11,9 +12,12 @@ const CustomDrawer = (props) =>{
                 </ImageBackground>
                 <DrawerItemList {...props}/>
             </DrawerContentScrollView>
-            <View>
-                <Text style={{color: 'white', padding: 20}}>Support Me</Text>
-            </View>
+                
+                <TouchableOpacity style={{width: '45%'}} onPress={() => Linking.openURL('https://www.paypal.com/paypalme/notaringblade')}>
+                <Text style={{color: 'white', padding: 20}}>
+                    Support Me
+                </Text>
+                </TouchableOpacity>
         </View>
     )
 }

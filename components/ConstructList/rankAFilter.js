@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { View, Text, FlatList, Modal, TextInput, TouchableOpacity } from 'react-native'
+import { View} from 'react-native'
 import ListOfConstructs from './ListOfConstructs'
 import HomeScreen from '../HomeScreen'
 import styles from './styles';
@@ -20,6 +20,8 @@ const ConstructList  = ({navigation}) => {
 
     
 
+    
+
     return (
         <View style={styles.list} >
 
@@ -35,11 +37,8 @@ const ConstructList  = ({navigation}) => {
                 
             />
 
-        <AdMobBanner
-                bannerSize='banner'
-                adUnitID='ca-app-pub-9019468619354770/3957692192'
-                servePersonalizedAds = {false}
-            />
+                
+                
         </View>
     )
 }

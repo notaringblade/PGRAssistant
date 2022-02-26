@@ -17,6 +17,7 @@ const MemoryTab = (props) =>{
     const onClick = () =>{
         navigation.navigate('Memories')
     }
+    const showMemory2 = Ability.memories.has2Sets === 'y'? true: false;
 
     return(
 
@@ -61,6 +62,8 @@ const MemoryTab = (props) =>{
                     <Text style={styles.memoryName}>{Ability.memories.set1.memory6}</Text>
                     </View>
                 </CollapsibleView>
+            
+            {showMemory2? (
 
                 <CollapsibleView title={<Text style={styles.titleText}>{Ability.memories.set2.set2Name}</Text>} style={styles.collapsedView}  arrowStyling={{color : '#F2F2F2'}}>
                     <View style={styles.row2}>
@@ -101,6 +104,7 @@ const MemoryTab = (props) =>{
                     <Text style={styles.memoryName}>{Ability.memories.set2.memory6}</Text>
                     </View>
                 </CollapsibleView>
+            ): null}
                 
 
         </ScrollView>

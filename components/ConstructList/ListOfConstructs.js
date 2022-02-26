@@ -64,6 +64,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS",
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
@@ -175,6 +177,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Support QTE",
         image1: require('../../assets/Images/Memories/Catherine/image1.png'),
@@ -284,6 +288,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Support (Physical)",
         image1: require('../../assets/Images/Memories/PhilipII/image1.png'),
@@ -394,6 +400,8 @@ export default [
     },
 
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS (Lightning)",
         image1: require('../../assets/Images/Memories/Heisen/image1.png'),
@@ -502,6 +510,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Signature",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -613,6 +623,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -724,6 +736,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -831,6 +845,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
@@ -940,6 +956,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -1049,6 +1067,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE",
         image1: require('../../assets/Images/Memories/Frederick/image1.png'),
@@ -1160,6 +1180,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -1270,6 +1292,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "War Zone",
         image1: require('../../assets/Images/Memories/Shakespeare/image1.png'),
@@ -1382,6 +1406,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE(Fire)",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -1492,6 +1518,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE(Pain Cage)",
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
@@ -1602,6 +1630,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -1713,6 +1743,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Babel",
         image1: require('../../assets/Images/Memories/Hanna/image1.png'),
@@ -1824,6 +1856,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "War Zone/ Pain Cage",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -1936,6 +1970,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE(Physical)",
         image1: require('../../assets/Images/Memories/Catherine/image1.png'),
@@ -2047,6 +2083,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "War Zone(Recommended) ",
         image1: require('../../assets/Images/Memories/Heisen/image1.png'),
@@ -2157,6 +2195,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Babel(Recommended)",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -2268,6 +2308,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "War Zone",
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
@@ -2379,6 +2421,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "War Zone/Pain Cage(DPS)",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -2487,6 +2531,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE(Dark)",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -2597,6 +2643,8 @@ export default [
         hiddenSkillIcon: require("../../assets/Images/Crocotta/SSSPlus.png"),
       },
       memories: {
+        has2Sets: 'y',
+        has3Sets: 'y',
         set1:{
           set1Name: "General",
           image1: require('../../assets/Images/Memories/Koya/image1.png'),
@@ -2705,6 +2753,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Support(Physical)",
         image1: require('../../assets/Images/Memories/Hoek/image1.png'),
@@ -2815,6 +2865,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -2925,6 +2977,8 @@ export default [
         hiddenSkillIcon: require("../../assets/Images/Peafowl/SSSPlus.png"),
       },
       memories: {
+        has2Sets: 'y',
+        has3Sets: 'y',
         set1:{
           set1Name: "General",
           image1: require('../../assets/Images/Memories/WuAnjun/image1.png'),
@@ -3034,6 +3088,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "War Zone/Pain Cage(Recommended)",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -3144,6 +3200,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
@@ -3254,6 +3312,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE(Physical)",
         image1: require('../../assets/Images/Memories/PhilipII/image1.png'),
@@ -3365,6 +3425,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Sub-DPS(Recommended)",
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
@@ -3473,6 +3535,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS",
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
@@ -3583,6 +3647,8 @@ export default [
         hiddenSkillIcon: require("../../assets/Images/Tempest/SSSPlus.png"),
       },
       memories: {
+        has2Sets: 'y',
+        has3Sets: 'y',
         set1:{
           set1Name: "General",
           image1: require('../../assets/Images/Memories/Lurcezia/image1.png'),
@@ -3694,6 +3760,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "Sub-DPS",
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
@@ -3805,6 +3873,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS",
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
@@ -3916,6 +3986,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "DPS",
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
@@ -4026,6 +4098,8 @@ export default [
         hiddenSkillIcon: require("../../assets/Images/Theatrical/SSSPlus.png"),
       },
       memories: {
+        has2Sets: 'y',
+        has3Sets: 'y',
         set1:{
           set1Name: "General",
           image1: require('../../assets/Images/Memories/Jack/image1.png'),
@@ -4137,6 +4211,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Orb.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE Support(Elemental)",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -4247,6 +4323,8 @@ export default [
       hiddenSkillIcon: require("../../assets/Images/Capriccio/SSSPlus.png"),
     },
     memories: {
+      has2Sets: 'y',
+      has3Sets: 'y',
       set1:{
         set1Name: "QTE Support(Elemental)",
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
@@ -4357,6 +4435,8 @@ export default [
         hiddenSkillIcon: require("../../assets/Images/Ornate/SSSPlus.png"),
       },
       memories: {
+        has2Sets: 'y',
+        has3Sets: 'y',
         set1:{
           set1Name: "General",
           image1: require('../../assets/Images/Memories/Jack/image1.png'),

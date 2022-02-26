@@ -6,12 +6,16 @@ import { View, FlatList } from "react-native";
 import CompleteFlatList from "react-native-complete-flatlist";
 
 
+
 const memoryListView = () => {
 
     const ItemSeparator = () =>{
         return(
             <View style={styles.ItemSeparator} />    
         )
+    }
+    const pullBack =() =>{
+        false
     }
 
     return(
@@ -26,7 +30,10 @@ const memoryListView = () => {
             backgroundStyles={styles.backgroundStyles}
             searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
             renderSeparator={ItemSeparator}     
+            refreshOnLoad = {false}
+            
         />
+            
         </View>
         </View>
     )

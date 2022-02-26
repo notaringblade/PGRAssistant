@@ -2,7 +2,6 @@ import React from "react";
 import {useContext, createContext} from 'react';
 import {View, FlatList, Text, Image, ImageBackground, ScrollView} from 'react-native';
 import ListOfAbilities from "./ListOfAbilities";
-import HomeScreen from "../HomeScreen";
 import styles from "./styles";
 import MyTabs from "./topTabBarNavigation";
 import { AbilityContext } from "./context"; 
@@ -46,7 +45,7 @@ const AbilityPage = ({route, navigation}) => {
                 </AbilityContext.Provider>
                </View>
                
-               
+                
 
         </View>
     );

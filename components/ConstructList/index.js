@@ -4,8 +4,8 @@ import ListOfConstructs from './ListOfConstructs'
 import HomeScreen from '../HomeScreen'
 import styles from './styles';
 import CompleteFlatList from 'react-native-complete-flatlist';
-import { AdMobBanner} from 'expo-ads-admob';
-
+import rankAFilter from './rankAFilter';
+import CollapsibleView from '@eliav2/react-native-collapsible-view';
 
 
 const ConstructList  = ({navigation}) => {
@@ -23,20 +23,17 @@ const ConstructList  = ({navigation}) => {
 
 
         <View style={styles.list} >
+            
             <CompleteFlatList 
-                searchKey={['construct_Name', 'construct_Model']}
+                searchKey={['construct_Name', 'construct_Model', 'construct_Battle']}
                 data={ListOfConstructs}
                 renderItem={({item}) => <HomeScreen construct={item}/>}
                 backgroundStyles={styles.backgroundStyles}
                 searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
                 renderSeparator={ItemSeparator}     
             />
-            <AdMobBanner
-                bannerSize='banner'
-                adUnitID='ca-app-pub-9019468619354770/7761722750'
-                servePersonalizedAds = {false}
-            />
-        </View>
+                
+                </View>
     )
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Image, ImageBackground, ScrollView, StyleSheet, Text, View } from "react-native";
 import CollapsibleView from '@eliav2/react-native-collapsible-view';
 
@@ -7,7 +7,15 @@ const memoryScreen = ({route}) => {
     const {icon, memoryName, rarity, star, Artwork, SetBonus, recommended, Story, Stats} = route.params;
     const borderColor = rarity === '6'?  '#C9481E': '#CC7218'
 
+    // const [show, setShow] = useState(false)
+
+    const setShow = SetBonus.numberOfSets === '3'? true: false
+    
+
     return(
+
+        
+
         <View style={styles.container}>
             <View style={[styles.infoBorder, {borderColor: borderColor}]}>
                 <Image style={styles.memoryIcon} source={icon}/>
@@ -45,12 +53,15 @@ const memoryScreen = ({route}) => {
                         {SetBonus.fourPiece}
                     </Text>
             </CollapsibleView>
+        
+            {setShow? (
 
             <CollapsibleView title={<Text style={styles.titleText}>6-Piece Set Effect</Text>} style={styles.collapsedView} initExpanded={true} noArrow={true} >
                     <Text style={[styles.titleText, {fontSize: 14, paddingLeft: 5, paddingTop: 5}]}>
                         {SetBonus.sixPiece}
                     </Text>
             </CollapsibleView>
+            ): null}
 
             <CollapsibleView title={<Text style={styles.titleText}>Artwork</Text>} style={styles.collapsedView} initExpanded={false} noArrow={true} >
                    <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
@@ -79,6 +90,7 @@ const memoryScreen = ({route}) => {
             </CollapsibleView>
                 </ScrollView>
             </View>
+
         </View>
     )
 } 

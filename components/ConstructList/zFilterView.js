@@ -5,7 +5,8 @@ import index from './index';
 import rankAFilter from './rankAFilter';
 import rankSFilter from './rankSFilter';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import { View } from 'react-native';
+import { AdMobBanner} from 'expo-ads-admob';
+
 
 const Tab = createMaterialTopTabNavigator();
 
