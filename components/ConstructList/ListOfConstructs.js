@@ -2683,11 +2683,11 @@ export default [
         rarity: '6'
       },
   },
-  //Arctic
+  //Rigor
   {
     construct_Battle: 'Construct',
-    construct_Name: "Rosetta ",
-    construct_Model: "Arctic",
+    construct_Name: "Rosetta",
+    construct_Model: "Rigor",
     construct_Rank: "S",
     construct_Image: require("../../assets/Images/Arctic/Construct_Arctic.png"),
     construct_Type: "Tank",

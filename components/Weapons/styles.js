@@ -43,12 +43,20 @@ const styles = StyleSheet.create({
     itemText:{
         paddingLeft: 120,
         color: 'white',
-        fontSize: 14
+        fontSize: 16
     },
     ItemSeparator:{
         height: 5, 
         width: "100%", 
         // backgroundColor: "#3D3D3D"
+    },
+    stats:{
+        marginTop: 5,
+        borderColor: 'white',
+        height: 55,
+    },
+    statText:{
+        color: 'white'
     },
 })
 

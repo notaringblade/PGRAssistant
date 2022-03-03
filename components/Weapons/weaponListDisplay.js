@@ -17,6 +17,7 @@ const WeaponListDisplay = () =>{
             <View style={styles.list}>
         <CompleteFlatList
             searchKey={['weaponName', 'weaponType']}
+            slide = {'left'}
             data={weaponList}
             renderItem={({item}) => <Weapons weapons={item}/>}
             backgroundStyles={styles.backgroundStyles}

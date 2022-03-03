@@ -4,7 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import AbilityPage from "../components/AbilityScreen/index";
 import Drawer from "./zDrawerNavigation";
 import { View } from "react-native";
-import Weapons from "../components/Weapons/index";
+import ConstructHomePage from "../components/ConstructList/index";
 import memoryPage from "../components/Memories/memoryPage";
 import memoryScreen from "../components/Memories/memoryScreen";
 import WeaponListDisplay from "../components/Weapons/weaponListDisplay";
@@ -21,6 +21,17 @@ export default function Navigator() {
             name="Home"
             component={Drawer}
             options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Constructs"
+            component={ConstructHomePage}
+            options={{
+              title: "",
+              headerStyle: {
+                backgroundColor: "#121212",
+              },
+              headerTintColor: "white",
+            }}
           />
           <Stack.Screen
             name="Ability"

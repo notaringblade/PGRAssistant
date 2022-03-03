@@ -1,7 +1,5 @@
 import React from "react";
-import {useContext, createContext} from 'react';
 import {View, FlatList, Text, Image, ImageBackground, ScrollView} from 'react-native';
-import ListOfAbilities from "./ListOfAbilities";
 import styles from "./styles";
 import MyTabs from "./topTabBarNavigation";
 import { AbilityContext } from "./context"; 

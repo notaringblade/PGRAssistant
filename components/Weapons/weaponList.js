@@ -3,6 +3,10 @@ export default[
     {   
         id: '1',
         weaponName: 'Lotus Berserker',
+        stats:{
+            atk: '428',
+            crit: '234'
+        },
         weaponType: 'Katana',
         weaponImage: require('../../assets/Images/Weapons/Katana/LotusBerserker.png'),
         rarity: '6',
@@ -15,6 +19,10 @@ export default[
     {   
         id: '2',
         weaponName: 'Inverse Chimera',
+        stats:{
+            atk: '425',
+            crit: '235'
+        },
         weaponType: 'Saw',
         weaponImage: require('../../assets/Images/Weapons/Saw/InverseChimera.png'),
         rarity: '6',
@@ -27,6 +35,10 @@ export default[
     {   
         id: '3',
         weaponName: 'Type Zero',
+        stats:{
+            atk: '415',
+            crit: '249'
+        },
         weaponType: 'Levi Gun',
         weaponImage: require('../../assets/Images/Weapons/LeviGuns/TypeZero.png'),
         rarity: '6',
@@ -39,6 +51,10 @@ export default[
     {   
         id: '4',
         weaponName: 'Inverse-Shadow',
+        stats:{
+            atk: '445',
+            crit: '226'
+        },
         weaponType: 'Katana',
         weaponImage: require('../../assets/Images/Weapons/Katana/Inverse-Shadow.png'),
         rarity: '6',
@@ -51,6 +67,10 @@ export default[
     {   
         id: '5',
         weaponName: 'Benediction',
+        stats:{
+            atk: '423',
+            crit: '245'
+        },
         weaponType: 'Levi Gun',
         weaponImage: require('../../assets/Images/Weapons/LeviGuns/Benediction.png'),
         rarity: '6',
@@ -63,6 +83,10 @@ export default[
     {   
         id: '6',
         weaponName: 'Wolf Fang',
+        stats:{
+            atk: '458',
+            crit: '249'
+        },
         weaponType: 'Dual Guns',
         weaponImage: require('../../assets/Images/Weapons/DualGuns/WolfFang.png'),
         rarity: '6',
@@ -75,6 +99,10 @@ export default[
     {   
         id: '7',
         weaponName: 'Soul Ripper',
+        stats:{
+            atk: '458',
+            crit: '261'
+        },
         weaponType: 'Dagger',
         weaponImage: require('../../assets/Images/Weapons/Dagger/SoulRipper.png'),
         rarity: '6',
@@ -87,6 +115,10 @@ export default[
     {   
         id: '8',
         weaponName: 'Ramiel',
+        stats:{
+            atk: '471',
+            crit: '254'
+        },
         weaponType: 'Bow',
         weaponImage: require('../../assets/Images/Weapons/Bow/Ramiel.png'),
         rarity: '6',
@@ -99,6 +131,10 @@ export default[
     {   
         id: '9',
         weaponName: 'Berserk Fusion',
+        stats:{
+            atk: '458',
+            crit: '249'
+        },
         weaponType: 'Cannon',
         weaponImage: require('../../assets/Images/Weapons/Cannon/BerserkFusion.png'),
         rarity: '6',
@@ -111,6 +147,10 @@ export default[
     {   
         id: '10',
         weaponName: 'Dragon Wind',
+        stats:{
+            atk: '406',
+            crit: '253'
+        },
         weaponType: 'LeviGuns',
         weaponImage: require('../../assets/Images/Weapons/LeviGuns/DragonWind.png'),
         rarity: '6',
@@ -123,6 +163,10 @@ export default[
     {   
         id: '11',
         weaponName: 'ZeroScale',
+        stats:{
+            atk: '445',
+            crit: '254'
+        },
         weaponType: 'Dual Guns',
         weaponImage: require('../../assets/Images/Weapons/DualGuns/ZeroScale.png'),
         rarity: '6',
@@ -135,6 +179,10 @@ export default[
     {   
         id: '12',
         weaponName: 'Fusion Dragon',
+        stats:{
+            atk: '450',
+            crit: '253'
+        },
         weaponType: 'Cannon',
         weaponImage: require('../../assets/Images/Weapons/Cannon/FusionDragon.png'),
         rarity: '6',
@@ -147,6 +195,10 @@ export default[
     {   
         id: '13',
         weaponName: 'Hydro Heat',
+        stats:{
+            atk: '436',
+            crit: '230'
+        },
         weaponType: 'Saw',
         weaponImage: require('../../assets/Images/Weapons/Saw/HydroHeat.png'),
         rarity: '6',
@@ -159,6 +211,10 @@ export default[
     {   
         id: '14',
         weaponName: 'Darkness',
+        stats:{
+            atk: '445',
+            crit: '226'
+        },
         weaponType: 'Greatsword',
         weaponImage: require('../../assets/Images/Weapons/Greatsword/Darkness.png'),
         rarity: '6',
@@ -171,6 +227,10 @@ export default[
     {   
         id: '15',
         weaponName: 'Sakura',
+        stats:{
+            atk: '447',
+            crit: '239'
+        },
         weaponType: 'Katana',
         weaponImage: require('../../assets/Images/Weapons/Katana/Sakura.png'),
         rarity: '6',
@@ -183,6 +243,10 @@ export default[
     {   
         id: '16',
         weaponName: 'Big Kamui',
+        stats:{
+            atk: '436',
+            crit: '230'
+        },
         weaponType: 'Greatsword',
         weaponImage: require('../../assets/Images/Weapons/Greatsword/BigKamui.png'),
         rarity: '6',
@@ -195,6 +259,10 @@ export default[
     {   
         id: '17',
         weaponName: 'Purple Peony',
+        stats:{
+            atk: '425',
+            crit: '249'
+        },
         weaponType: 'Scythe',
         weaponImage: require('../../assets/Images/Weapons/Scythe/PurplePeony.png'),
         rarity: '6',
@@ -207,6 +275,10 @@ export default[
     {   
         id: '18',
         weaponName: 'Tonitrus',
+        stats:{
+            atk: '476',
+            crit: '249'
+        },
         weaponType: 'Bow',
         weaponImage: require('../../assets/Images/Weapons/Bow/Tonitrus.png'),
         rarity: '6',
@@ -219,6 +291,10 @@ export default[
     {   
         id: '19',
         weaponName: 'Scion',
+        stats:{
+            atk: '436',
+            crit: '244'
+        },
         weaponType: 'Dua lGuns',
         weaponImage: require('../../assets/Images/Weapons/DualGuns/Scion.png'),
         rarity: '6',
@@ -231,6 +307,10 @@ export default[
     {   
         id: '20',
         weaponName: 'St Elmo',
+        stats:{
+            atk: '436',
+            crit: '236'
+        },
         weaponType: 'Scythe',
         weaponImage: require('../../assets/Images/Weapons/Scythe/StElmo.png'),
         rarity: '6',
@@ -243,6 +323,10 @@ export default[
     {   
         id: '21',
         weaponName: 'Crimson Birch',
+        stats:{
+            atk: '463',
+            crit: '234'
+        },
         weaponType: 'Katana',
         weaponImage: require('../../assets/Images/Weapons/Katana/CrimsonBirch.png'),
         rarity: '6',
@@ -255,6 +339,10 @@ export default[
     {   
         id: '22',
         weaponName: 'Sariel',
+        stats:{
+            atk: '441',
+            crit: '241'
+        },
         weaponType: 'Katana',
         weaponImage: require('../../assets/Images/Weapons/Katana/Sariel.png'),
         rarity: '6',
@@ -267,6 +355,10 @@ export default[
     {   
         id: '23',
         weaponName: 'Thanatos',
+        stats:{
+            atk: '493',
+            crit: '249'
+        },
         weaponType: 'Greatsword(T)',
         weaponImage: require('../../assets/Images/Weapons/Greatsword/Thanatos(T).png'),
         rarity: '6',
@@ -280,11 +372,15 @@ export default[
     {   
         id: '24',
         weaponName: 'Gungnir',
+        stats:{
+            atk: '458',
+            crit: '230'
+        },
         weaponType: 'SpearShield',
         weaponImage: require('../../assets/Images/Weapons/SpearShield/Gungnir.png'),
         rarity: '6',
         signatureConstruct: require('../../assets/Images/Arctic/Construct_Arctic.png'),
-        constructName: 'Rosetta-Arctic',
+        constructName: 'Rosetta-Rigor',
         Ability: "Attacks reduce the target's DEF by 20% for 8s. Duration resets every time it is triggered. Using Small/Medium/Wide-Area Railgun applies DoT, dealing 25%/50%/100% Physical DMG per second for 8s."
         
     },
@@ -292,6 +388,10 @@ export default[
     {   
         id: '25',
         weaponName: 'Baji',
+        stats:{
+            atk: '467',
+            crit: '236'
+        },
         weaponType: 'Gauntlet',
         weaponImage: require('../../assets/Images/Weapons/Gauntlet/Baji.png'),
         rarity: '6',
@@ -304,6 +404,10 @@ export default[
     {   
         id: '26',
         weaponName: 'Qinghe',
+        stats:{
+            atk: '506',
+            crit: '261'
+        },
         weaponType: 'Dragon Spear (T)',
         weaponImage: require('../../assets/Images/Weapons/DragonSpear/Qinghe(T).png'),
         rarity: '6',
@@ -316,6 +420,10 @@ export default[
     {   
         id: '27',
         weaponName: 'Ozma',
+        stats:{
+            atk: '480',
+            crit: '261'
+        },
         weaponType: 'Amplifier',
         weaponImage: require('../../assets/Images/Weapons/Amplifier/Ozma.png'),
         rarity: '6',
@@ -328,6 +436,10 @@ export default[
     {   
         id: '28',
         weaponName: 'VirtuousContractKai',
+        stats:{
+            atk: '467',
+            crit: '261'
+        },
         weaponType: 'NierAutomata',
         weaponImage: require('../../assets/Images/Weapons/NierAutomata/VirtuousContractKai.png'),
         rarity: '6',
@@ -340,6 +452,10 @@ export default[
     {   
         id: '29',
         weaponName: 'CruelOathKai',
+        stats:{
+            atk: '445',
+            crit: '254'
+        },
         weaponType: 'NierAutomata',
         weaponImage: require('../../assets/Images/Weapons/NierAutomata/CruelOathKai.png'),
         rarity: '6',
@@ -352,6 +468,10 @@ export default[
     {   
         id: '30',
         weaponName: 'Type40LanceKai',
+        stats:{
+            atk: '458',
+            crit: '249'
+        },
         weaponType: 'NierAutomata',
         weaponImage: require('../../assets/Images/Weapons/NierAutomata/Type4OLanceKai.png'),
         rarity: '6',
@@ -364,6 +484,10 @@ export default[
     {   
         id: '31',
         weaponName: 'Auncel',
+        stats:{
+            atk: '454',
+            crit: '249'
+        },
         weaponType: 'Rifle',
         weaponImage: require('../../assets/Images/Weapons/Rifle/Auncel.png'),
         rarity: '6',
@@ -376,6 +500,10 @@ export default[
     {   
         id: '32',
         weaponName: 'Mistress Of The Woods',
+        stats:{
+            atk: '471',
+            crit: '261'
+        },
         weaponType: 'Cello Blade (T)',
         weaponImage: require('../../assets/Images/Weapons/CelloBlade/MistressofTheWoods(T).png'),
         rarity: '6',
@@ -384,10 +512,14 @@ export default[
         Ability: "Physical DMG increases by 20%. Huiyu's attack frequency increases by 50% and gains a new skill: Curse. Huiyu transforms into an amulet and attaches itself to the target, dealing up to 210% Physical DMG. After a short delay, deals 240% Physical DMG again. Damage scales with Qu's ultimate level."
         
     },
-    //Gunblade
+    //Apollo
     {   
         id: '33',
         weaponName: 'Apollo',
+        stats:{
+            atk: '446',
+            crit: '253'
+        },
         weaponType: 'Gunblade',
         weaponImage: require('../../assets/Images/Weapons/Gunblade/Apollo.png'),
         rarity: '6',
@@ -400,6 +532,10 @@ export default[
     {   
         id: '34',
         weaponName: 'Growl',
+        stats:{
+            atk: '454',
+            crit: '251'
+        },
         weaponType: 'Collab Bot',
         weaponImage: require('../../assets/Images/Weapons/CollabBot/Growl.png'),
         rarity: '6',
@@ -410,8 +546,12 @@ export default[
     },
     //BannerSpear
     {   
-        id: '35',
+        id: 'Spear',
         weaponName: 'Phoenix',
+        stats:{
+            atk: '454',
+            crit: '251'
+        },
         weaponType: 'Banner Spear',
         weaponImage: require('../../assets/Images/Weapons/BannerSpear/Phoenix.png'),
         rarity: '6',
@@ -424,6 +564,10 @@ export default[
     {   
         id: '36',
         weaponName: 'Durandal',
+        stats:{
+            atk: '467',
+            crit: '249'
+        },
         weaponType: 'Chain Sword (T)',
         weaponImage: require('../../assets/Images/Weapons/ChainSword/Durandal(T).png'),
         rarity: '6',
@@ -436,6 +580,10 @@ export default[
     {   
         id: '37',
         weaponName: 'Hestia',
+        stats:{
+            atk: '476',
+            crit: '249'
+        },
         weaponType: 'Scepter',
         weaponImage: require('../../assets/Images/Weapons/Scepter/Hestia.png'),
         rarity: '6',
@@ -448,6 +596,10 @@ export default[
     {   
         id: '38',
         weaponName: 'Sarastro',
+        stats:{
+            atk: '463',
+            crit: '254'
+        },
         weaponType: 'Flute Sword',
         weaponImage: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
         rarity: '6',
@@ -460,6 +612,10 @@ export default[
     {   
         id: '39',
         weaponName: 'Boundless',
+        stats:{
+            atk: '463',
+            crit: '269'
+        },
         weaponType: 'DragonMaelstrom(T)',
         weaponImage: require('../../assets/Images/Weapons/DragonMaelstrom/Boundless(T).png'),
         rarity: '6',

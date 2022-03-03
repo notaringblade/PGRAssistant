@@ -24,6 +24,7 @@ const memoryListView = () => {
             <View style={styles.list}>
         <CompleteFlatList
             searchKey={['memoryName']}
+            slide ={'Left'}
             data={memoryList}
             renderItem={({item}) => <MemoryStyle memory={item}/>}
             keyExtractor={(item) => item.id}
