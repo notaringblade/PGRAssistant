@@ -2,12 +2,13 @@ import React from "react";
 import {Text, View, Image, TouchableWithoutFeedback, ImageBackground} from 'react-native';
 import styles from "./styles";
 import { useNavigation } from "@react-navigation/native";
+import {Rating} from 'react-native-elements'
 
 
 const memories = (props) =>{
     const {icon, memoryName, rarity, star, Type} = props.memory;
     const navigation = useNavigation();
-
+    
     const borderColor = rarity === '6'?  '#C9481E': '#CC7218'
     const onClick = () =>{
         navigation.navigate('MemoryScreen', props.memory)
@@ -19,11 +20,21 @@ const memories = (props) =>{
             <TouchableWithoutFeedback onPress={onClick}>
             <View style={styles.screenView}>
                 <View style={[styles.itemView, {borderColor: borderColor}]}>
-                    <Image style={[styles.star, {tintColor: borderColor}]} source={star}/>
                     <ImageBackground style={styles.icon} source={icon}/>
                     <Text style={styles.memoryName}>{memoryName}</Text>
                     <Text style={styles.memoryType}>{Type}</Text>
-                    <Text style={styles.rarity}>{rarity}</Text>
+                    <Rating
+                        // showRating
+                        type="custom"
+                        ratingCount={Math.floor(rarity)}
+                        startingValue = {rarity}
+                        readonly
+                        fraction ={0}
+                        imageSize={15}
+                        tintColor= '#121212'
+                        ratingColor= {borderColor}
+                        style = {{marginLeft : -50, marginTop: 8}}
+                     />
                 </View>
             </View>
             </TouchableWithoutFeedback>

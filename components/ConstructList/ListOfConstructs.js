@@ -8,9 +8,9 @@ export default [
     construct_Image: require("../../assets/Images/Lotus/Construct_Lotus.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (80%) Fire (20%)",
-    id: "1",
+      constructID: 0,
     stats: {
-      HP: "1113",
+      HP: "143",
       Crit: "101",
       ATK: "223",
       DEF: "159"
@@ -38,7 +38,7 @@ export default [
         "Signature Move: Costs 100 Energy. Unleashes Lotus Flurry to deal quick slashes to enemies ahead. Each slash deals 140% Physical DMG. Finishes the move by striking enemies with a heavy blow that deals 1000% Physical DMG.",
       signatureIcon: require("../../assets/Images/Lotus/Signature.png"),
 
-      qte: "QTE: Lucia strikes at enemies with her Dual Blades, dealing 1110% Physical DMG in total.",
+      qte: "QTE: Lucia strikes at enemies with her Dual Blades, dealing 140% Physical DMG in total.",
       qteIcon: require("../../assets/Images/QTE.png"),
 
       class: "Extra DMG Bonus increases by 20%.",
@@ -68,6 +68,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -83,6 +84,7 @@ export default [
       },
       set2: {
         set2Name: "Support(Plume/Ice)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Zuwenyuan/image1.png'),
         memory1: 'Zu Wenyuan',
         image2: require('../../assets/Images/Memories/Zuwenyuan/image2.png'),
@@ -98,6 +100,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 0,
       WeaponIcon: require('../../assets/Images/Weapons/Katana/LotusBerserker.png'),
       WeaponType: 'Katana',
       WeaponName: 'Lotus Berserker',
@@ -114,7 +117,7 @@ export default [
     construct_Image: require("../../assets/Images/Storm/Construct_Storm.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
-    id: "2",
+      constructID: 1,
     stats: {
       HP: "1247",
       Crit: "101",
@@ -181,6 +184,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Support QTE",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Catherine/image1.png'),
         memory1: 'Catherine',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -196,6 +200,7 @@ export default [
       },
       set2: {
         set2Name: "DPS(Not Recommended)",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -211,6 +216,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 1,
       WeaponIcon: require('../../assets/Images/Weapons/Saw/InverseChimera.png'),
       WeaponType: 'Saw',
       WeaponName: 'Inverse-Chimera',
@@ -227,7 +233,7 @@ export default [
     construct_Image: require("../../assets/Images/Eclipse/Construct_Eclipse.png"),
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
-    id: "3",
+      constructID: 2,
     stats: {
       HP: "1058",
       Crit: "112",
@@ -292,6 +298,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Support (Physical)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/PhilipII/image1.png'),
         memory1: 'PhilipII',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -307,6 +314,7 @@ export default [
       },
       set2: {
         set2Name: "5 Star Memory",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Aife/image1.png'),
         memory1: 'Aife',
         image2: require('../../assets/Images/Memories/Aife/image2.png'),
@@ -322,6 +330,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 2,
       WeaponIcon: require('../../assets/Images/Weapons/LeviGuns/TypeZero.png'),
       WeaponType: 'LeviGuns',
       WeaponName: 'TypeZero',
@@ -338,7 +347,7 @@ export default [
     construct_Image: require("../../assets/Images/Dawn/Construct_Dawn.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (40%) Lightning (60%)",
-    id: "4",
+      constructID: 3,
     stats: {
       HP: "1590",
       Crit: "144",
@@ -404,6 +413,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS (Lightning)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Heisen/image1.png'),
         memory1: 'Heisen',
         image2: require('../../assets/Images/Memories/Heisen/image2.png'),
@@ -419,6 +429,7 @@ export default [
       },
       set2: {
         set2Name: "QTE(Support)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Heisen/image1.png'),
         memory1: 'Heisen',
         image2: require('../../assets/Images/Memories/Heisen/image2.png'),
@@ -434,6 +445,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 3,
       WeaponIcon: require('../../assets/Images/Weapons/Katana/Inverse-Shadow.png'),
       WeaponType: 'Katana',
       WeaponName: 'Inverse Shadow',
@@ -449,7 +461,7 @@ export default [
     construct_Image: require("../../assets/Images/Lux/Construct_Lux.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Physical (80%)",
-    id: "15",
+      constructID: 4,
     stats: {
       HP: "1439",
       Crit: "151",
@@ -514,6 +526,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Signature",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/Guinevere/image2.png'),
@@ -529,6 +542,7 @@ export default [
       },
       set2: {
         set2Name: "QTE(Support)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -544,6 +558,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 4,
       WeaponIcon: require('../../assets/Images/Weapons/LeviGuns/Benediction.png'),
       WeaponType: 'Levi Gun',
       WeaponName: 'Benediction',
@@ -560,7 +575,7 @@ export default [
     construct_Image: require("../../assets/Images/Palefire/Construct_Palefire.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (60%) Fire (40%)",
-    id: "5",
+      constructID: 5,
     stats: {
       HP: "1439",
       Crit: "151",
@@ -627,6 +642,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/Shakespeare/image2.png'),
@@ -642,6 +658,7 @@ export default [
       },
       set2: {
         set2Name: "Pain Cage",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Hanna/image1.png'),
         memory1: 'Hanna',
         image2: require('../../assets/Images/Memories/Hanna/image2.png'),
@@ -657,6 +674,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 5,
       WeaponIcon: require('../../assets/Images/Weapons/DualGuns/WolfFang.png'),
       WeaponType: 'DualGuns',
       WeaponName: 'WolfFang',
@@ -673,7 +691,7 @@ export default [
     construct_Image: require("../../assets/Images/Nightblade/Construct_Nightblade.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
-    id: "6",
+      constructID: 6,
     stats: {
       HP: "1515",
       Crit: "159",
@@ -740,6 +758,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -755,6 +774,7 @@ export default [
       },
       set2: {
         set2Name: "Babel",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -770,6 +790,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 6,
       WeaponIcon: require('../../assets/Images/Weapons/Dagger/SoulRipper.png'),
       WeaponType: 'Dagger',
       WeaponName: 'SoulRipper',
@@ -786,7 +807,7 @@ export default [
     construct_Image: require("../../assets/Images/Zero/Construct_Zero.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
-    id: "8",
+      constructID: 7,
     stats: {
       HP: "1212",
       Crit: "166",
@@ -849,6 +870,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -864,6 +886,7 @@ export default [
       },
       set2: {
         set2Name: "Burst(Not Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Frederick/image1.png'),
         memory1: 'Frederick',
         image2: require('../../assets/Images/Memories/Frederick/image2.png'),
@@ -879,6 +902,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 7,
       WeaponIcon: require('../../assets/Images/Weapons/Bow/Ramiel.png'),
       WeaponType: 'Bow',
       WeaponName: 'Ramiel',
@@ -895,7 +919,7 @@ export default [
     construct_Image: require("../../assets/Images/Blast/Construct_Blast.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (80%) Physical (20%)",
-    id: "7",
+      constructID: 8,
     stats: {
       HP: "1515",
       Crit: "151",
@@ -960,6 +984,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -975,6 +1000,7 @@ export default [
       },
       set2: {
         set2Name: "War Zone (Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Hanna/image1.png'),
         memory1: 'Hanna',
         image2: require('../../assets/Images/Memories/Hanna/image2.png'),
@@ -990,6 +1016,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 8,
       WeaponIcon: require('../../assets/Images/Weapons/Cannon/BerserkFusion.png'),
       WeaponType: 'Cannon',
       WeaponName: 'BerserkFusion',
@@ -1006,7 +1033,7 @@ export default [
     construct_Image: require("../../assets/Images/Luminance/Construct_Luminance.png"),
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
-    id: "33",
+      constructID: 9,
     stats: {
       HP: "1915",
       Crit: "191",
@@ -1071,6 +1098,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Frederick/image1.png'),
         memory1: 'Frederick',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -1086,6 +1114,7 @@ export default [
       },
       set2: {
         set2Name: "Babel",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Hanna/image1.png'),
         memory1: 'Hanna',
         image2: require('../../assets/Images/Memories/Hanna/image2.png'),
@@ -1101,6 +1130,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 9,
       WeaponIcon: require('../../assets/Images/Weapons/LeviGuns/DragonWind.png'),
       WeaponType: 'LeviGuns',
       WeaponName: 'DragonWind',
@@ -1117,7 +1147,7 @@ export default [
     construct_Image: require("../../assets/Images/Entropy/Construct_Entropy.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
-    id: "20",
+      constructID: 10,
     stats: {
       HP: "1915",
       Crit: "201",
@@ -1184,6 +1214,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -1199,6 +1230,7 @@ export default [
       },
       set2: {
         set2Name: "War Zone/Pain Cage",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Darwin/image2.png'),
@@ -1214,6 +1246,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 10,
       WeaponIcon: require('../../assets/Images/Weapons/DualGuns/ZeroScale.png'),
       WeaponType: 'DualGuns',
       WeaponName: 'ZeroScale',
@@ -1230,7 +1263,7 @@ export default [
     construct_Image: require("../../assets/Images/Ember/Construct_Ember.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (30%) Fire (70%)",
-    id: "21",
+      constructID: 11,
     stats: {
       HP: "1820",
       Crit: "191",
@@ -1296,6 +1329,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "War Zone",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Shakespeare/image1.png'),
         memory1: 'Shakespeare',
         image2: require('../../assets/Images/Memories/Shakespeare/image2.png'),
@@ -1311,6 +1345,7 @@ export default [
       },
       set2: {
         set2Name: "Pain Cage",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Mozart/image1.png'),
         memory1: 'Mozart',
         image2: require('../../assets/Images/Memories/Mozart/image2.png'),
@@ -1326,6 +1361,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 11,
       WeaponIcon: require('../../assets/Images/Weapons/Cannon/FusionDragon.png'),
       WeaponType: 'Cannon',
       WeaponName: 'FusionDragon',
@@ -1342,7 +1378,7 @@ export default [
     construct_Image: require("../../assets/Images/Pulse/Construct_Pulse.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (50%) Fire (50%)",
-    id: "27",
+      constructID: 12,
     stats: {
       HP: "2203",
       Crit: "172",
@@ -1410,6 +1446,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE(Fire)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -1425,6 +1462,7 @@ export default [
       },
       set2: {
         set2Name: "DPS(Not Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/Shakespeare/image2.png'),
@@ -1440,6 +1478,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 12,
       WeaponIcon: require('../../assets/Images/Weapons/Saw/HydroHeat.png'),
       WeaponType: 'Saw',
       WeaponName: 'HydroHeat',
@@ -1456,7 +1495,7 @@ export default [
     construct_Image: require("../../assets/Images/Tenebrion/Construct_Tenebrion.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (50%) Dark (50%)",
-    id: "28",
+      constructID: 13,
     stats: {
       HP: "2299",
       Crit: "172",
@@ -1522,6 +1561,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE(Pain Cage)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
         memory1: 'Einsteina',
         image2: require('../../assets/Images/Memories/Bathlon/image2.png'),
@@ -1537,6 +1577,7 @@ export default [
       },
       set2: {
         set2Name: "DPS(War Zone)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Hanna/image1.png'),
         memory1: 'Hanna',
         image2: require('../../assets/Images/Memories/Hanna/image2.png'),
@@ -1552,6 +1593,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 13,
       WeaponIcon: require('../../assets/Images/Weapons/Greatsword/Darkness.png'),
       WeaponType: 'Greatsword',
       WeaponName: 'Darkness',
@@ -1568,7 +1610,7 @@ export default [
     construct_Image: require("../../assets/Images/CrimsonAbyss/Construct_CrimsonAbyss.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
-    id: "22",
+      constructID: 14,
     stats: {
       HP: "1820",
       Crit: "201",
@@ -1634,6 +1676,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Darwin/image2.png'),
@@ -1649,6 +1692,7 @@ export default [
       },
       set2: {
         set2Name: "Burst",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Darwin/image2.png'),
@@ -1664,6 +1708,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 14,
       WeaponIcon: require('../../assets/Images/Weapons/Katana/Sakura.png'),
       WeaponType: 'Katana',
       WeaponName: 'Sakura',
@@ -1679,7 +1724,7 @@ export default [
     construct_Image: require("../../assets/Images/Bastion/Construct_Bastion.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
-    id: "10",
+      constructID: 15,
     stats: {
       HP: "1666",
       Crit: "139",
@@ -1747,6 +1792,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Babel",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Hanna/image1.png'),
         memory1: 'Hanna',
         image2: require('../../assets/Images/Memories/Hanna/image2.png'),
@@ -1762,6 +1808,7 @@ export default [
       },
       set2: {
         set2Name: "QTE(Physical)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Catherine/image1.png'),
         memory1: 'Catherine',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -1777,6 +1824,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 15,
       WeaponIcon: require('../../assets/Images/Weapons/Greatsword/BigKamui.png'),
       WeaponType: 'Greatsword',
       WeaponName: 'BigKamui',
@@ -1793,7 +1841,7 @@ export default [
     construct_Image: require("../../assets/Images/Astral/Construct_Astral.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (50%) Dark (50%)",
-    id: "9",
+      constructID: 16,
     stats: {
       HP: "1544",
       Crit: "145",
@@ -1860,6 +1908,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "War Zone/ Pain Cage",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Bathlon/image2.png'),
@@ -1875,6 +1924,7 @@ export default [
       },
       set2: {
         set2Name: "War Zone/ Babel",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -1890,6 +1940,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 16,
       WeaponIcon: require('../../assets/Images/Weapons/Dagger/Peacemaker.png'),
       WeaponType: 'Dagger',
       WeaponName: 'Peacemaker',
@@ -1906,7 +1957,7 @@ export default [
     construct_Image: require("../../assets/Images/Brilliance/Construct_Brilliance.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
-    id: "11",
+      constructID: 17,
     stats: {
       HP: "1636",
       Crit: "139",
@@ -1974,6 +2025,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE(Physical)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Catherine/image1.png'),
         memory1: 'Catherine',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -1989,6 +2041,7 @@ export default [
       },
       set2: {
         set2Name: "DPS(Not Recommended)",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -2004,6 +2057,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 17,
       WeaponIcon: require('../../assets/Images/Weapons/Scythe/PurplePeony.png'),
       WeaponType: 'Scythe',
       WeaponName: 'PurplePeony',
@@ -2020,7 +2074,7 @@ export default [
     construct_Image: require("../../assets/Images/Veritas/Construct_Veritas.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (20%) Lightning (80%)",
-    id: "23",
+      constructID: 18,
     stats: {
       HP: "1212",
       Crit: "166",
@@ -2087,6 +2141,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "War Zone(Recommended) ",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Heisen/image1.png'),
         memory1: 'Heisen',
         image2: require('../../assets/Images/Memories/Heisen/image2.png'),
@@ -2102,6 +2157,7 @@ export default [
       },
       set2: {
         set2Name: "Pain Cage",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Condelina/image1.png'),
         memory1: 'Condelina',
         image2: require('../../assets/Images/Memories/Heisen/image2.png'),
@@ -2117,6 +2173,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 18,
       WeaponIcon: require('../../assets/Images/Weapons/Bow/Tonitrus.png'),
       WeaponType: 'Bow',
       WeaponName: 'Tonitrus',
@@ -2133,7 +2190,7 @@ export default [
     construct_Image: require("../../assets/Images/Silverfang/Construct_Silverfang.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Fire (80%)",
-    id: "16",
+      constructID: 19,
     stats: {
       HP: "1515",
       Crit: "144",
@@ -2199,6 +2256,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Babel(Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/Guinevere/image2.png'),
@@ -2214,6 +2272,7 @@ export default [
       },
       set2: {
         set2Name: "QTE(Elemental)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Gloria/image1.png'),
         memory1: 'Gloria',
         image2: require('../../assets/Images/Memories/Guinevere/image2.png'),
@@ -2229,6 +2288,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 19,
       WeaponIcon: require('../../assets/Images/Weapons/DualGuns/Scion.png'),
       WeaponType: 'DualGuns',
       WeaponName: 'Scion',
@@ -2245,7 +2305,7 @@ export default [
     construct_Image: require("../../assets/Images/Arclight/Construct_Arclight.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (30%) Lightning (70%)",
-    id: "12",
+      constructID: 20,
     stats: {
       HP: "1590",
       Crit: "144",
@@ -2312,6 +2372,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "War Zone",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
         memory1: 'Einsteina',
         image2: require('../../assets/Images/Memories/Heisen/image2.png'),
@@ -2327,6 +2388,7 @@ export default [
       },
       set2: {
         set2Name: "QTE(Lightning)",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -2342,6 +2404,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 20,
       WeaponIcon: require('../../assets/Images/Weapons/Scythe/StElmo.png'),
       WeaponType: 'Scythe',
       WeaponName: 'StElmo',
@@ -2358,7 +2421,7 @@ export default [
     construct_Image: require("../../assets/Images/Plume/Construct_Plume.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (20%) Ice (80%)",
-    id: "24",
+      constructID: 21,
     stats: {
       HP: "1954",
       Crit: "183",
@@ -2425,6 +2488,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "War Zone/Pain Cage(DPS)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Darwin/image2.png'),
@@ -2440,6 +2504,7 @@ export default [
       },
       set2: {
         set2Name: "Pain Cage (Burst)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Darwin/image2.png'),
@@ -2455,6 +2520,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 21,
       WeaponIcon: require('../../assets/Images/Weapons/Katana/CrimsonBirch.png'),
       WeaponType: 'Katana',
       WeaponName: 'CrimsonBirch',
@@ -2471,7 +2537,7 @@ export default [
     construct_Image: require("../../assets/Images/Rozen/Construct_Rozen.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Physical (80%)",
-    id: "17",
+      constructID: 22,
     stats: {
       HP: "1515",
       Crit: "144",
@@ -2535,6 +2601,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE(Dark)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/Guinevere/image2.png'),
@@ -2550,6 +2617,7 @@ export default [
       },
       set2: {
         set2Name: "Main DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Bathlon/image1.png'),
         memory1: 'Bathlon',
         image2: require('../../assets/Images/Memories/Bathlon/image2.png'),
@@ -2565,6 +2633,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 22,
       WeaponIcon: require('../../assets/Images/Weapons/Katana/Sariel.png'),
       WeaponType: 'Katana',
       WeaponName: 'Sariel',
@@ -2581,7 +2650,7 @@ export default [
       construct_Image: require("../../assets/Images/Crocotta/Construct_Crocotta.png"),
       construct_Type: "Vanguard",
       construct_Element: "Physical (20%) Dark (80%)",
-      id: "37",
+      constructID: 23,
       stats: {
         HP: "1954",
         Crit: "192",
@@ -2647,6 +2716,7 @@ export default [
         has3Sets: 'y',
         set1:{
           set1Name: "General",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Koya/image1.png'),
           memory1: 'Koya',
           image2: require('../../assets/Images/Memories/Koya/image2.png'),
@@ -2662,6 +2732,7 @@ export default [
         },
         set2: {
           set2Name: "5 Star",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Boudica/image1.png'),
           memory1: 'Boudica',
           image2: require('../../assets/Images/Memories/Boudica/image2.png'),
@@ -2677,9 +2748,10 @@ export default [
         },
       },
       weapons: {
-        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
-        WeaponType: 'FluteSword',
-        WeaponName: 'Sarastro',
+        weaponID: 23,
+        WeaponIcon: require('../../assets/Images/Weapons/Greatsword/Thanatos(T).png'),
+        WeaponType: 'Greatsword',
+        WeaponName: 'Thanatos',
         rarity: '6'
       },
   },
@@ -2692,7 +2764,7 @@ export default [
     construct_Image: require("../../assets/Images/Arctic/Construct_Arctic.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
-    id: "29",
+      constructID: 24,
     stats: {
       HP: "2107",
       Crit: "172",
@@ -2757,6 +2829,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Support(Physical)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Hoek/image1.png'),
         memory1: 'Leeuwenhoek',
         image2: require('../../assets/Images/Memories/Hoek/image2.png'),
@@ -2772,6 +2845,7 @@ export default [
       },
       set2: {
         set2Name: "DPS(SSS/SSS+)",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -2787,6 +2861,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 24,
       WeaponIcon: require('../../assets/Images/Weapons/SpearShield/Gungnir.png'),
       WeaponType: 'SpearShield',
       WeaponName: 'Gungnir',
@@ -2803,7 +2878,7 @@ export default [
     construct_Image: require("../../assets/Images/Kirin/Construct_Kirin.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Ice (80%)",
-    id: "13",
+      constructID: 25,
     stats: {
       HP: "1545",
       Crit: "141",
@@ -2869,6 +2944,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -2884,21 +2960,23 @@ export default [
       },
       set2: {
         set2Name: "DPS/QTE(Ice) ",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/Zuwenyuan/image2.png'),
-        memory2: 'Zuwenyuan',
+        memory2: 'Zu wenyuan',
         image3: require('../../assets/Images/Memories/Guinevere/image3.png'),
         memory3: 'Guinevere',
         image4: require('../../assets/Images/Memories/Zuwenyuan/image1.png'),
-        memory4: 'Zuwenyuan',
+        memory4: 'Zu wenyuan',
         image5: require('../../assets/Images/Memories/Zuwenyuan/image2.png'),
-        memory5: 'Zuwenyuan',
+        memory5: 'Zu wenyuan',
         image6: require('../../assets/Images/Memories/Zuwenyuan/image3.png'),
-        memory6: 'Zuwenyuan',
+        memory6: 'Zu wenyuan',
       },
     },
     weapons: {
+      weaponID: 25,
       WeaponIcon: require('../../assets/Images/Weapons/Gauntlet/Baji.png'),
       WeaponType: 'Gauntlet',
       WeaponName: 'Baji',
@@ -2915,7 +2993,7 @@ export default [
       construct_Image: require("../../assets/Images/Peafowl/Construct_Peafowl.png"),
       construct_Type: "Vanguard",
       construct_Element: "Physical (100%)",
-      id: "38",
+      constructID: 26,
       stats: {
         HP: "1915",
         Crit: "197",
@@ -2981,6 +3059,7 @@ export default [
         has3Sets: 'y',
         set1:{
           set1Name: "General",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/WuAnjun/image1.png'),
           memory1: 'Wu Anjun',
           image2: require('../../assets/Images/Memories/WuAnjun/image2.png'),
@@ -2996,6 +3075,7 @@ export default [
         },
         set2: {
           set2Name: "5 Star",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Boudica/image1.png'),
           memory1: 'Boudica',
           image2: require('../../assets/Images/Memories/Boudica/image2.png'),
@@ -3011,9 +3091,10 @@ export default [
         },
       },
       weapons: {
-        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
-        WeaponType: 'FluteSword',
-        WeaponName: 'Sarastro',
+        weaponID: 26,
+        WeaponIcon: require('../../assets/Images/Weapons/DragonSpear/Qinghe(T).png'),
+        WeaponType: 'Dragon Spear',
+        WeaponName: 'Qinghe',
         rarity: '6'
       },
   },
@@ -3027,7 +3108,7 @@ export default [
     construct_Image: require("../../assets/Images/Laurel/Construct_Laurel.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (10%) Dark (90%)",
-    id: "25",
+      constructID: 27,
     stats: {
       HP: "1992",
       Crit: "198",
@@ -3092,6 +3173,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "War Zone/Pain Cage(Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Flamel/image2.png'),
@@ -3107,6 +3189,7 @@ export default [
       },
       set2: {
         set2Name: "Babel",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Flamel/image1.png'),
         memory1: 'Flamel',
         image2: require('../../assets/Images/Memories/Flamel/image2.png'),
@@ -3122,6 +3205,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 27,
       WeaponIcon: require('../../assets/Images/Weapons/Amplifier/Ozma.png'),
       WeaponType: 'Amplifier',
       WeaponName: 'Ozma',
@@ -3138,7 +3222,7 @@ export default [
     construct_Image: require("../../assets/Images/2B/Construct_2B.png"),
     construct_Type: "Attacker",
     construct_Element: "Physical (100%)",
-    id: "26",
+      constructID: 28,
     stats: {
       HP: "1915",
       Crit: "201",
@@ -3204,6 +3288,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS(Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Cottie/image2.png'),
@@ -3219,6 +3304,7 @@ export default [
       },
       set2: {
         set2Name: "DPS Burst",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Cottie/image1.png'),
         memory1: 'Cottie',
         image2: require('../../assets/Images/Memories/Frederick/image2.png'),
@@ -3234,6 +3320,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 28,
       WeaponIcon: require('../../assets/Images/Weapons/NierAutomata/VirtuousContractKai.png'),
       WeaponType: 'NierAutomata',
       WeaponName: 'VirtuousContractKai',
@@ -3250,7 +3337,7 @@ export default [
     construct_Image: require("../../assets/Images/9S/Construct_9S.png"),
     construct_Type: "Support",
     construct_Element: "Physical (100%)",
-    id: "34",
+      constructID: 29,
     stats: {
       HP: "1973",
       Crit: "176",
@@ -3316,6 +3403,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE(Physical)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/PhilipII/image1.png'),
         memory1: 'PhilipII',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -3331,6 +3419,7 @@ export default [
       },
       set2: {
         set2Name: "DPS(Not Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Darwin/image2.png'),
@@ -3346,6 +3435,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 29,
       WeaponIcon: require('../../assets/Images/Weapons/NierAutomata/CruelOathKai.png'),
       WeaponType: 'NierAutomata',
       WeaponName: 'CruelOathKai',
@@ -3362,7 +3452,7 @@ export default [
     construct_Image: require("../../assets/Images/A2/Construct_A2.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (100%)",
-    id: "30",
+      constructID: 30,
     stats: {
       HP: "1973",
       Crit: "193",
@@ -3429,6 +3519,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Sub-DPS(Recommended)",
+        memoryID: 12,
         image1: require('../../assets/Images/Memories/Patton/image1.png'),
         memory1: 'Patton',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -3444,6 +3535,7 @@ export default [
       },
       set2: {
         set2Name: "Primary DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Patton/image2.png'),
@@ -3459,6 +3551,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 30,
       WeaponIcon: require('../../assets/Images/Weapons/NierAutomata/Type4OLanceKai.png'),
       WeaponType: 'NierAutomata',
       WeaponName: 'Type40LanceKai',
@@ -3475,7 +3568,7 @@ export default [
     construct_Image: require("../../assets/Images/Fate/Construct_Fate.png"),
     construct_Type: "Support",
     construct_Element: "Physical (20%) Ice (80%)",
-    id: "18",
+      constructID: 31,
     stats: {
       HP: "1514",
       Crit: "151",
@@ -3539,21 +3632,23 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
         memory1: 'Einsteina',
         image2: require('../../assets/Images/Memories/Zuwenyuan/image2.png'),
-        memory2: 'Zuwenyuan',
+        memory2: 'Zu wenyuan',
         image3: require('../../assets/Images/Memories/Einsteina/image3.png'),
         memory3: 'Einsteina',
         image4: require('../../assets/Images/Memories/Zuwenyuan/image1.png'),
-        memory4: 'Zuwenyuan',
+        memory4: 'Zu wenyuan',
         image5: require('../../assets/Images/Memories/Zuwenyuan/image2.png'),
-        memory5: 'Zuwenyuan',
+        memory5: 'Zu wenyuan',
         image6: require('../../assets/Images/Memories/Zuwenyuan/image3.png'),
-        memory6: 'Zuwenyuan',
+        memory6: 'Zu wenyuan',
       },
       set2: {
         set2Name: "QTE(Ice)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -3569,6 +3664,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 31,
       WeaponIcon: require('../../assets/Images/Weapons/Rifle/Auncel.png'),
       WeaponType: 'Rifle',
       WeaponName: 'Auncel',
@@ -3585,7 +3681,7 @@ export default [
       construct_Image: require("../../assets/Images/Tempest/Construct_Tempest.png"),
       construct_Type: "Vanguard",
       construct_Element: "Physical (20%) Dark (80%)",
-      id: "39",
+      constructID: 32,
       stats: {
         HP: "1915",
         Crit: "195",
@@ -3651,6 +3747,7 @@ export default [
         has3Sets: 'y',
         set1:{
           set1Name: "General",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Lurcezia/image1.png'),
           memory1: 'Lurcezia',
           image2: require('../../assets/Images/Memories/Lurcezia/image2.png'),
@@ -3666,6 +3763,7 @@ export default [
         },
         set2: {
           set2Name: "5 Star",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Boudica/image1.png'),
           memory1: 'Boudica',
           image2: require('../../assets/Images/Memories/Boudica/image2.png'),
@@ -3681,9 +3779,10 @@ export default [
         },
       },
       weapons: {
-        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
-        WeaponType: 'FluteSword',
-        WeaponName: 'Sarastro',
+        weaponID: 32,
+        WeaponIcon: require('../../assets/Images/Weapons/CelloBlade/MistressofTheWoods(T).png'),
+        WeaponType: 'Cello Blade',
+        WeaponName: 'Mistress Of The Woods',
         rarity: '6'
       },
   },
@@ -3697,7 +3796,7 @@ export default [
     construct_Image: require("../../assets/Images/Glory/Construct_Glory.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Ice (80%)",
-    id: "31",
+      constructID: 33,
     stats: {
       HP: "2164",
       Crit: "182",
@@ -3764,21 +3863,23 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "Sub-DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
         memory1: 'Einsteina',
         image2: require('../../assets/Images/Memories/Zuwenyuan/image2.png'),
-        memory2: 'Zuwenyuan',
+        memory2: 'Zu wenyuan',
         image3: require('../../assets/Images/Memories/Einsteina/image3.png'),
         memory3: 'Einsteina',
         image4: require('../../assets/Images/Memories/Zuwenyuan/image1.png'),
-        memory4: 'Zuwenyuan',
+        memory4: 'Zu wenyuan',
         image5: require('../../assets/Images/Memories/Zuwenyuan/image2.png'),
-        memory5: 'Zuwenyuan',
+        memory5: 'Zu wenyuan',
         image6: require('../../assets/Images/Memories/Zuwenyuan/image3.png'),
-        memory6: 'Zuwenyuan',
+        memory6: 'Zu wenyuan',
       },
       set2: {
         set2Name: "QTE(Ice)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -3794,6 +3895,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 33,
       WeaponIcon: require('../../assets/Images/Weapons/Gunblade/Apollo.png'),
       WeaponType: 'Gunblade',
       WeaponName: 'Apollo',
@@ -3810,7 +3912,7 @@ export default [
     construct_Image: require("../../assets/Images/XXI/Construct_XXI.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (20%) Dark (80%)",
-    id: "14",
+      constructID: 34,
     stats: {
       HP: "1560",
       Crit: "232",
@@ -3877,6 +3979,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
         memory1: 'Einsteina',
         image2: require('../../assets/Images/Memories/Bathlon/image2.png'),
@@ -3892,6 +3995,7 @@ export default [
       },
       set2: {
         set2Name: "QTE",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Gloria/image1.png'),
         memory1: 'Gloria',
         image2: require('../../assets/Images/Memories/Catherine/image2.png'),
@@ -3907,6 +4011,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 34,
       WeaponIcon: require('../../assets/Images/Weapons/CollabBot/Growl.png'),
       WeaponType: 'CollabBot',
       WeaponName: 'Growl',
@@ -3923,7 +4028,7 @@ export default [
     construct_Image: require("../../assets/Images/Flare/Construct_Flare.png"),
     construct_Type: "Tank",
     construct_Element: "Physical (15%) Lightning (85%)",
-    id: "32",
+      constructID: 35,
     stats: {
       HP: "2126",
       Crit: "172",
@@ -3990,6 +4095,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Einsteina/image1.png'),
         memory1: 'Einsteina',
         image2: require('../../assets/Images/Memories/Tifa/image2.png'),
@@ -4005,6 +4111,7 @@ export default [
       },
       set2: {
         set2Name: "DPS Lightning (Recommended)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Heisen/image1.png'),
         memory1: 'Heisen',
         image2: require('../../assets/Images/Memories/Tifa/image2.png'),
@@ -4020,6 +4127,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 35,
       WeaponIcon: require('../../assets/Images/Weapons/BannerSpear/Phoenix.png'),
       WeaponType: 'BannerSpear',
       WeaponName: 'Phoenix',
@@ -4036,7 +4144,7 @@ export default [
       construct_Image: require("../../assets/Images/Theatrical/Construct_Theatrical.png"),
       construct_Type: "Vanguard",
       construct_Element: "Physical (20%) Dark (80%)",
-      id: "40",
+      constructID: 36,
       stats: {
         HP: "1896",
         Crit: "191",
@@ -4102,6 +4210,7 @@ export default [
         has3Sets: 'y',
         set1:{
           set1Name: "General",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Jack/image1.png'),
           memory1: 'Jack',
           image2: require('../../assets/Images/Memories/Jack/image2.png'),
@@ -4117,6 +4226,7 @@ export default [
         },
         set2: {
           set2Name: "5 Star",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Boudica/image1.png'),
           memory1: 'Boudica',
           image2: require('../../assets/Images/Memories/Boudica/image2.png'),
@@ -4132,9 +4242,10 @@ export default [
         },
       },
       weapons: {
-        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
-        WeaponType: 'FluteSword',
-        WeaponName: 'Sarastro',
+        weaponID: 36,
+        WeaponIcon: require('../../assets/Images/Weapons/ChainSword/Durandal(T).png'),
+        WeaponType: 'Chain Sword',
+        WeaponName: 'Durandal',
         rarity: '6'
       },
   },
@@ -4148,7 +4259,7 @@ export default [
     construct_Image: require("../../assets/Images/Solaeter/Construct_Solaeter.png"),
     construct_Type: "Amplifier",
     construct_Element: "Physical (10%) Fire (90%)",
-    id: "35",
+      constructID: 37,
     stats: {
       HP: "2011",
       Crit: "191",
@@ -4215,6 +4326,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE Support(Elemental)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -4230,6 +4342,7 @@ export default [
       },
       set2: {
         set2Name: "DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Elizabeth/image2.png'),
@@ -4245,6 +4358,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 37,
       WeaponIcon: require('../../assets/Images/Weapons/Scepter/Hestia.png'),
       WeaponType: 'Scepter',
       WeaponName: 'Hestia',
@@ -4261,7 +4375,7 @@ export default [
     construct_Image: require("../../assets/Images/Capriccio/Construct_Capriccio.png"),
     construct_Type: "Amplifier",
     construct_Element: "Physical (10%) Dark (90%)",
-    id: "36",
+      constructID: 38,
     stats: {
       HP: "1973",
       Crit: "195",
@@ -4327,6 +4441,7 @@ export default [
       has3Sets: 'y',
       set1:{
         set1Name: "QTE Support(Elemental)",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Guinevere/image1.png'),
         memory1: 'Guinevere',
         image2: require('../../assets/Images/Memories/DaVinci/image2.png'),
@@ -4342,6 +4457,7 @@ export default [
       },
       set2: {
         set2Name: "DPS",
+        memoryID: 14,
         image1: require('../../assets/Images/Memories/Darwin/image1.png'),
         memory1: 'Darwin',
         image2: require('../../assets/Images/Memories/Elizabeth/image2.png'),
@@ -4357,6 +4473,7 @@ export default [
       },
     },
     weapons: {
+      weaponID: 38,
       WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
       WeaponType: 'FluteSword',
       WeaponName: 'Sarastro',
@@ -4373,7 +4490,7 @@ export default [
       construct_Image: require("../../assets/Images/Ornate/Construct_Ornate.png"),
       construct_Type: "Vanguard",
       construct_Element: "Physical (20%) Dark (80%)",
-      id: "41",
+      constructID: 39,
       stats: {
         HP: "1896",
         Crit: "191",
@@ -4439,6 +4556,7 @@ export default [
         has3Sets: 'y',
         set1:{
           set1Name: "General",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Jack/image1.png'),
           memory1: 'Jack',
           image2: require('../../assets/Images/Memories/Jack/image2.png'),
@@ -4454,6 +4572,7 @@ export default [
         },
         set2: {
           set2Name: "5 Star",
+          memoy1ID: 14,
           image1: require('../../assets/Images/Memories/Boudica/image1.png'),
           memory1: 'Boudica',
           image2: require('../../assets/Images/Memories/Boudica/image2.png'),
@@ -4469,9 +4588,10 @@ export default [
         },
       },
       weapons: {
-        WeaponIcon: require('../../assets/Images/Weapons/FluteSword/Sarastro.png'),
+        weaponID: 39,
+        WeaponIcon: require('../../assets/Images/Weapons/DragonMaelstrom/Boundless(T).png'),
         WeaponType: 'FluteSword',
-        WeaponName: 'Sarastro',
+        WeaponName: 'Boundless',
         rarity: '6'
       },
   },

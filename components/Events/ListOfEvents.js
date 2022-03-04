@@ -1,6 +1,7 @@
 export default [
 
     {   
+        id: 0,
         eventName: "Frozen Darkness",
         eventImage: require("../../assets/Images/Events/FrozenDarkness.png"),
         currentEvent: 'n',
@@ -9,6 +10,7 @@ export default [
         Character1Image: require('../../assets/Images/CrimsonAbyss/Construct_CrimsonAbyss.png'),
     },
     {
+        id: 1,
         eventName: "Fallen Star",
         eventImage: require("../../assets/Images/Events/FallenStar.png"),
         currentEvent: 'n',
@@ -19,6 +21,7 @@ export default [
         Character2Image: require('../../assets/Images/Astral/Construct_Astral.png'),
     },
     {
+        id: 2,
         eventName: "Eternal Engine",
         eventImage: require("../../assets/Images/Events/EternalEngine.png"),
         currentEvent: 'n',
@@ -27,6 +30,7 @@ export default [
         Character1Image: require('../../assets/Images/Veritas/Construct_Veritas.png'),
     },
     {
+        id: 3,
         eventName: "Nona Ouroboros",
         eventImage: require("../../assets/Images/Events/NonaOuroboros.png"),
         currentEvent: 'n',
@@ -36,6 +40,7 @@ export default [
         
     },
     {
+        id: 4,
         eventName: "Kowloong Metropolis",
         eventImage: require("../../assets/Images/Events/KowloongMetropolis.png"),
         currentEvent: 'n',
@@ -45,9 +50,10 @@ export default [
     },
     //GrandBlue
     {
+        id: 5,
         eventName: "Grand Blue",
         eventImage: require("../../assets/Images/Events/GrandBlue.png"),
-        currentEvent: 'y',
+        currentEvent: 'n',
         amountOfCharacters: 2,
         Character1Name: 'Vera - Rozen',
         Character1Image: require('../../assets/Images/Rozen/Construct_Rozen.png'),
@@ -56,15 +62,17 @@ export default [
     },
     //Firn Night
     {
+        id: 6,
         eventName: "Firn Night",
         eventImage: require("../../assets/Images/Events/FirnNight.png"),
-        currentEvent: 'u',
+        currentEvent: 'y',
         amountOfCharacters: 1,
         Character1Name: 'Rosetta - Rigor',
         Character1Image: require('../../assets/Images/Arctic/Construct_Arctic.png'),
     },
     //Lost Chapter
     {
+        id: 7,
         eventName: "Lost Chapter",
         eventImage: require("../../assets/Images/Events/LostChapter.png"),
         currentEvent: 'u',
@@ -75,6 +83,7 @@ export default [
         Character2Image: require('../../assets/Images/Peafowl/Construct_Peafowl.png'),
     },
     {
+        id: 8,
         eventName: "Fake Ascension",
         eventImage: require("../../assets/Images/Events/FakeAscension.png"),
         currentEvent: 'u',
@@ -83,6 +92,7 @@ export default [
         Character1Image: require('../../assets/Images/Laurel/Construct_Laurel.png'),
     },
     {
+        id: 9,
         eventName: "Untold Naraka",
         eventImage: require("../../assets/Images/Events/UntoldNaraka.png"),
         currentEvent: 'u',
@@ -96,6 +106,7 @@ export default [
     },
     //Echo Aria
     {
+        id: 10,
         eventName: "Echo Aria",
         eventImage: require("../../assets/Images/Events/EchoAria.png"),
         currentEvent: 'u',
@@ -106,6 +117,7 @@ export default [
         Character2Image: require('../../assets/Images/Tempest/Construct_Tempest.png'),
     },
     {
+        id: 11,
         eventName: "Imprisoned Sight",
         eventImage: require("../../assets/Images/Events/ImprisonedSight.png"),
         currentEvent: 'u',
@@ -114,6 +126,7 @@ export default [
         Character1Image: require('../../assets/Images/Glory/Construct_Glory.png'),
     },
     {
+        id: 12,
         eventName: "Inscryption of Labyrinth",
         eventImage: require("../../assets/Images/Events/InscriptionofLabyrinth.png"),
         currentEvent: 'u',
@@ -123,6 +136,7 @@ export default [
     },
     //The Last Spark
     {
+        id: 13,
         eventName: "The Last Spark",
         eventImage: require("../../assets/Images/Events/TheLastSpark.png"),
         currentEvent: 'u',
@@ -132,6 +146,7 @@ export default [
     },
     //Evernight Beat
     {
+        id: 14,
         eventName: "Evernight Beat",
         eventImage: require("../../assets/Images/Events/EvernightBeat.png"),
         currentEvent: 'u',
@@ -140,6 +155,7 @@ export default [
         Character1Image: require('../../assets/Images/Theatrical/Construct_Theatrical.png'),
     },
     {
+        id: 15,
         eventName: "The Survival Lucem",
         eventImage: require("../../assets/Images/Events/TheSurvivalLucem.png"),
         currentEvent: 'u',
@@ -149,6 +165,7 @@ export default [
         
     },
     {
+        id: 16,
         eventName: "Recitative de Fantasia",
         eventImage: require("../../assets/Images/Events/RecitativedeFantasia.png"),
         currentEvent: 'u',
@@ -158,6 +175,7 @@ export default [
     },
     //Whale
     {
+        id: 17,
         eventName: "Wandering Dream with Whale",
         eventImage: require("../../assets/Images/Events/WanderingDream.png"),
         currentEvent: 'u',
@@ -166,6 +184,7 @@ export default [
         Character1Image: require('../../assets/Images/Ornate/Construct_Ornate.png'),
     },
     // {
+    // id: 097,
     //     eventName: "Her Last Bow",
     //     eventImage: require("../../assets/Images/Events/HerLastBow.png"),
     //     currentEvent: 'u',

@@ -17,7 +17,7 @@ const MemoryTab = () =>{
     const borderColor = Ability.weapons.rarity === '6' ? '#C9481E': '#CC7218';
 
     const onClick =()=>{
-        navigation.navigate('WeaponScreen')
+        navigation.navigate('WeaponScreen', {weaponIndex: Ability.weapons.weaponID})
         
     }
 

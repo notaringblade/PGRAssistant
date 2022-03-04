@@ -2,17 +2,19 @@ import React from "react";
 import {Image, Text, TouchableOpacity, View } from 'react-native';
 import styles from "./styles";
 import { useNavigation } from "@react-navigation/native";
+import {Rating} from 'react-native-elements'
 
 
 const Weapons = (props) =>{
-    const {weaponName, weaponImage, weaponType, rarity, signatureConstruct, constructName, Ability, stats} = props.weapons
+    const {weaponName, weaponImage, weaponType, rarity, signatureConstruct, constructName, Ability, stats, id} = props.weapons
 
     const borderColor = rarity === '6' ? '#C9481E': '#CC7218';
 
     const navigation = useNavigation()
     const onClick = () =>{
-        navigation.navigate('Constructs')
+        navigation.navigate('Constructs', {characterIndex: id})
     }
+    
 
     return(
         <View style={ {backgroundColor: '#121212', flex: 1}}>
@@ -25,9 +27,18 @@ const Weapons = (props) =>{
                     <Text style={[styles.itemText, {paddingTop: 6}]}>
                         {weaponName}
                     </Text>
-                    <Text style={[styles.itemText, {fontSize: 12, paddingTop: 6}]}>
-                        {rarity}
-                    </Text>
+                    <Rating
+                        // showRating
+                        type="custom"
+                        ratingCount={Math.floor(rarity)}
+                        startingValue = {rarity}
+                        readonly
+                        fraction ={0}
+                        imageSize={15}
+                        tintColor= '#121212'
+                        ratingColor= {borderColor}
+                        style = {{marginLeft: -200,marginTop: 8}}
+                     />
                 </View>
                     <View style={[styles.stats, {borderColor: borderColor}]}>
                     <View style={{flexDirection: 'row', justifyContent: 'space-around', backgroundColor: borderColor}}>

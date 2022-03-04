@@ -6,7 +6,6 @@ const memoryScreen = ({route}) => {
 
     const {icon, memoryName, rarity, star, Artwork, SetBonus, recommended, Story, Stats} = route.params;
     const borderColor = rarity === '6'?  '#C9481E': '#CC7218'
-
     // const [show, setShow] = useState(false)
 
     const setShow = SetBonus.numberOfSets === '3'? true: false
@@ -23,6 +22,7 @@ const memoryScreen = ({route}) => {
                 <View style={{flexDirection: 'row', position: 'absolute', paddingTop: 50, paddingLeft: 11}}>
                     <Text style={styles.rarity}>{rarity}</Text>
                     <Image style={[styles.star, {tintColor: borderColor} ]} source={star}/>
+                    
                 </View>
                 <Text style={{color: 'white', paddingBottom: 10, paddingLeft: 8}}> Created For: {recommended}</Text>
             </View>

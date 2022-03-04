@@ -5,7 +5,7 @@ export default [
     icon: require("../../assets/Images/Memories/Condelina/image1.png"),
     memoryName: "Condelina",
     rarity: "6",
-    id: "1",
+    id: 0,
     recommended: 'Physical DMG',
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -37,7 +37,7 @@ export default [
     icon: require("../../assets/Images/Memories/Shakespeare/image1.png"),
     memoryName: "Shakespeare",
     rarity: "6",
-    id: "3",
+    id: 1,
     recommended: "Fire DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -68,7 +68,7 @@ export default [
     icon: require("../../assets/Images/Memories/Heisen/image1.png"),
     memoryName: "Heisen",
     rarity: "6",
-    id: "4",
+    id: 2,
     recommended: "Lightning DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -99,7 +99,7 @@ export default [
     icon: require("../../assets/Images/Memories/Darwin/image1.png"),
     memoryName: "Darwin",
     rarity: "6",
-    id: "5",
+    id: 3,
     recommended: "All DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -130,7 +130,7 @@ export default [
     icon: require("../../assets/Images/Memories/Hanna/image1.png"),
     memoryName: "Hanna",
     rarity: "6",
-    id: "6",
+    id: 4,
     recommended: "Orb DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -161,7 +161,7 @@ export default [
     icon: require("../../assets/Images/Memories/Cottie/image1.png"),
     memoryName: "Cottie",
     rarity: "6",
-    id: "7",
+    id: 5,
     recommended: "Signature DMG and Energy",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -192,7 +192,7 @@ export default [
     icon: require("../../assets/Images/Memories/DaVinci/image1.png"),
     memoryName: "Da Vinci",
     rarity: "6",
-    id: "8",
+    id: 6,
     recommended: "QTE Support",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -223,7 +223,7 @@ export default [
     icon: require("../../assets/Images/Memories/Catherine/image1.png"),
     memoryName: "Catherine",
     rarity: "6",
-    id: "9",
+    id: 7,
     recommended: "Physical DMG Support",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -254,7 +254,7 @@ export default [
     icon: require("../../assets/Images/Memories/Einsteina/image1.png"),
     memoryName: "Einsteina",
     rarity: "6",
-    id: "10",
+    id: 8,
     recommended: "Elemental Support",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -285,7 +285,7 @@ export default [
     icon: require("../../assets/Images/Memories/PhilipII/image1.png"),
     memoryName: "Philip II",
     rarity: "6",
-    id: "11",
+    id: 9,
     recommended: "Physical Support(Healing)",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -316,7 +316,7 @@ export default [
     icon: require("../../assets/Images/Memories/Guinevere/image1.png"),
     memoryName: "Guinevere",
     rarity: "6",
-    id: "12",
+    id: 10,
     recommended: "Elemental Support",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -347,7 +347,7 @@ export default [
     icon: require("../../assets/Images/Memories/Frederick/image1.png"),
     memoryName: "Frederick",
     rarity: "6",
-    id: "13",
+    id: 11,
     recommended: "Burst DMG and Movement Speed",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -378,7 +378,7 @@ export default [
     icon: require("../../assets/Images/Memories/Patton/image1.png"),
     memoryName: "Patton",
     rarity: "6",
-    id: "14",
+    id: 12,
     recommended: "Physical DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -409,7 +409,7 @@ export default [
     icon: require("../../assets/Images/Memories/Bathlon/image1.png"),
     memoryName: "Bathlon",
     rarity: "6",
-    id: "15",
+    id: 13,
     recommended: "Dark DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -440,7 +440,7 @@ export default [
     icon: require("../../assets/Images/Memories/Zuwenyuan/image1.png"),
     memoryName: "Zu Wenyuan",
     rarity: "6",
-    id: "16",
+    id: 14,
     recommended: "Ice DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -472,7 +472,7 @@ export default [
     icon: require("../../assets/Images/Memories/Hoek/image1.png"),
     memoryName: "Leeuwenhoek",
     rarity: "6",
-    id: "17",
+    id: 15,
     recommended: "Rosetta-Arctic",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -503,7 +503,7 @@ export default [
     icon: require("../../assets/Images/Memories/Flamel/image1.png"),
     memoryName: "Flamel",
     rarity: "6",
-    id: "18",
+    id: 16,
     recommended: "Luna-Laurel",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -534,7 +534,7 @@ export default [
     icon: require("../../assets/Images/Memories/Tifa/image1.png"),
     memoryName: "Tifa",
     rarity: "6",
-    id: "19",
+    id: 17,
     recommended: "Vera-Flare",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -565,7 +565,7 @@ export default [
     icon: require("../../assets/Images/Memories/Elizabeth/image1.png"),
     memoryName: "Elizabeth",
     rarity: "6",
-    id: "20",
+    id: 18,
     recommended: "Liv-Solaeter",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -596,7 +596,7 @@ export default [
     icon: require("../../assets/Images/Memories/Seraphine/image1.png"),
     memoryName: "Seraphine",
     rarity: "6",
-    id: "21",
+    id: 19,
     recommended: "Selena-Cappricio",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -627,7 +627,7 @@ export default [
     icon: require("../../assets/Images/Memories/Koya/image1.png"),
     memoryName: "Koya",
     rarity: "6",
-    id: "34",
+    id: 20,
     recommended: "Camu-Crocotta",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -658,7 +658,7 @@ export default [
     icon: require("../../assets/Images/Memories/WuAnjun/image1.png"),
     memoryName: "WuAnjun",
     rarity: "6",
-    id: "35",
+    id: 21,
     recommended: "Qu-Peafowl's Plume",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -689,7 +689,7 @@ export default [
     icon: require("../../assets/Images/Memories/Lurcezia/image1.png"),
     memoryName: "Lurcezia",
     rarity: "6",
-    id: "36",
+    id: 22,
     recommended: "Selena-Concerto",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -720,7 +720,7 @@ export default [
     icon: require("../../assets/Images/Memories/Jack/image1.png"),
     memoryName: "Jack",
     rarity: "6",
-    id: "37",
+    id: 23,
     recommended: "Roland-Theatrical Flame",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -751,7 +751,7 @@ export default [
     icon: require("../../assets/Images/Memories/Marcco/image1.png"),
     memoryName: "Marcco",
     rarity: "6",
-    id: "38",
+    id: 24,
     recommended: "Pulao-Ornate Bell",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -782,7 +782,7 @@ export default [
     icon: require("../../assets/Images/Memories/Erwin/image1.png"),
     memoryName: "Erwin",
     rarity: "5",
-    id: "22",
+    id: 25,
     recommended: "Basic ATK DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -813,7 +813,7 @@ export default [
     icon: require("../../assets/Images/Memories/Aife/image1.png"),
     memoryName: "Eife",
     rarity: "5",
-    id: "23",
+    id: 26,
     recommended: "Orb DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -844,7 +844,7 @@ export default [
     icon: require("../../assets/Images/Memories/Ike/image1.png"),
     memoryName: "Ike",
     rarity: "5",
-    id: "24",
+    id: 27,
     recommended: "Elemental DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -875,7 +875,7 @@ export default [
     icon: require("../../assets/Images/Memories/Voltaire/image1.png"),
     memoryName: "Voltaire",
     rarity: "5",
-    id: "25",
+    id: 28,
     recommended: "Physical Support",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -906,7 +906,7 @@ export default [
     icon: require("../../assets/Images/Memories/Gloria/image1.png"),
     memoryName: "Gloria",
     rarity: "5",
-    id: "26",
+    id: 29,
     recommended: "Elemental Support",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -937,7 +937,7 @@ export default [
     icon: require("../../assets/Images/Memories/Richelieu/image1.png"),
     memoryName: "Richelieu",
     rarity: "5",
-    id: "27",
+    id: 30,
     recommended: "Physical Healing and DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -968,7 +968,7 @@ export default [
     icon: require("../../assets/Images/Memories/Samantha/image1.png"),
     memoryName: "Samantha",
     rarity: "5",
-    id: "28",
+    id: 31,
     recommended: "Elemental Support",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -999,7 +999,7 @@ export default [
     icon: require("../../assets/Images/Memories/Mozart/image1.png"),
     memoryName: "Mozart",
     rarity: "5",
-    id: "39",
+    id: 32,
     recommended: "Matrix DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{
@@ -1030,7 +1030,7 @@ export default [
     icon: require("../../assets/Images/Memories/Boudica/image1.png"),
     memoryName: "Boudica",
     rarity: "5",
-    id: "29",
+    id: 33,
     recommended: "Transcendant Memory bonus DMG",
     star: require("../../assets/Images/Memories/Star.png"),
     Stats:{

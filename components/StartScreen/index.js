@@ -7,12 +7,13 @@ const StartScreen = (props) => {
         characterName: 'Rosetta',
         characterModel: 'Rigor',
         characterRank: 'S',
+        characterIndex: 24
     }
 
     const navigation = useNavigation()
 
     const onClick =() =>{
-        navigation.navigate('Constructs', {characterIndex: newestCharacter.characterIndex})
+        navigation.navigate('Constructs', {characterIndex: 24})
     }
 
     return (

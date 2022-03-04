@@ -24,6 +24,7 @@ function myDraw() {
       <Drawer.Screen
         name="StartScreen"
         component={StartScreen}
+        
         options={{
           title: "Home",
           headerStyle: { backgroundColor: "#121212", height: 80 },
@@ -34,15 +35,18 @@ function myDraw() {
       <Drawer.Screen
         name="ConstructsDrawer"
         component={ConstructHomePage}
+        initialParams= {{characterIndex: 0}}
         options={{
           title: "Constructs",
           headerStyle: { backgroundColor: "#121212", height: 80 },
           headerTintColor: "white",
+          
         }}
       />
       <Drawer.Screen
         name="WeaponsDrawer"
         component={WeaponListDisplay}
+        initialParams= {{weaponIndex: 0}}
         options={{
           title: "Weapons",
           headerStyle: { backgroundColor: "#121212", height: 80 },

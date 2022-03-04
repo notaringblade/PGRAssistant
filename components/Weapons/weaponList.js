@@ -1,7 +1,7 @@
 export default[
     //Lotus Berserker
     {   
-        id: '1',
+        id: 0,
         weaponName: 'Lotus Berserker',
         stats:{
             atk: '428',
@@ -17,7 +17,7 @@ export default[
     },
     //Inverse Chimera
     {   
-        id: '2',
+        id: 1,
         weaponName: 'Inverse Chimera',
         stats:{
             atk: '425',
@@ -33,7 +33,7 @@ export default[
     },
     // Type Zero
     {   
-        id: '3',
+        id: 2,
         weaponName: 'Type Zero',
         stats:{
             atk: '415',
@@ -49,7 +49,7 @@ export default[
     },
     // Inverse-Shadow
     {   
-        id: '4',
+        id: 3,
         weaponName: 'Inverse-Shadow',
         stats:{
             atk: '445',
@@ -65,7 +65,7 @@ export default[
     },
     // Benediction
     {   
-        id: '5',
+        id: 4,
         weaponName: 'Benediction',
         stats:{
             atk: '423',
@@ -81,7 +81,7 @@ export default[
     },
     //WolfFang
     {   
-        id: '6',
+        id: 5,
         weaponName: 'Wolf Fang',
         stats:{
             atk: '458',
@@ -97,7 +97,7 @@ export default[
     },
     // Soul Ripper
     {   
-        id: '7',
+        id: 6,
         weaponName: 'Soul Ripper',
         stats:{
             atk: '458',
@@ -113,7 +113,7 @@ export default[
     },
     //Ramiel
     {   
-        id: '8',
+        id: 7,
         weaponName: 'Ramiel',
         stats:{
             atk: '471',
@@ -129,7 +129,7 @@ export default[
     },
     //BerserkFusion
     {   
-        id: '9',
+        id: 8,
         weaponName: 'Berserk Fusion',
         stats:{
             atk: '458',
@@ -145,7 +145,7 @@ export default[
     },
     //Dragon Wind
     {   
-        id: '10',
+        id: 9,
         weaponName: 'Dragon Wind',
         stats:{
             atk: '406',
@@ -161,7 +161,7 @@ export default[
     },
     //ZeroScale
     {   
-        id: '11',
+        id: 10,
         weaponName: 'ZeroScale',
         stats:{
             atk: '445',
@@ -177,7 +177,7 @@ export default[
     },
     // Fusion Dragon
     {   
-        id: '12',
+        id: 11,
         weaponName: 'Fusion Dragon',
         stats:{
             atk: '450',
@@ -193,7 +193,7 @@ export default[
     },
     //Hydro Heat
     {   
-        id: '13',
+        id: 12,
         weaponName: 'Hydro Heat',
         stats:{
             atk: '436',
@@ -209,7 +209,7 @@ export default[
     },
     //Darkness
     {   
-        id: '14',
+        id: 13,
         weaponName: 'Darkness',
         stats:{
             atk: '445',
@@ -225,7 +225,7 @@ export default[
     },
     //Sakura
     {   
-        id: '15',
+        id: 14,
         weaponName: 'Sakura',
         stats:{
             atk: '447',
@@ -241,7 +241,7 @@ export default[
     },
     // Big Kamui
     {   
-        id: '16',
+        id: 15,
         weaponName: 'Big Kamui',
         stats:{
             atk: '436',
@@ -255,9 +255,25 @@ export default[
         Ability: "Physical DMG increases by 15%. Upon a successful parry. Extra DMG Bonus of the next skill increases by 30%."
         
     },
+    // Peacemaker
+    {   
+        id: 16,
+        weaponName: 'Peacemaker',
+        stats:{
+            atk: '436',
+            crit: '230'
+        },
+        weaponType: 'Dagger',
+        weaponImage: require('../../assets/Images/Weapons/Dagger/Peacemaker.png'),
+        rarity: '6',
+        signatureConstruct: require('../../assets/Images/Astral/Construct_Astral.png'),
+        constructName: 'Watanabe-Astral',
+        Ability: "Physical DMG increases by 15%. Upon a successful parry. Extra DMG Bonus of the next skill increases by 30%."
+        
+    },
     //Purple Peony
     {   
-        id: '17',
+        id: 17,
         weaponName: 'Purple Peony',
         stats:{
             atk: '425',
@@ -273,7 +289,7 @@ export default[
     },
     // Tonitrus
     {   
-        id: '18',
+        id: 18,
         weaponName: 'Tonitrus',
         stats:{
             atk: '476',
@@ -289,7 +305,7 @@ export default[
     },
     //Dual Guns
     {   
-        id: '19',
+        id: 19,
         weaponName: 'Scion',
         stats:{
             atk: '436',
@@ -305,7 +321,7 @@ export default[
     },
     //St Elmo
     {   
-        id: '20',
+        id: 20,
         weaponName: 'St Elmo',
         stats:{
             atk: '436',
@@ -321,7 +337,7 @@ export default[
     },
     //Crimson Birch
     {   
-        id: '21',
+        id: 21,
         weaponName: 'Crimson Birch',
         stats:{
             atk: '463',
@@ -337,7 +353,7 @@ export default[
     },
     //Sariel
     {   
-        id: '22',
+        id: 22,
         weaponName: 'Sariel',
         stats:{
             atk: '441',
@@ -353,7 +369,7 @@ export default[
     },
     // Thanatos
     {   
-        id: '23',
+        id: 23,
         weaponName: 'Thanatos',
         stats:{
             atk: '493',
@@ -370,7 +386,7 @@ export default[
 
     //Gungnir
     {   
-        id: '24',
+        id: 24,
         weaponName: 'Gungnir',
         stats:{
             atk: '458',
@@ -381,12 +397,11 @@ export default[
         rarity: '6',
         signatureConstruct: require('../../assets/Images/Arctic/Construct_Arctic.png'),
         constructName: 'Rosetta-Rigor',
-        Ability: "Attacks reduce the target's DEF by 20% for 8s. Duration resets every time it is triggered. Using Small/Medium/Wide-Area Railgun applies DoT, dealing 25%/50%/100% Physical DMG per second for 8s."
         
     },
     //Baji
     {   
-        id: '25',
+        id: 25,
         weaponName: 'Baji',
         stats:{
             atk: '467',
@@ -402,7 +417,7 @@ export default[
     },
     // Qinghe
     {   
-        id: '26',
+        id: 26,
         weaponName: 'Qinghe',
         stats:{
             atk: '506',
@@ -418,7 +433,7 @@ export default[
     },
     //Ozma
     {   
-        id: '27',
+        id: 27,
         weaponName: 'Ozma',
         stats:{
             atk: '480',
@@ -434,7 +449,7 @@ export default[
     },
     //VirtuousContractKai
     {   
-        id: '28',
+        id: 28,
         weaponName: 'VirtuousContractKai',
         stats:{
             atk: '467',
@@ -450,7 +465,7 @@ export default[
     },
     //CruelOathKai
     {   
-        id: '29',
+        id: 29,
         weaponName: 'CruelOathKai',
         stats:{
             atk: '445',
@@ -466,7 +481,7 @@ export default[
     },
     //Type40LanceKai
     {   
-        id: '30',
+        id: 30,
         weaponName: 'Type40LanceKai',
         stats:{
             atk: '458',
@@ -482,7 +497,7 @@ export default[
     },
     //Auncel
     {   
-        id: '31',
+        id: 31,
         weaponName: 'Auncel',
         stats:{
             atk: '454',
@@ -498,7 +513,7 @@ export default[
     },
     // MistressOfTheWoods
     {   
-        id: '32',
+        id: 32,
         weaponName: 'Mistress Of The Woods',
         stats:{
             atk: '471',
@@ -514,7 +529,7 @@ export default[
     },
     //Apollo
     {   
-        id: '33',
+        id: 33,
         weaponName: 'Apollo',
         stats:{
             atk: '446',
@@ -530,7 +545,7 @@ export default[
     },
     //CollabBot
     {   
-        id: '34',
+        id: 34,
         weaponName: 'Growl',
         stats:{
             atk: '454',
@@ -546,7 +561,7 @@ export default[
     },
     //BannerSpear
     {   
-        id: 'Spear',
+        id: 35,
         weaponName: 'Phoenix',
         stats:{
             atk: '454',
@@ -562,7 +577,7 @@ export default[
     },
     // Durandal
     {   
-        id: '36',
+        id: 36,
         weaponName: 'Durandal',
         stats:{
             atk: '467',
@@ -571,14 +586,14 @@ export default[
         weaponType: 'Chain Sword (T)',
         weaponImage: require('../../assets/Images/Weapons/ChainSword/Durandal(T).png'),
         rarity: '6',
-        signatureConstruct: require('../../assets/Images/Tempest/Construct_Tempest.png'),
-        constructName: 'Selena-Tempest',
+        signatureConstruct: require('../../assets/Images/Theatrical/Construct_Theatrical.png'),
+        constructName: 'Rolnad-Theatrical Flame',
         Ability: "Fire DMG increases by 10%. Dodge cooldown is removed. Gains 1 Follow-Up 2 Dazzling Blade Orb when successfully dodging attacks. Triggering it will immediately activate the attack in the direction of the movement stick and increases DMG by 10% for 8s. During Trick Climax, the Bluff points generated are instead converted to 10 Trickery."
         
     },
     //Scepter
     {   
-        id: '37',
+        id: 37,
         weaponName: 'Hestia',
         stats:{
             atk: '476',
@@ -594,7 +609,7 @@ export default[
     },
     //FluteSword
     {   
-        id: '38',
+        id: 38,
         weaponName: 'Sarastro',
         stats:{
             atk: '463',
@@ -610,7 +625,7 @@ export default[
     },
     //Boundless
     {   
-        id: '39',
+        id: 39,
         weaponName: 'Boundless',
         stats:{
             atk: '463',

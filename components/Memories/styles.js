@@ -24,20 +24,7 @@ const styles = StyleSheet.create({
     textView:{
         
     },
-    star:{
-        position: 'absolute',
-        width: 20,
-        height: 20,
-        marginLeft: 140,
-        tintColor: '#971948',
-        marginTop: 77
-    },
-    rarity:{
-        marginLeft: 125,
-        color: 'white',
-        marginTop: 5,
-        fontSize: 15
-    },
+    
     memoryName:{
         paddingLeft: 123,
         color: 'white',

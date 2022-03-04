@@ -15,7 +15,10 @@ const MemoryTab = (props) =>{
 
     const Ability = useContext(AbilityContext)
     const onClick = () =>{
-        navigation.navigate('Memories')
+        navigation.navigate('Memories', {memoryIndex: Ability.memories.set1.memoryID})
+    }
+    const onClick2 = () =>{
+        navigation.navigate('Memories', {memoryIndex: Ability.memories.set2.memoryID})
     }
     const showMemory2 = Ability.memories.has2Sets === 'y'? true: false;
 
@@ -67,15 +70,15 @@ const MemoryTab = (props) =>{
 
                 <CollapsibleView title={<Text style={styles.titleText}>{Ability.memories.set2.set2Name}</Text>} style={styles.collapsedView}  arrowStyling={{color : '#F2F2F2'}}>
                     <View style={styles.row2}>
-                        <TouchableWithoutFeedback onPress={onClick}>
+                        <TouchableWithoutFeedback onPress={onClick2}>
                     <Image style={styles.memory} source={Ability.memories.set2.image1}/>
                         </TouchableWithoutFeedback>
 
-                        <TouchableWithoutFeedback onPress={onClick}>
+                        <TouchableWithoutFeedback onPress={onClick2}>
                     <Image style={styles.memory} source={Ability.memories.set2.image2}/>
                         </TouchableWithoutFeedback>
 
-                        <TouchableWithoutFeedback onPress={onClick}>
+                        <TouchableWithoutFeedback onPress={onClick2}>
                     <Image style={styles.memory} source={Ability.memories.set2.image3}/>
                         </TouchableWithoutFeedback>
                     </View>
@@ -86,15 +89,15 @@ const MemoryTab = (props) =>{
                     </View>
 
                     <View style={styles.row2}>
-                    <TouchableWithoutFeedback onPress={onClick}>
+                    <TouchableWithoutFeedback onPress={onClick2}>
                     <Image style={styles.memory} source={Ability.memories.set2.image4}/>
                         </TouchableWithoutFeedback>
 
-                        <TouchableWithoutFeedback onPress={onClick}>
+                        <TouchableWithoutFeedback onPress={onClick2}>
                     <Image style={styles.memory} source={Ability.memories.set2.image5}/>
                         </TouchableWithoutFeedback>
 
-                        <TouchableWithoutFeedback onPress={onClick}>
+                        <TouchableWithoutFeedback onPress={onClick2}>
                     <Image style={styles.memory} source={Ability.memories.set2.image6}/>
                         </TouchableWithoutFeedback>
                     </View>

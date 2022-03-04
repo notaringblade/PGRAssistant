@@ -7,8 +7,9 @@ import CompleteFlatList from "react-native-complete-flatlist";
 import { FAB, Overlay, Divider } from "react-native-elements";
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const ConstructList = ({ navigation }) => {
+const ConstructList = ({ route, navigation }) => {
   //FilterButton
+  const {characterIndex} = route.params
   const [showFilterOptions, setShowFilterOptions] = useState(false);
   // All
   const [showAll, setShowAll] = useState(true);
@@ -118,7 +119,9 @@ const ConstructList = ({ navigation }) => {
     setSupportType(true)
     setConstructTypeFilter("Support");
   }
-  
+    const getItemLayout =(data, index)=>{
+      return{offset: 155 * index, length: 155, index}
+  }
 
   const ItemSeparator = () => {
     return <View style={styles.ItemSeparator} />;
@@ -130,6 +133,10 @@ const ConstructList = ({ navigation }) => {
         <CompleteFlatList
           searchKey={["construct_Name", "construct_Model", "construct_Battle", "construct_Type"]}
           slide={"Left"}
+          initialNumToRender = {39}
+          keyExtractor={(item) => item.constructID}
+          getItemLayout = {getItemLayout}
+          initialScrollIndex = {characterIndex}
           data={ListOfConstructs}
           renderItem={({ item }) => <HomeScreen construct={item} />}
           backgroundStyles={styles.backgroundStyles}
@@ -142,6 +149,7 @@ const ConstructList = ({ navigation }) => {
           data={ListOfConstructs.filter(
             (ListOfConstructs) => ListOfConstructs.construct_Rank === rankFilter
           )}
+          initialScrollIndex = {0}
           renderItem={({ item }) => <HomeScreen construct={item} />}
           backgroundStyles={styles.backgroundStyles}
           searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
@@ -154,6 +162,7 @@ const ConstructList = ({ navigation }) => {
             (ListOfConstructs) =>
               ListOfConstructs.construct_Battle === battleTypeFilter
           )}
+          initialScrollIndex = {0}
           renderItem={({ item }) => <HomeScreen construct={item} />}
           backgroundStyles={styles.backgroundStyles}
           searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
@@ -166,6 +175,7 @@ const ConstructList = ({ navigation }) => {
             (ListOfConstructs) =>
                 ListOfConstructs.construct_Type === constructTypeFilter
             )}
+            initialScrollIndex = {0}
             renderItem={({ item }) => <HomeScreen construct={item} />}
             backgroundStyles={styles.backgroundStyles}
             searchBarBackgroundStyles={styles.searchBarBackgroundStyles}

@@ -23,25 +23,25 @@ const styles = StyleSheet.create({
     },
 
     itemView:{
-        height: '100%',
+        height: 445,
         backgroundColor: '#121212',
         borderWidth: 3.5,
         borderRadius: 20,
         width: '100%'
     },
     itemBasicDesc:{
-        position: 'absolute',
-        marginTop: 30
+        flexDirection: 'column',
+        marginLeft: 140,
+        marginTop: -80,
+        width: '75%'
     },
     icon:{
         width:125,
         height: 135,
         // position: 'absolute',
         resizeMode: 'contain',
-        borderRadius: 150,
     },
     itemText:{
-        paddingLeft: 120,
         color: 'white',
         fontSize: 16
     },
