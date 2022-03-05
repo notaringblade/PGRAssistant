@@ -7,17 +7,17 @@ import CompleteFlatList from "react-native-complete-flatlist";
 
 
 
-const memoryListView = () => {
+const memoryListView = ({route}) => {
 
     const ItemSeparator = () =>{
         return(
             <View style={styles.ItemSeparator} />    
         )
     }
-    const pullBack =() =>{
-        false
+    const {memoryIndex} = route.params
+    const getItemLayout =(data, index)=>{
+        return{offset: 125 * index, length: 125, index}
     }
-
     return(
         
         <View style={styles.view}>
@@ -26,6 +26,9 @@ const memoryListView = () => {
             searchKey={['memoryName']}
             slide ={'Left'}
             data={memoryList}
+            initialNumToRender = {39}
+            getItemLayout = {getItemLayout}
+            initialScrollIndex = {memoryIndex}
             renderItem={({item}) => <MemoryStyle memory={item}/>}
             keyExtractor={(item) => item.id}
             backgroundStyles={styles.backgroundStyles}

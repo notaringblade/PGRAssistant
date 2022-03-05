@@ -23,6 +23,13 @@ const styles = StyleSheet.create({
     text:{
         color: 'white',
         fontSize: 20,
+    },
+    Teams:{
+        height: 120,
+        width: 120,
+        borderRadius: 20,
+        borderWidth: 4,
+        borderColor: '#3D3D3D'
     }
 })
 export default styles;

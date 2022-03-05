@@ -397,6 +397,7 @@ export default[
         rarity: '6',
         signatureConstruct: require('../../assets/Images/Arctic/Construct_Arctic.png'),
         constructName: 'Rosetta-Rigor',
+        Ability: 'Damaging a target will reduce their Physical DEF by 20% for 8s. The duration is refreshed each time this effect is triggered. Dealing damage with small/medium/wide-area electromagnetic beam also applies a damage over time effect for 8s, dealing Physical DMG equal to 25% / 50% / 100% of ATK every second.'
         
     },
     //Baji

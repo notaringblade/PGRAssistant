@@ -26,7 +26,7 @@ function myDraw() {
         component={StartScreen}
         
         options={{
-          title: "Home",
+          title: "Gray Raven Assistant",
           headerStyle: { backgroundColor: "#121212", height: 80 },
           headerTintColor: "white",
         }}
@@ -56,6 +56,7 @@ function myDraw() {
       <Drawer.Screen
         name="MemoriesDrawer"
         component={memoryPage}
+        initialParams= {{memoryIndex: 0}}
         options={{
           title: "Memories",
           headerStyle: { backgroundColor: "#121212", height: 80 },
