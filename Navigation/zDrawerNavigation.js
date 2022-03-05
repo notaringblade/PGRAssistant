@@ -5,6 +5,7 @@ import ConstructHomePage from "../components/ConstructList/index";
 import memoryPage from "../components/Memories/memoryPage";
 import WeaponListDisplay from "../components/Weapons/weaponListDisplay";
 import EventsIndex from "../components/Events/index";
+import TeamsScreen from "../components/Teams/TeamsScreen";
 import CustomDrawer from "./CustomDrawer";
 
 const Drawer = createDrawerNavigator();
@@ -68,6 +69,15 @@ function myDraw() {
         component={EventsIndex}
         options={{
           title: "Events",
+          headerStyle: { backgroundColor: "#121212", height: 80 },
+          headerTintColor: "white",
+        }}
+      />
+      <Drawer.Screen
+        name="TeamsDrawer"
+        component={TeamsScreen}
+        options={{
+          title: "Teams",
           headerStyle: { backgroundColor: "#121212", height: 80 },
           headerTintColor: "white",
         }}

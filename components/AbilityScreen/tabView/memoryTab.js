@@ -103,7 +103,7 @@ const MemoryTab = (props) =>{
 
                 <CollapsibleView title={<Text style={styles.titleText}>{Ability.memories.set2.set2Name}</Text>} style={styles.collapsedView}  arrowStyling={{color : '#F2F2F2'}}>
                     <View style={styles.row2}>
-                        <TouchableWithoutFeedback onPress={memory1Set1}>
+                        <TouchableWithoutFeedback onPress={memory1Set2}>
                     <Image style={styles.memory} source={Ability.memories.set2.image1}/>
                         </TouchableWithoutFeedback>
 

@@ -8,6 +8,8 @@ import ConstructHomePage from "../components/ConstructList/index";
 import memoryPage from "../components/Memories/memoryPage";
 import memoryScreen from "../components/Memories/memoryScreen";
 import WeaponListDisplay from "../components/Weapons/weaponListDisplay";
+import WarZoneScreen from "../components/Teams/WarZone";
+import PainCageScreen from "../components/Teams/PainCage";
 
 
 const Stack = createNativeStackNavigator();
@@ -71,6 +73,26 @@ export default function Navigator() {
             component={memoryScreen}
             options={{
               title: "Memories",
+              headerStyle: { backgroundColor: "#121212", height: 80 },
+              headerTintColor: "white",
+            }}
+          />
+
+          <Stack.Screen
+            name="WarZoneScreen"
+            component={WarZoneScreen}
+            options={{
+              title: "War Zone",
+              headerStyle: { backgroundColor: "#121212", height: 80 },
+              headerTintColor: "white",
+            }}
+          />
+
+          <Stack.Screen
+            name="PainCageScreen"
+            component={PainCageScreen}
+            options={{
+              title: "Pain Cage",
               headerStyle: { backgroundColor: "#121212", height: 80 },
               headerTintColor: "white",
             }}

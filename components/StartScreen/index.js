@@ -17,7 +17,10 @@ const StartScreen = (props) => {
         navigation.navigate('Constructs', {characterIndex: 24})
     }
     const warZone =() =>{
-        alert('coming Soon')
+        navigation.navigate("WarZoneScreen")
+    }
+    const painCAge =() =>{
+        navigation.navigate("PainCageScreen")
     }
     return (
       <View style={styles.View}>
@@ -48,7 +51,7 @@ const StartScreen = (props) => {
                 </View>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={warZone}>
+            <TouchableOpacity onPress={painCAge}>
                 <View style={styles.Teams}>
                     <Text style={styles.text}>
                             Pain Cage Teams
