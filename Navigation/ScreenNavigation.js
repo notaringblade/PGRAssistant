@@ -8,7 +8,8 @@ import ConstructHomePage from "../components/ConstructList/index";
 import memoryPage from "../components/Memories/memoryPage";
 import memoryScreen from "../components/Memories/memoryScreen";
 import WeaponListDisplay from "../components/Weapons/weaponListDisplay";
-import WarZoneScreen from "../components/Teams/WarZone";
+import warZoneListDisplay from "../components/Teams/WarZone/warZoneListDisplay";
+import warZoneTeams from "../components/Teams/WarZone/warZoneTeams";
 import PainCageScreen from "../components/Teams/PainCage";
 
 
@@ -80,9 +81,18 @@ export default function Navigator() {
 
           <Stack.Screen
             name="WarZoneScreen"
-            component={WarZoneScreen}
+            component={warZoneListDisplay}
             options={{
               title: "War Zone",
+              headerStyle: { backgroundColor: "#121212", height: 80 },
+              headerTintColor: "white",
+            }}
+          />
+          <Stack.Screen
+            name="WarZoneTeams"
+            component={warZoneTeams}
+            options={{
+              title: "War Zone Teams",
               headerStyle: { backgroundColor: "#121212", height: 80 },
               headerTintColor: "white",
             }}
