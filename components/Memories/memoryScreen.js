@@ -1,10 +1,11 @@
 import React, {useState} from "react";
 import { Image, ImageBackground, ScrollView, StyleSheet, Text, View } from "react-native";
 import CollapsibleView from '@eliav2/react-native-collapsible-view';
+import {Rating} from 'react-native-elements'
 
 const memoryScreen = ({route}) => {
 
-    const {icon, memoryName, rarity, star, Artwork, SetBonus, recommended, Story, Stats} = route.params;
+    const {icon, memoryName, Type, rarity, star, Artwork, SetBonus, recommended, Story, Stats} = route.params;
     const borderColor = rarity === '6'?  '#C9481E': '#CC7218'
     // const [show, setShow] = useState(false)
 
@@ -18,12 +19,20 @@ const memoryScreen = ({route}) => {
         <View style={styles.container}>
             <View style={[styles.infoBorder, {borderColor: borderColor}]}>
                 <Image style={styles.memoryIcon} source={icon}/>
+                <Text style={[styles.memoryName, {fontSize: 14, fontStyle: 'italic', marginTop: 5}]}>{Type}</Text>
                 <Text style={styles.memoryName}>{memoryName}</Text>
-                <View style={{flexDirection: 'row', position: 'absolute', paddingTop: 50, paddingLeft: 11}}>
-                    <Text style={styles.rarity}>{rarity}</Text>
-                    <Image style={[styles.star, {tintColor: borderColor} ]} source={star}/>
-                    
-                </View>
+                <Rating
+                        // showRating
+                        type="custom"
+                        ratingCount={Math.floor(rarity)}
+                        startingValue = {rarity}
+                        readonly
+                        fraction ={0}
+                        imageSize={15}
+                        tintColor= '#121212'
+                        ratingColor= {borderColor}
+                        style = {{marginLeft : -275, marginTop: -5}}
+                     />
                 <Text style={{color: 'white', paddingBottom: 10, paddingLeft: 8}}> Created For: {recommended}</Text>
             </View>
             <View style={[styles.stats, {borderColor: borderColor}]}>
@@ -120,7 +129,6 @@ const styles = StyleSheet.create ({
     memoryName:{
         fontSize: 18,
         color: 'white',
-        paddingTop: 10,
         paddingLeft: 10
     },
     rarity:{

@@ -5,7 +5,6 @@ const styles = StyleSheet.create({
     View:{
       flex: 1,
       backgroundColor: '#121212',
-      alignItems: 'center',
     },
     text:{
       color: 'white',
@@ -29,7 +28,7 @@ const styles = StyleSheet.create({
     constructImage:{
         height: 120,
         width: 110,
-        borderWidth: 3,
+        borderWidth: 2,
         borderColor: 'red',
         borderRadius: 30,
         resizeMode: 'cover'
