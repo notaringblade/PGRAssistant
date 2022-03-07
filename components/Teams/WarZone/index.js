@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, FlatList, TouchableWithoutFeedback } from 'react-native'
+import { View, Text, StyleSheet, FlatList, TouchableWithoutFeedback, Image } from 'react-native'
 import React from 'react'
 import warZoneList from './warZoneList'
 import { useNavigation } from '@react-navigation/native'
@@ -16,6 +16,7 @@ const WarZoneScreen = (props) => {
       <TouchableWithoutFeedback onPress={showTeams}>
         <View  style={[styles.zoneView, {borderColor: borderColor}]}> 
           <Text style={styles.text}>{ZoneName}</Text>
+          <Image style={styles.image} source={ZoneImage}/>
         </View>
       </TouchableWithoutFeedback>
     </View>
@@ -32,12 +33,19 @@ const styles = StyleSheet.create({
   },
   text:{
     color: 'white',
-    alignSelf: 'center'
+    alignSelf: 'center',
+    fontSize: 16
   },
   zoneView:{
-    height: 200,
+    height: 250,
     width: 250,
     borderWidth: 4,
     borderRadius: 20
+  },
+  image:{
+    height: 215,
+    width: 225,
+    alignSelf: 'center',
+    borderRadius: 10
   }
 })

@@ -29,7 +29,7 @@ const StartScreen = (props) => {
                 <TouchableWithoutFeedback onPress={onClick}>
                     <View style={styles.newCharacter}>
                         <Image source={require('../../assets/Images/Arctic/Construct_Arctic.png')} style={styles.newCharacterImage}/>
-                            <View style={{alignItems: 'center', backgroundColor: '#C04F15', width: '100%'}}>
+                            <View style={{alignItems: 'center', backgroundColor: '#C04F15', width: '100%', height: 75}}>
                                 <Text style={styles.text}>{newestCharacter.characterName}</Text>
                                 <Text style={styles.text}>{newestCharacter.characterModel}</Text>
                                 <Text style={styles.text}>{newestCharacter.characterRank}</Text>
@@ -42,7 +42,7 @@ const StartScreen = (props) => {
             </Text>
         </CollapsibleView>
 
-        <View style={{marginTop: 20,flexDirection: 'row', alignSelf: 'center', justifyContent: 'space-around'}}>
+        <View style={{width: '100%', marginTop: 20,flexDirection: 'row', alignSelf: 'center', justifyContent: 'space-evenly'}}>
             <TouchableOpacity onPress={warZone}>
                 <View  style={styles.Teams}> 
                     <Text  style={styles.text}>

@@ -46,7 +46,7 @@ const B3 = ()=>{
 
   return (
     <View style={styles.View}>
-      <Text style={styles.text}>{ZoneName}</Text>
+      <Text style={[styles.text, {fontSize: 16}]}>{ZoneName}</Text>
       <View style={{borderColor: borderColor, borderWidth: 3, borderRadius: 15, flex: 1}}>
           {/* Tier 1 */}
         <ScrollView>

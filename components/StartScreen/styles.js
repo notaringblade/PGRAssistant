@@ -11,12 +11,12 @@ const styles = StyleSheet.create({
         borderBottomRightRadius: 20,
         borderColor: '#C04F15',
         borderWidth: 5,
-        width: 340,
-        height: 405
+        width: 325,
+        height: 375
     },
     newCharacterImage:{
-        width: 315,
-        height: 315,
+        width: 290,
+        height: 290,
         resizeMode: 'contain',
         alignSelf: 'center'
     },

@@ -4,11 +4,11 @@ export default [
     //Physical
     {   
         id: 1,
-        ZoneImage: '',
+        ZoneImage: require('../../../assets/Images/Chibi/Alpha.jpg'),
         ZoneName: 'Physical',
         Teams:{
             Tier1: {
-                tierTitle: ' S Tier (Requires High Investment) ',
+                tierTitle: ' S Tier',
     
                 blueConstructName: '9S',
                 blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
@@ -23,7 +23,7 @@ export default [
                 yellowConstructID: 30,
             },
             Tier2: {
-                tierTitle: ' A Tier (Requires moderate to High Investment) ',
+                tierTitle: ' A Tier',
                 
                 blueConstructName: 'Rosetta: Arctic',
                 blueConstructImage: require('../../../assets/Images/Arctic/Construct_Arctic.png'),
@@ -38,7 +38,7 @@ export default [
                 yellowConstructID: 8,
             },
             Tier3: {
-                tierTitle: ' B Tier (Free To Play Friendly) ',
+                tierTitle: ' B Tier',
                 
                 blueConstructName: 'Nanami: Storm',
                 blueConstructImage: require('../../../assets/Images/Storm/Construct_Storm.png'),
@@ -57,216 +57,216 @@ export default [
     //Fire
     {
         id: 2,
-        ZoneImage: '',
+        ZoneImage:  require('../../../assets/Images/Chibi/Ember.jpg'),
         ZoneName: 'Fire',
         Teams:{
 
             Tier1: {
-                tierTitle: '',
+                tierTitle: 'S Tier',
     
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Liv: Solaeter',
+                blueConstructImage: require('../../../assets/Images/Solaeter/Construct_Solaeter.png'),
+                blueConstructID: 37,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Karenina: Ember',
+                redConstructImage: require('../../../assets/Images/Ember/Construct_Ember.png'),
+                redConstructID: 11,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Karenina: Blast',
+                yellowConstructImage: require('../../../assets/Images/Blast/Construct_Blast.png'),
+                yellowConstructID: 8,
             },
             Tier2: {
-                tierTitle: '',
+                tierTitle: 'A Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Nanami: Pulse',
+                blueConstructImage: require('../../../assets/Images/Pulse/Construct_Pulse.png'),
+                blueConstructID: 12,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Karenina: Ember',
+                redConstructImage: require('../../../assets/Images/Ember/Construct_Ember.png'),
+                redConstructID: 11,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Karenina: Blast',
+                yellowConstructImage: require('../../../assets/Images/Blast/Construct_Blast.png'),
+                yellowConstructID: 8,
             },
             Tier3: {
-                tierTitle: '',
+                tierTitle: 'B Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Sophia: Silverfang',
+                blueConstructImage: require('../../../assets/Images/Silverfang/Construct_Silverfang.png'),
+                blueConstructID: 19,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Karenina: Ember',
+                redConstructImage: require('../../../assets/Images/Ember/Construct_Ember.png'),
+                redConstructID: 11,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Karenina: Blast',
+                yellowConstructImage: require('../../../assets/Images/Blast/Construct_Blast.png'),
+                yellowConstructID: 8,
             }
         }
     },
     //Lightning
     {
         id: 3,
-        ZoneImage: '',
-        ZoneName: 'Lightning',
+        ZoneImage:  require('../../../assets/Images/Chibi/Veritas.jpg'),
+        ZoneName:  'Lightning',
         Teams:{
 
             Tier1: {
-                tierTitle: '',
+                tierTitle: 'S Tier',
     
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Chrome: Arclight',
+                blueConstructImage: require('../../../assets/Images/Arclight/Construct_Arclight.png'),
+                blueConstructID: 20,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Vera: Flare',
+                redConstructImage: require('../../../assets/Images/Flare/Construct_Flare.png'),
+                redConstructID: 35,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Bianca: Veritas',
+                yellowConstructImage: require('../../../assets/Images/Veritas/Construct_Veritas.png'),
+                yellowConstructID: 18,
             },
             Tier2: {
-                tierTitle: '',
+                tierTitle: 'A Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Liv: Lux',
+                blueConstructImage: require('../../../assets/Images/Lux/Construct_Lux.png'),
+                blueConstructID: 4,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Chrome: Arclight',
+                redConstructImage: require('../../../assets/Images/Arclight/Construct_Arclight.png'),
+                redConstructID: 20,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Bianca: Veritas',
+                yellowConstructImage: require('../../../assets/Images/Veritas/Construct_Veritas.png'),
+                yellowConstructID: 18,
             },
             Tier3: {
-                tierTitle: '',
+                tierTitle: 'B Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Liv: Lux',
+                blueConstructImage: require('../../../assets/Images/Lux/Construct_Lux.png'),
+                blueConstructID: 4,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Lucia: Dawn',
+                redConstructImage: require('../../../assets/Images/Dawn/Construct_Dawn.png'),
+                redConstructID: 3,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Chrome: Arclight',
+                yellowConstructImage: require('../../../assets/Images/Arclight/Construct_Arclight.png'),
+                yellowConstructID: 20,
             }
         }
     },
     //Ice
     {
         id: 4,
-        ZoneImage: '',
+        ZoneImage:  require('../../../assets/Images/Chibi/Plume.jpg'),
         ZoneName: 'Ice',
         Teams:{
 
             Tier1: {
-                tierTitle: '',
+                tierTitle: 'S Tier',
     
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Chrome: Glory',
+                blueConstructImage: require('../../../assets/Images/Glory/Construct_Glory.png'),
+                blueConstructID: 33,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Karenina: Blast',
+                redConstructImage: require('../../../assets/Images/Blast/Construct_Blast.png'),
+                redConstructID: 8,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Lucia: Plume',
+                yellowConstructImage: require('../../../assets/Images/Plume/Construct_Plume.png'),
+                yellowConstructID: 21,
             },
             Tier2: {
-                tierTitle: '',
+                tierTitle: 'A Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Wanshi: Fate',
+                blueConstructImage: require('../../../assets/Images/Fate/Construct_Fate.png'),
+                blueConstructID: 31,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Karenina: Blast',
+                redConstructImage: require('../../../assets/Images/Blast/Construct_Blast.png'),
+                redConstructID: 8,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Lucia: Plume',
+                yellowConstructImage: require('../../../assets/Images/Plume/Construct_Plume.png'),
+                yellowConstructID: 21,
             },
             Tier3: {
-                tierTitle: '',
+                tierTitle: 'B Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Wanshi: Fate',
+                blueConstructImage: require('../../../assets/Images/Fate/Construct_Fate.png'),
+                blueConstructID: 31,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Changyu: Kirin',
+                redConstructImage: require('../../../assets/Images/Kirin/Construct_Kirin.png'),
+                redConstructID: 25,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: 'Lucia: Plume',
+                yellowConstructImage: require('../../../assets/Images/Plume/Construct_Plume.png'),
+                yellowConstructID: 21,
             }
         }
     },
     //Dark
     {
         id: 5,
-        ZoneImage: '',
+        ZoneImage:  require('../../../assets/Images/Chibi/Rozen.jpg'),
         ZoneName: 'Dark',
         Teams:{
 
             Tier1: {
-                tierTitle: '',
+                tierTitle: 'S Tier',
     
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Selena: Capriccio',
+                blueConstructImage: require('../../../assets/Images/Capriccio/Construct_Capriccio.png'),
+                blueConstructID: 38,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Luna: Laurel',
+                redConstructImage: require('../../../assets/Images/Laurel/Construct_Laurel.png'),
+                redConstructID: 27,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: ' Kamui:  Tenebrion',
+                yellowConstructImage: require('../../../assets/Images/Tenebrion/Construct_Tenebrion.png'),
+                yellowConstructID: 13,
             },
             Tier2: {
-                tierTitle: '',
+                tierTitle: 'A Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Vera: Rozen',
+                blueConstructImage: require('../../../assets/Images/Rozen/Construct_Rozen.png'),
+                blueConstructID: 22,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Luna: Laurel',
+                redConstructImage: require('../../../assets/Images/Laurel/Construct_Laurel.png'),
+                redConstructID: 27,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: ' Kamui:  Tenebrion',
+                yellowConstructImage: require('../../../assets/Images/Tenebrion/Construct_Tenebrion.png'),
+                yellowConstructID: 13,
             },
             Tier3: {
-                tierTitle: '',
+                tierTitle: 'B Tier',
                 
-                blueConstructName: '',
-                blueConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                blueConstructID: 1,
+                blueConstructName: 'Vera: Rozen',
+                blueConstructImage: require('../../../assets/Images/Rozen/Construct_Rozen.png'),
+                blueConstructID: 22,
     
-                redConstructName: '',
-                redConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                redConstructID: 5,
+                redConstructName: 'Watanabe: Astral',
+                redConstructImage: require('../../../assets/Images/Astral/Construct_Astral.png'),
+                redConstructID: 16,
     
-                yellowConstructName: '',
-                yellowConstructImage: require('../../../assets/Images/9S/Construct_9S.png'),
-                yellowConstructID: 30,
+                yellowConstructName: ' Kamui:  Tenebrion',
+                yellowConstructImage: require('../../../assets/Images/Tenebrion/Construct_Tenebrion.png'),
+                yellowConstructID: 13,
             }
         }
     },]
