@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     },
     text:{
         color: 'white',
-        fontSize: 16,
+        fontSize: 14,
         textAlign: 'center',
     },
     Teams:{
@@ -32,6 +32,12 @@ const styles = StyleSheet.create({
         borderWidth: 4,
         borderColor: '#3D3D3D',
         justifyContent: 'center'
+    },
+    image:{
+        width: '100%',
+        height: '100%',
+        borderRadius: 20,
+        alignSelf: 'center',
     }
 })
 export default styles;

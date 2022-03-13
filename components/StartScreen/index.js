@@ -20,7 +20,7 @@ const StartScreen = (props) => {
         navigation.navigate("WarZoneScreen")
     }
     const painCAge =() =>{
-        navigation.navigate("PainCageScreen")
+        alert('Coming Soon')
     }
     const Constructs =() =>{
         navigation.navigate("Constructs", {characterIndex: 0})
@@ -44,66 +44,68 @@ const StartScreen = (props) => {
                     <View style={styles.newCharacter}>
                         <Image source={require('../../assets/Images/Arctic/Construct_Arctic.png')} style={styles.newCharacterImage}/>
                             <View style={{alignItems: 'center', backgroundColor: '#C04F15', width: '100%', height: 75}}>
-                                <Text style={styles.text}>{newestCharacter.characterName}</Text>
-                                <Text style={styles.text}>{newestCharacter.characterModel}</Text>
-                                <Text style={styles.text}>{newestCharacter.characterRank}</Text>
+                                <Text style={[styles.text, {fontSize: 16}]}>{newestCharacter.characterName}</Text>
+                                <Text style={[styles.text, {fontSize: 16}]}>{newestCharacter.characterModel}</Text>
+                                <Text style={[styles.text, {fontSize: 16}]}>{newestCharacter.characterRank}</Text>
                             </View>
                     </View>
                 </TouchableWithoutFeedback>
-        <CollapsibleView title={<Text style={{color:'white'}}>Update Log</Text>} style={{marginTop: 20, borderRadius: 20, borderWidth: 5, borderColor: '#3D3D3D'}} initExpanded={false}>
-            <Text style={{color:"white"}}>
-                Update Logs go here ok???????????????
-            </Text>
-        </CollapsibleView>
-
+        
             <View style={{width: '100%', marginTop: 20,flexDirection: 'row', alignSelf: 'center', justifyContent: 'space-evenly'}}>
                 <TouchableOpacity onPress={Constructs}>
-                    <View style={styles.Teams}>
                         <Text style={styles.text}>
                                 Constructs
                         </Text>
+                    <View style={styles.Teams}>
+                        <Image style={styles.image} source={require('../../assets/Images/Chibi/Constructs.jpg')}/>
                     </View>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={Weapons}>
-                    <View style={styles.Teams}>
                         <Text style={styles.text}>
                                 Weapons
                         </Text>
+                    <View style={styles.Teams}>
+                        <Image style={styles.image} source={require('../../assets/Images/Chibi/Weapons.jpg')}/>
                     </View>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={Memories}>
-                    <View style={styles.Teams}>
                         <Text style={styles.text}>
                                 Memories
                         </Text>
+                    <View style={styles.Teams}>
+                        <Image style={styles.image} source={require('../../assets/Images/Chibi/Memories.jpg')}/>
                     </View>
                 </TouchableOpacity>
             </View>
         <View style={{width: '100%', marginTop: 20,flexDirection: 'row', alignSelf: 'center', justifyContent: 'space-evenly'}}>
             <TouchableOpacity onPress={warZone}>
-                <View  style={styles.Teams}> 
                     <Text  style={styles.text}>
                         War Zone Teams
                     </Text>
+                <View  style={styles.Teams}> 
+                    <Image style={styles.image} source={require('../../assets/Images/Chibi/Warzone.jpg')}/>
                 </View>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={painCAge}>
-                <View style={styles.Teams}>
-                    <Text style={styles.text}>
-                            Pain Cage Teams
-                    </Text>
-                </View>
-            </TouchableOpacity>
             <TouchableOpacity onPress={Events}>
-                    <View style={styles.Teams}>
                         <Text style={styles.text}>
                                 Events
                         </Text>
+                    <View style={styles.Teams}>
+                        <Image style={styles.image} source={require('../../assets/Images/Chibi/Events.jpg')}/>
                     </View>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={painCAge}>
+                    <Text style={styles.text}>
+                            Pain Cage Teams
+                    </Text>
+                <View style={styles.Teams}>
+                    <Image style={styles.image} source={require('../../assets/Images/Chibi/PainCage.jpg')}/>
+                </View>
             </TouchableOpacity>
 
         </View>
+        
 
         </ScrollView>
       </View>

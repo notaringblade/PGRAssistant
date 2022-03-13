@@ -59,7 +59,7 @@ const B3 = ()=>{
           <View style={[styles.TeamView]}>
               <View style={{flexDirection: 'column'}}>
                 <TouchableWithoutFeedback onPress={S1} >
-                    <Image style={[styles.constructImage, {borderColor: 'blue'}]} source={Teams.Tier1.blueConstructImage}/>
+                    <Image style={[styles.constructImage, {borderColor: '#87CEEB'}]} source={Teams.Tier1.blueConstructImage}/>
                 </TouchableWithoutFeedback>
                     <Text style={[styles.text, {width: 60, textAlign: 'center'}]}>{Teams.Tier1.blueConstructName}</Text>
               </View>
@@ -71,7 +71,7 @@ const B3 = ()=>{
               </View>
               <View style={{flexDirection: 'column'}}>
                 <TouchableWithoutFeedback onPress={S3}>
-                    <Image style={[styles.constructImage, {borderColor: 'yellow'}]} source={Teams.Tier1.yellowConstructImage}/>
+                    <Image style={[styles.constructImage, {borderColor: '#FFFF66'}]} source={Teams.Tier1.yellowConstructImage}/>
                 </TouchableWithoutFeedback>
                     <Text style={[styles.text, {width: 60, textAlign: 'center'}]}>{Teams.Tier1.yellowConstructName}</Text>
               </View>
@@ -86,7 +86,7 @@ const B3 = ()=>{
           <View style={styles.TeamView}>
               <View style={{flexDirection: 'column'}}>
                 <TouchableWithoutFeedback onPress={A1}>
-                    <Image style={[styles.constructImage, {borderColor: 'blue'}]} source={Teams.Tier2.blueConstructImage}/>
+                    <Image style={[styles.constructImage, {borderColor: '#87CEEB'}]} source={Teams.Tier2.blueConstructImage}/>
                 </TouchableWithoutFeedback>
                     <Text style={[styles.text, {width: 60, textAlign: 'center'}]}>{Teams.Tier2.blueConstructName}</Text>
               </View>
@@ -98,7 +98,7 @@ const B3 = ()=>{
               </View>
               <View style={{flexDirection: 'column'}}>
                 <TouchableWithoutFeedback onPress={A3}>
-                    <Image style={[styles.constructImage, {borderColor: 'yellow'}]} source={Teams.Tier2.yellowConstructImage}/>
+                    <Image style={[styles.constructImage, {borderColor: '#FFFF66'}]} source={Teams.Tier2.yellowConstructImage}/>
                 </TouchableWithoutFeedback>
                     <Text style={[styles.text, {width: 60, textAlign: 'center'}]}>{Teams.Tier2.yellowConstructName}</Text>
               </View>
@@ -113,7 +113,7 @@ const B3 = ()=>{
           <View style={[styles.TeamView]}>
             <View style={{flexDirection: 'column'}}>
                 <TouchableWithoutFeedback onPress={B1}>
-                    <Image style={[styles.constructImage, {borderColor: 'blue'}]} source={Teams.Tier3.blueConstructImage}/>
+                    <Image style={[styles.constructImage, {borderColor: '#87CEEB'}]} source={Teams.Tier3.blueConstructImage}/>
                 </TouchableWithoutFeedback>
                     <Text style={[styles.text, {width: 60, textAlign: 'center'}]}>{Teams.Tier3.blueConstructName}</Text>
               </View>
@@ -125,7 +125,7 @@ const B3 = ()=>{
               </View>
               <View style={{flexDirection: 'column'}}>
                 <TouchableWithoutFeedback onPress={B3}>
-                    <Image style={[styles.constructImage, {borderColor: 'yellow'}]} source={Teams.Tier3.yellowConstructImage}/>
+                    <Image style={[styles.constructImage, {borderColor: '#FFFF66'}]} source={Teams.Tier3.yellowConstructImage}/>
                 </TouchableWithoutFeedback>
                     <Text style={[styles.text, {width: 60, textAlign: 'center'}]}>{Teams.Tier3.yellowConstructName}</Text>
               </View>

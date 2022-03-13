@@ -1,17 +1,32 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 
 const TeamsScreen = ({navigation}) => {
     const painCage = () =>{
-        navigation.navigate("PainCageScreen")
+        alert('coming soon')
     }
-    const warzone = () =>{
+    const warZone = () =>{
         navigation.navigate("WarZoneScreen")
     }
   return (
     <View style={styles.View}>
-      <Text style={styles.text} onPress={warzone}>War Zone</Text>
-      <Text style={styles.text} onPress={painCage}>Pain Cage</Text>
+      <TouchableOpacity onPress={warZone}>
+                    <Text  style={styles.text}>
+                        War Zone Teams
+                    </Text>
+                <View  style={styles.Teams}> 
+                    <Image style={styles.image} source={require('../../assets/Images/Chibi/Warzone.jpg')}/>
+                </View>
+            </TouchableOpacity>
+
+      <TouchableOpacity onPress={painCage}>
+                    <Text style={styles.text}>
+                            Pain Cage Teams
+                    </Text>
+                <View style={styles.Teams}>
+                    <Image style={styles.image} source={require('../../assets/Images/Chibi/PainCage.jpg')}/>
+                </View>
+            </TouchableOpacity>
     </View>
     
   )
@@ -28,6 +43,21 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly'
   },
   text:{
-    color: 'white'
-  }
+    color: 'white',
+    alignSelf: 'center'
+  },
+  Teams:{
+    height: 240,
+    width: 240,
+    borderRadius: 20,
+    borderWidth: 4,
+    borderColor: '#3D3D3D',
+    justifyContent: 'center'
+},
+image:{
+    width: '100%',
+    height: '100%',
+    borderRadius: 20,
+    alignSelf: 'center',
+}
 })

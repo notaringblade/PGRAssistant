@@ -150,6 +150,7 @@ const ConstructList = ({ route, navigation }) => {
             (ListOfConstructs) => ListOfConstructs.construct_Rank === rankFilter
           )}
           initialScrollIndex = {0}
+          keyExtractor={(item) => item.constructID}
           renderItem={({ item }) => <HomeScreen construct={item} />}
           backgroundStyles={styles.backgroundStyles}
           searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
@@ -163,6 +164,7 @@ const ConstructList = ({ route, navigation }) => {
               ListOfConstructs.construct_Battle === battleTypeFilter
           )}
           initialScrollIndex = {0}
+          keyExtractor={(item) => item.constructID}
           renderItem={({ item }) => <HomeScreen construct={item} />}
           backgroundStyles={styles.backgroundStyles}
           searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
@@ -176,6 +178,7 @@ const ConstructList = ({ route, navigation }) => {
                 ListOfConstructs.construct_Type === constructTypeFilter
             )}
             initialScrollIndex = {0}
+            keyExtractor={(item) => item.constructID}
             renderItem={({ item }) => <HomeScreen construct={item} />}
             backgroundStyles={styles.backgroundStyles}
             searchBarBackgroundStyles={styles.searchBarBackgroundStyles}
