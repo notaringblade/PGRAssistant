@@ -4,11 +4,11 @@
     "slug": "grayRavenAssistant",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/AppIcon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#121212",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/GRASplashScreen.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
